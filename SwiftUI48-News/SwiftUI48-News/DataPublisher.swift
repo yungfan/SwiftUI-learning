@@ -11,9 +11,11 @@ import Combine
 
 class DataPublisher: ObservableObject {
     
+    // 注释的为最初的写法
+    //let dataPublisher: AnyPublisher<URLSession.DataTaskPublisher.Output, URLSession.DataTaskPublisher.Failure>
     
-    let dataPublisher: AnyPublisher<URLSession.DataTaskPublisher.Output, URLSession.DataTaskPublisher.Failure>
     
+    let dataPublisher: AnyPublisher<NewsModel, Error>
     @Published var news:[DataItem] = []
     
     
@@ -25,16 +27,26 @@ class DataPublisher: ObservableObject {
         
         let session = URLSession.shared
         
-        self.dataPublisher = session.dataTaskPublisher(for: request).eraseToAnyPublisher()
+        //        self.dataPublisher = session.dataTaskPublisher(for: request).eraseToAnyPublisher()
+        //
+        //        _ = self.dataPublisher.receive(on: DispatchQueue.main).sink(receiveCompletion: {_ in
+        //
+        //        }) { (data: Data, response: URLResponse) in
+        //
+        //            self.news = try! JSONDecoder().decode(NewsModel.self, from: data).result.data
+        //
+        //        }
+        
+        self.dataPublisher = session.dataTaskPublisher(for: request).map{$0.data}.decode(type: NewsModel.self, decoder: JSONDecoder()).eraseToAnyPublisher()
         
         _ = self.dataPublisher.receive(on: DispatchQueue.main).sink(receiveCompletion: {_ in
+        }) {
+            newsModel in
             
-        }) { (data: Data, response: URLResponse) in
-            
-            self.news = try! JSONDecoder().decode(NewsModel.self, from: data).result.data
+            self.news = newsModel.result.data
             
         }
         
     }
-
+    
 }
