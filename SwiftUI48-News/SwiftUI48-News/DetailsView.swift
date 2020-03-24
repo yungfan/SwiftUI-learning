@@ -10,18 +10,18 @@ import SwiftUI
 import WebKit
 
 
-struct webView: UIViewRepresentable {
+struct DetailWebView: UIViewRepresentable {
     
     var urlString: String
     
-    func makeUIView(context: UIViewRepresentableContext<webView>) -> WKWebView {
+    func makeUIView(context: UIViewRepresentableContext<DetailWebView>) -> WKWebView {
         
         let webView = WKWebView()
         
         return webView
     }
     
-    func updateUIView(_ uiView: WKWebView, context: UIViewRepresentableContext<webView>) {
+    func updateUIView(_ uiView: WKWebView, context: UIViewRepresentableContext<DetailWebView>) {
         
         let url = URL(string: urlString)
         
@@ -35,11 +35,11 @@ struct webView: UIViewRepresentable {
 
 struct DetailsView: View {
     
-    var url: String = ""
+    var urlString: String = ""
     
     var body: some View {
         
-        webView(urlString: url)
+        DetailWebView(urlString: urlString)
         
     }
 }

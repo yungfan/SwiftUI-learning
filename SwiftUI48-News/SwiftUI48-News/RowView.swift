@@ -14,15 +14,14 @@ struct RowView: View {
     
     var body: some View {
         
-
-        
         HStack{
             
             Image("yf").resizable().frame(width: 100, height: 100)
             
             VStack(alignment: .leading){
                 
-                Text(dataItem.title).font(.title).lineLimit(1).foregroundColor(.red)
+           
+                Text(dataItem.title).font(.system(size: 23)).lineLimit(2).foregroundColor(.red)
                 
                 Spacer()
                 
@@ -35,13 +34,8 @@ struct RowView: View {
                     Text(dataItem.date).font(.subheadline).foregroundColor(.gray)
                     
                 }
-                
             }
-            
-            
         }
-        
-        
     }
 }
 

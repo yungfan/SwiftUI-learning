@@ -23,7 +23,9 @@ struct Result: Codable {
 
 // MARK: - Datum
 struct DataItem: Codable, Hashable {
-    let title, date: String
-    let author_name: String
-    let url: String
+    var title: String
+    var date: String
+    var category: String
+    var author_name: String
+    var url: String
 }

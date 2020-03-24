@@ -29,7 +29,7 @@ struct ContentView: View {
                     
                     ForEach(dataPublisher.news, id: \.self) { item in
                         
-                        NavigationLink(destination: DetailsView(url: item.url)) {
+                        NavigationLink(destination: DetailsView(urlString: item.url)) {
                             
                             RowView(dataItem: item)
                             
