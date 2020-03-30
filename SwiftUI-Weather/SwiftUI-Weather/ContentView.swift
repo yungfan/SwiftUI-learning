@@ -15,9 +15,9 @@ import Foundation
 struct Weather: Codable, Hashable, Identifiable {
     let id = UUID()
     let reason: String
-    let result: Result
+    let result: Result2
     let errorCode: Int
-
+    
     enum CodingKeys: String, CodingKey {
         case reason, result
         case errorCode = "error_code"
@@ -25,7 +25,7 @@ struct Weather: Codable, Hashable, Identifiable {
 }
 
 // MARK: - Result
-struct Result: Codable, Hashable, Identifiable {
+struct Result2: Codable, Hashable, Identifiable {
     let id = UUID()
     let city: String
     let realtime: Realtime
@@ -53,23 +53,41 @@ struct Realtime: Codable, Hashable, Identifiable {
     let direct, power, aqi: String
 }
 
+// 网络请求成功
+struct Success {
+    var futures: [Future]
+}
 
-
+// 网络请求失败
+enum Failure: Error {
+    case URLInvalid
+    case DataInvalid
+}
 
 // Network层
 // 一个类专门用于负责API网络请求
 class API {
     // 每一个网络请求创建一个方法，参数为接收到的数据的逃逸闭包，这里数据为模型数组
-    func getWeather(completion: @escaping ([Future]) -> ()) {
+    func getWeather(completion: @escaping (Result<Success, Failure>) -> ()) {
         guard let url = URL(string: "http://apis.juhe.cn/simpleWeather/query?city=%E8%8A%9C%E6%B9%96&key=25ca0b78d78b2dc7761bc2e4af6d82fc")
-                  else { return }
+            else {
+                
+                completion(.failure(.URLInvalid))
+                return
+                
+        }
         
         URLSession.shared.dataTask(with: url) { (data, _, _) in
-            guard let data = data else { return }
+            guard let data = data else {
+                completion(.failure(.DataInvalid))
+                return
+                
+            }
             // 转Model
             let weather = try! JSONDecoder().decode(Weather.self, from: data)
+            
             DispatchQueue.main.async {
-                completion(weather.result.future)
+                completion(.success(Success(futures: weather.result.future)) )
             }
         }
         .resume()
@@ -80,15 +98,28 @@ class API {
 // 利用Combine完成数据的绑定
 class DataStore: ObservableObject {
     
-    @Published var weathers: [Future] = []
+    @Published var success: Success = Success(futures: [])
     
     init() {
-        fetchBooks()
+        fetchWeathers()
     }
     
-    func fetchBooks() {
-        API().getWeather { (weathers) in
-            self.weathers = weathers
+    func fetchWeathers() {
+        API().getWeather { (result) in
+            // 处理Result
+            switch result {
+            case .failure(let error):
+                switch error {
+                case .URLInvalid:
+                    print("URLInvalid")
+                    
+                case .DataInvalid:
+                    print("DataInvalid")
+                }
+                
+            case .success(let content):
+                self.success = content
+            }
         }
     }
 }
@@ -101,15 +132,14 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             // 没有数据时显示正在加载
-            if store.weathers.count == 0 {
-                
+            if store.success.futures.count == 0 {
                 Text("数据加载中")
                     .font(.title)
                     .foregroundColor(.orange)
                     .navigationBarTitle("数据展示")
             }
             else{
-                List(store.weathers) { weather in
+                List(store.success.futures) { weather in
                     // Row可以很复杂
                     Text(weather.weather)
                 }.navigationBarTitle("数据展示")
