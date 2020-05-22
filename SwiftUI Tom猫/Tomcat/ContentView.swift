@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
     
     @State var timer = Timer.publish (every: 0.1, on: .main, in: .common)
@@ -17,10 +19,10 @@ struct ContentView: View {
     private let images = (0...80).map { UIImage(named: "drink_\($0)")! }
     
     var body: some View {
+        
         ZStack {
             Image(uiImage: images[index])
                 .resizable()
-                .frame(width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
                 .onReceive(
                     timer,
                     perform: { _ in
@@ -62,7 +64,7 @@ struct ContentView: View {
                 }
             }
         }
-        .edgesIgnoringSafeArea(.all)
+        .edgesIgnoringSafeArea(.top)
     }
     
     
