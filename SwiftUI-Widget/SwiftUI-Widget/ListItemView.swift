@@ -40,7 +40,6 @@ struct ListItemView: View {
                 .foregroundColor(.primary)
                 .font(.system(.title))
         }.padding()
-         .background(RoundedRectangle(cornerRadius: 10)
-         .foregroundColor(.orange))
+         
     }
 }

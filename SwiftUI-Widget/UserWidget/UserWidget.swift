@@ -52,25 +52,46 @@ struct UserWidgetEntryView: View {
         switch family {
         case .systemSmall:
             // 小
-            VStack {
-                Text(entry.contact.name)
-                Text(entry.contact.address)
-                Text(entry.contact.phone)
+            ZStack {
+                ContainerRelativeShape()
+                    .inset(by: 4)
+                    .fill(Color.blue)
+                
+                VStack(spacing: 10) {
+                    Text(entry.contact.name)
+                    Text(entry.contact.address)
+                    Text(entry.contact.phone)
+                }
             }
 
         case .systemMedium:
             // 中
-            VStack {
-                Text("联系人")
-                ListItemView(contact: entry.contact)
+            ZStack {
+                ContainerRelativeShape()
+                    .inset(by: 4)
+                    .fill(Color.orange)
+                
+                VStack(spacing: 10) {
+                    Text("联系人")
+                    ListItemView(contact: entry.contact)
+                }
             }
+            
             
         default:
             // 大
             VStack {
-                Text("联系人")
-                ListItemView(contact: entry.contact)
-                Text("Large")
+                ZStack {
+                    ContainerRelativeShape()
+                        .inset(by: 4)
+                        .fill(Color.red)
+                    
+                    VStack(spacing: 10) {
+                        Text("联系人")
+                        ListItemView(contact: entry.contact)
+                        Text("Large")
+                    }
+                }
             }
         }
     }
