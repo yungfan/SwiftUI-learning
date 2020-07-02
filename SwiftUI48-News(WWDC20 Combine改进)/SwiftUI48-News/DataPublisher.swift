@@ -12,7 +12,7 @@ import Combine
 // 定义ObservableObject
 class DataPublisher: ObservableObject {
     
-    @Published var newsModel: NewsModel?
+    @Published var news: [DataItem] = []
     
     init() {
         
@@ -21,6 +21,13 @@ class DataPublisher: ObservableObject {
         let session = URLSession.shared
         
         // iOS14 以后可以直接绑定到Model
-        session.dataTaskPublisher(for: request).map{$0.data}.decode(type: NewsModel?.self, decoder: JSONDecoder()).receive(on: DispatchQueue.main).catch { error in return Just(nil) }.assign(to: $newsModel)
+        session.dataTaskPublisher(for: request)
+            .map{$0.data}
+            .decode(type: NewsModel.self, decoder: JSONDecoder())
+            .map { model -> [DataItem] in
+                return  model.result.data
+            }.receive(on: DispatchQueue.main)
+            .catch { error in return Just([])}
+            .assign(to: $news)
     }
 }

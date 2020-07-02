@@ -10,19 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var dataPublisher: DataPublisher = DataPublisher()
-
+    
     var body: some View {
         NavigationView {
             List {
-                if let data = dataPublisher.newsModel?.result.data {
-                    ForEach(data, id: \.self) { item in
-
-                        NavigationLink(destination: DetailsView(urlString: item.url)) {
-                            RowView(dataItem: item)
-                        }
+                ForEach(dataPublisher.news, id: \.self) { item in        
+                    NavigationLink(destination: DetailsView(urlString: item.url)) {
+                        RowView(dataItem: item)
                     }
                 }
-
             }.navigationBarTitle("新闻列表")
         }
     }
