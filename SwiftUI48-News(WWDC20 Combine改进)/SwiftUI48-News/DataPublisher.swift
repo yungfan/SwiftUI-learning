@@ -28,6 +28,6 @@ class DataPublisher: ObservableObject {
                 return  model.result.data
             }.receive(on: DispatchQueue.main)
             .catch { error in return Just([])}
-            .assign(to: $news)
+            .assign(to: &$news)
     }
 }
