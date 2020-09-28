@@ -10,9 +10,9 @@ import SwiftUI
 
 struct ContentView: View {
     
-     @EnvironmentObject var cons: Contacts
+    @EnvironmentObject var cons: Contacts
     
-     @State private var contact: Contact = Contact()
+    @State private var contact: Contact = Contact()
     
     @State private var isPresented: Bool = false
     
@@ -41,8 +41,8 @@ struct ContentView: View {
             }.sheet(isPresented: $isPresented, content: { 
                 UpdateView(contact: self.contact)
             })
-            
-            .navigationBarTitle("通讯录")
+                
+                .navigationBarTitle("通讯录")
                 .navigationBarItems(trailing: NavigationLink(destination: AddView(contact: Contact()), label: {
                     Image(systemName: "person.circle").font(.title)
                 }))
