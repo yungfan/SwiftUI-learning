@@ -23,6 +23,8 @@ struct ContentView: View {
                     print("save")
                     // 立马刷新Widget
                     WidgetCenter.shared.reloadAllTimelines()
+                    // 刷新某个类型的Widget
+                    // WidgetCenter.shared.reloadTimelines(ofKind: "UserWidget")
 
                 }) {
                     ListItemView(contact: contact)
