@@ -13,5 +13,9 @@ struct MultiplatformApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowToolbarStyle(UnifiedWindowToolbarStyle(showsTitle: false)) // 隐藏mac上的标题
+        .commands {
+            SidebarCommands() // mac的View菜单能够切换sideBar
+        }
     }
 }

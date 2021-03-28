@@ -8,18 +8,21 @@
 import SwiftUI
 
 struct MacSidebarView: View {
+    // 默认选中
+    @State private var isDefaultItemActive = true
+
     var body: some View {
         NavigationView {
             List {
                 // 标题
                 Text("信智学院")
-                    .font(.system(size: 23))
-                    .bold()
+                    .font(.title)
+                    .foregroundColor(.primary)
 
                 Spacer()
 
                 Group {
-                    NavigationLink(destination: Text("")) {
+                    NavigationLink(destination: Text(NavMenu.Main), isActive: $isDefaultItemActive) {
                         Label(NavMenu.Main, systemImage: NavMenu.MainIcon)
                     }
 
@@ -30,33 +33,31 @@ struct MacSidebarView: View {
 
                 Spacer()
 
-                NavigationLink(destination: Text("")) {
+                NavigationLink(destination: Text(NavMenu.Major)) {
                     Label(NavMenu.Major, systemImage: NavMenu.MajorIcon)
                 }
 
-                NavigationLink(destination: Text("")) {
+                NavigationLink(destination: Text(NavMenu.Lab)) {
                     Label(NavMenu.Lab, systemImage: NavMenu.LabIcon)
                 }
 
                 Divider()
 
-                NavigationLink(destination: Text("")) {
+                NavigationLink(destination: Text(NavMenu.Science)) {
                     Label(NavMenu.Science, systemImage: NavMenu.ScienceIcon)
                 }
 
-                NavigationLink(destination: Text("")) {
+                NavigationLink(destination: Text(NavMenu.More)) {
                     Label(NavMenu.More, systemImage: NavMenu.MoreIcon)
                 }
             }
             .listStyle(SidebarListStyle())
             .toolbar {
                 // 切换Sidebar
-                ToolbarItem(placement: .navigation) {
-                    Button(action: toggleSidebar, label: {
-                        Image(systemName: "sidebar.left")
-                            .foregroundColor(.accentColor)
-                    })
-                }
+                Button(action: toggleSidebar, label: {
+                    Image(systemName: "sidebar.left")
+                        .foregroundColor(.accentColor)
+                })
             }
 
             // macApp 首页可以多显示一项内容
@@ -65,7 +66,8 @@ struct MacSidebarView: View {
         }
     }
 
-    func toggleSidebar() {
+    // 切换sideBar
+    private func toggleSidebar() {
         NSApp.keyWindow?.firstResponder?.tryToPerform(#selector(NSSplitViewController.toggleSidebar(_:)), with: nil)
     }
 }

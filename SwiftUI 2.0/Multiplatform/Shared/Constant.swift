@@ -25,7 +25,7 @@ struct NavMenu {
     static let ContactIcon = "teletype"
     static let MajorIcon = "book"
     static let TeacherIcon = "rectangle.stack.person.crop"
-    static let MoreIcon = "tablecells.badge.ellipsis"
+    static let MoreIcon = "ellipsis.circle"
 }
 
 // iPhone标签栏
