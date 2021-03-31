@@ -22,13 +22,13 @@ struct ContentView: View {
                     
                     VStack(spacing: 10){
                         
-                        Text(poetry.title).font(.title).bold().foregroundColor(Color.primary)
+                        Text(poetry.title.gb).font(.title).bold().foregroundColor(Color.primary)
                         
-                        Text(poetry.author).font(.headline).foregroundColor(Color.primary)
+                        Text(poetry.author.gb).font(.headline).foregroundColor(Color.primary)
                         
                         ForEach(poetry.paragraphs, id: \.self) {  paragraph in
                             
-                            Text(paragraph).foregroundColor(Color.primary)
+                            Text(paragraph.gb).foregroundColor(Color.primary)
                             
                         }
                     }.frame(maxWidth: UIScreen.main.bounds.size.width - 32)

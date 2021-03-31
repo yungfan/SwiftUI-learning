@@ -18,6 +18,7 @@
 		3CC233E3244465D4007BE0F0 /* poetry.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CC233E0244465D4007BE0F0 /* poetry.json */; };
 		3CC233E4244465D4007BE0F0 /* PoetryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC233E1244465D4007BE0F0 /* PoetryModel.swift */; };
 		3CC233E5244465D4007BE0F0 /* PoetryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC233E2244465D4007BE0F0 /* PoetryStore.swift */; };
+		3CC233E9244483FE007BE0F0 /* GBig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC233E8244483FE007BE0F0 /* GBig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3CC233E0244465D4007BE0F0 /* poetry.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poetry.json; sourceTree = "<group>"; };
 		3CC233E1244465D4007BE0F0 /* PoetryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetryModel.swift; sourceTree = "<group>"; };
 		3CC233E2244465D4007BE0F0 /* PoetryStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetryStore.swift; sourceTree = "<group>"; };
+		3CC233E8244483FE007BE0F0 /* GBig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				3CC233B0244465B7007BE0F0 /* AppDelegate.swift */,
 				3CC233B2244465B7007BE0F0 /* SceneDelegate.swift */,
 				3CC233B4244465B7007BE0F0 /* ContentView.swift */,
+				3CC233E8244483FE007BE0F0 /* GBig.swift */,
 				3CC233B6244465B8007BE0F0 /* Assets.xcassets */,
 				3CC233BB244465B8007BE0F0 /* LaunchScreen.storyboard */,
 				3CC233BE244465B8007BE0F0 /* Info.plist */,
@@ -281,6 +284,7 @@
 				3CC233B3244465B7007BE0F0 /* SceneDelegate.swift in Sources */,
 				3CC233E5244465D4007BE0F0 /* PoetryStore.swift in Sources */,
 				3CC233B5244465B7007BE0F0 /* ContentView.swift in Sources */,
+				3CC233E9244483FE007BE0F0 /* GBig.swift in Sources */,
 				3CC233E4244465D4007BE0F0 /* PoetryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
