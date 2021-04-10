@@ -1,0 +1,29 @@
+{
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "D9F9CEFF",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "zh_CN"
+        }
+      ],
+      "productID" : "com.yf.iap.pro",
+      "referenceName" : "解锁高级版本",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}
