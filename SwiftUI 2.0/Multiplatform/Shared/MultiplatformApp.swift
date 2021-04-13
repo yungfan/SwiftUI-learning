@@ -11,11 +11,11 @@ import SwiftUI
 struct MultiplatformApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlatFormView()
         }
-        .windowToolbarStyle(UnifiedWindowToolbarStyle(showsTitle: false)) // 隐藏mac上的标题
-        .commands {
-            SidebarCommands() // mac的View菜单能够切换sideBar
-        }
+//            .windowToolbarStyle(UnifiedWindowToolbarStyle(showsTitle: false)) // 隐藏mac上的标题
+//            .commands {
+//                SidebarCommands() // mac的View菜单能够切换sideBar
+//            }
     }
 }

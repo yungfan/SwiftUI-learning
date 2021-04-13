@@ -7,12 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PlatFormView: View {
     var body: some View {
         #if os(macOS)
             // Mac
             MacSidebarView()
                 .frame(minWidth: 900, maxWidth: .infinity, minHeight: 500, maxHeight: .infinity)
+        #elseif os(watchOS)
+            // Watch
+            WatchContentView()
+        #elseif os(tvOS)
+            // TV
+            TVContentView()
         #else
             if UIDevice.current.userInterfaceIdiom == .pad {
                 // iPad
@@ -27,6 +33,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        PlatFormView()
     }
 }
