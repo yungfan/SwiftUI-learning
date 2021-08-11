@@ -16,18 +16,27 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
+            Button("显示") {
+                sheetMode = .quarter
+            }
+
             BottonSheet(sheetMode: $sheetMode) {
                 Color.green
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                     .clipShape(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/, style: .continuous))
+                    .overlay( // 指示器
+                        RoundedRectangle(cornerRadius: 3, style: .continuous)
+                            .fill(Color.gray)
+                            .offset(y: 8)
+                            .frame(width: 40, height: 4), alignment: .top)
                     .gesture(
                         DragGesture()
                             .onChanged { postion in
                                 self.deltaPositon = postion.translation
                             }
                             .onEnded { _ in
+                                // 向下
                                 if self.deltaPositon.height > 0 {
-                                    print("下")
                                     switch sheetMode {
                                     case .none:
                                         print("")
@@ -41,7 +50,7 @@ struct ContentView: View {
                                         sheetMode = .threeQuarter
                                     }
                                 } else {
-                                    print("上")
+                                    // 向上
                                     switch sheetMode {
                                     case .none:
                                         sheetMode = .quarter
@@ -59,21 +68,6 @@ struct ContentView: View {
                                 self.deltaPositon = CGSize.zero
                             }
                     )
-            }
-
-            Button("显示") {
-                switch sheetMode {
-                case .none:
-                    sheetMode = .quarter
-                case .quarter:
-                    sheetMode = .half
-                case .half:
-                    sheetMode = .threeQuarter
-                case .threeQuarter:
-                    sheetMode = .full
-                case .full:
-                    sheetMode = .none
-                }
             }
         }
     }
