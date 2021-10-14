@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF1340A2714182A00174ED2 /* Modifier03_tint_textInputAutocapitalizationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF134092714182A00174ED2 /* Modifier03_tint_textInputAutocapitalizationApp.swift */; };
+		3CF1340C2714182A00174ED2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1340B2714182A00174ED2 /* ContentView.swift */; };
+		3CF1340E2714182B00174ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1340D2714182B00174ED2 /* Assets.xcassets */; };
+		3CF134112714182B00174ED2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF134102714182B00174ED2 /* Preview Assets.xcassets */; };
+		3CF1341B2714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1341A2714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationTests.swift */; };
+		3CF134252714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF134242714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITests.swift */; };
+		3CF134272714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF134262714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF134172714182B00174ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF133FE2714182900174ED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF134052714182900174ED2;
+			remoteInfo = "Modifier03-tint&textInputAutocapitalization";
+		};
+		3CF134212714182B00174ED2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF133FE2714182900174ED2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF134052714182900174ED2;
+			remoteInfo = "Modifier03-tint&textInputAutocapitalization";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CF134062714182900174ED2 /* Modifier03-tint&textInputAutocapitalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modifier03-tint&textInputAutocapitalization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF134092714182A00174ED2 /* Modifier03_tint_textInputAutocapitalizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier03_tint_textInputAutocapitalizationApp.swift; sourceTree = "<group>"; };
+		3CF1340B2714182A00174ED2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CF1340D2714182B00174ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CF134102714182B00174ED2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CF134162714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modifier03-tint&textInputAutocapitalizationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF1341A2714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier03_tint_textInputAutocapitalizationTests.swift; sourceTree = "<group>"; };
+		3CF134202714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modifier03-tint&textInputAutocapitalizationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF134242714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier03_tint_textInputAutocapitalizationUITests.swift; sourceTree = "<group>"; };
+		3CF134262714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier03_tint_textInputAutocapitalizationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF134032714182900174ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF134132714182B00174ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF1341D2714182B00174ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF133FD2714182900174ED2 = {
+			isa = PBXGroup;
+			children = (
+				3CF134082714182A00174ED2 /* Modifier03-tint&textInputAutocapitalization */,
+				3CF134192714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationTests */,
+				3CF134232714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationUITests */,
+				3CF134072714182900174ED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF134072714182900174ED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF134062714182900174ED2 /* Modifier03-tint&textInputAutocapitalization.app */,
+				3CF134162714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationTests.xctest */,
+				3CF134202714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF134082714182A00174ED2 /* Modifier03-tint&textInputAutocapitalization */ = {
+			isa = PBXGroup;
+			children = (
+				3CF134092714182A00174ED2 /* Modifier03_tint_textInputAutocapitalizationApp.swift */,
+				3CF1340B2714182A00174ED2 /* ContentView.swift */,
+				3CF1340D2714182B00174ED2 /* Assets.xcassets */,
+				3CF1340F2714182B00174ED2 /* Preview Content */,
+			);
+			path = "Modifier03-tint&textInputAutocapitalization";
+			sourceTree = "<group>";
+		};
+		3CF1340F2714182B00174ED2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CF134102714182B00174ED2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CF134192714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF1341A2714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationTests.swift */,
+			);
+			path = "Modifier03-tint&textInputAutocapitalizationTests";
+			sourceTree = "<group>";
+		};
+		3CF134232714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF134242714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITests.swift */,
+				3CF134262714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITestsLaunchTests.swift */,
+			);
+			path = "Modifier03-tint&textInputAutocapitalizationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF134052714182900174ED2 /* Modifier03-tint&textInputAutocapitalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF1342A2714182B00174ED2 /* Build configuration list for PBXNativeTarget "Modifier03-tint&textInputAutocapitalization" */;
+			buildPhases = (
+				3CF134022714182900174ED2 /* Sources */,
+				3CF134032714182900174ED2 /* Frameworks */,
+				3CF134042714182900174ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Modifier03-tint&textInputAutocapitalization";
+			productName = "Modifier03-tint&textInputAutocapitalization";
+			productReference = 3CF134062714182900174ED2 /* Modifier03-tint&textInputAutocapitalization.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF134152714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF1342D2714182B00174ED2 /* Build configuration list for PBXNativeTarget "Modifier03-tint&textInputAutocapitalizationTests" */;
+			buildPhases = (
+				3CF134122714182B00174ED2 /* Sources */,
+				3CF134132714182B00174ED2 /* Frameworks */,
+				3CF134142714182B00174ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF134182714182B00174ED2 /* PBXTargetDependency */,
+			);
+			name = "Modifier03-tint&textInputAutocapitalizationTests";
+			productName = "Modifier03-tint&textInputAutocapitalizationTests";
+			productReference = 3CF134162714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CF1341F2714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF134302714182B00174ED2 /* Build configuration list for PBXNativeTarget "Modifier03-tint&textInputAutocapitalizationUITests" */;
+			buildPhases = (
+				3CF1341C2714182B00174ED2 /* Sources */,
+				3CF1341D2714182B00174ED2 /* Frameworks */,
+				3CF1341E2714182B00174ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF134222714182B00174ED2 /* PBXTargetDependency */,
+			);
+			name = "Modifier03-tint&textInputAutocapitalizationUITests";
+			productName = "Modifier03-tint&textInputAutocapitalizationUITests";
+			productReference = 3CF134202714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF133FE2714182900174ED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3CF134052714182900174ED2 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3CF134152714182B00174ED2 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CF134052714182900174ED2;
+					};
+					3CF1341F2714182B00174ED2 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CF134052714182900174ED2;
+					};
+				};
+			};
+			buildConfigurationList = 3CF134012714182900174ED2 /* Build configuration list for PBXProject "Modifier03-tint&textInputAutocapitalization" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF133FD2714182900174ED2;
+			productRefGroup = 3CF134072714182900174ED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF134052714182900174ED2 /* Modifier03-tint&textInputAutocapitalization */,
+				3CF134152714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationTests */,
+				3CF1341F2714182B00174ED2 /* Modifier03-tint&textInputAutocapitalizationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF134042714182900174ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF134112714182B00174ED2 /* Preview Assets.xcassets in Resources */,
+				3CF1340E2714182B00174ED2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF134142714182B00174ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF1341E2714182B00174ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF134022714182900174ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF1340C2714182A00174ED2 /* ContentView.swift in Sources */,
+				3CF1340A2714182A00174ED2 /* Modifier03_tint_textInputAutocapitalizationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF134122714182B00174ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF1341B2714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF1341C2714182B00174ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF134272714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITestsLaunchTests.swift in Sources */,
+				3CF134252714182B00174ED2 /* Modifier03_tint_textInputAutocapitalizationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF134182714182B00174ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF134052714182900174ED2 /* Modifier03-tint&textInputAutocapitalization */;
+			targetProxy = 3CF134172714182B00174ED2 /* PBXContainerItemProxy */;
+		};
+		3CF134222714182B00174ED2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF134052714182900174ED2 /* Modifier03-tint&textInputAutocapitalization */;
+			targetProxy = 3CF134212714182B00174ED2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CF134282714182B00174ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CF134292714182B00174ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF1342B2714182B00174ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Modifier03-tint&textInputAutocapitalization/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier03-tint-textInputAutocapitalization";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF1342C2714182B00174ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Modifier03-tint&textInputAutocapitalization/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier03-tint-textInputAutocapitalization";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CF1342E2714182B00174ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier03-tint-textInputAutocapitalizationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modifier03-tint&textInputAutocapitalization.app/Modifier03-tint&textInputAutocapitalization";
+			};
+			name = Debug;
+		};
+		3CF1342F2714182B00174ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier03-tint-textInputAutocapitalizationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modifier03-tint&textInputAutocapitalization.app/Modifier03-tint&textInputAutocapitalization";
+			};
+			name = Release;
+		};
+		3CF134312714182B00174ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier03-tint-textInputAutocapitalizationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Modifier03-tint&textInputAutocapitalization";
+			};
+			name = Debug;
+		};
+		3CF134322714182B00174ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier03-tint-textInputAutocapitalizationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Modifier03-tint&textInputAutocapitalization";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF134012714182900174ED2 /* Build configuration list for PBXProject "Modifier03-tint&textInputAutocapitalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF134282714182B00174ED2 /* Debug */,
+				3CF134292714182B00174ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF1342A2714182B00174ED2 /* Build configuration list for PBXNativeTarget "Modifier03-tint&textInputAutocapitalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF1342B2714182B00174ED2 /* Debug */,
+				3CF1342C2714182B00174ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF1342D2714182B00174ED2 /* Build configuration list for PBXNativeTarget "Modifier03-tint&textInputAutocapitalizationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF1342E2714182B00174ED2 /* Debug */,
+				3CF1342F2714182B00174ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF134302714182B00174ED2 /* Build configuration list for PBXNativeTarget "Modifier03-tint&textInputAutocapitalizationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF134312714182B00174ED2 /* Debug */,
+				3CF134322714182B00174ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF133FE2714182900174ED2 /* Project object */;
+}

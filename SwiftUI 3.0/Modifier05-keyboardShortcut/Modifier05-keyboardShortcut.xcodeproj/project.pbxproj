@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9EC6702715588E00F73656 /* Modifier05_keyboardShortcutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EC66F2715588E00F73656 /* Modifier05_keyboardShortcutApp.swift */; };
+		3C9EC6722715588E00F73656 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EC6712715588E00F73656 /* ContentView.swift */; };
+		3C9EC6742715588F00F73656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9EC6732715588F00F73656 /* Assets.xcassets */; };
+		3C9EC6772715588F00F73656 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9EC6762715588F00F73656 /* Preview Assets.xcassets */; };
+		3C9EC6812715588F00F73656 /* Modifier05_keyboardShortcutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EC6802715588F00F73656 /* Modifier05_keyboardShortcutTests.swift */; };
+		3C9EC68B2715588F00F73656 /* Modifier05_keyboardShortcutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EC68A2715588F00F73656 /* Modifier05_keyboardShortcutUITests.swift */; };
+		3C9EC68D2715588F00F73656 /* Modifier05_keyboardShortcutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EC68C2715588F00F73656 /* Modifier05_keyboardShortcutUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C9EC67D2715588F00F73656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9EC6642715588E00F73656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9EC66B2715588E00F73656;
+			remoteInfo = "Modifier05-keyboardShortcut";
+		};
+		3C9EC6872715588F00F73656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9EC6642715588E00F73656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C9EC66B2715588E00F73656;
+			remoteInfo = "Modifier05-keyboardShortcut";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C9EC66C2715588E00F73656 /* Modifier05-keyboardShortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modifier05-keyboardShortcut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9EC66F2715588E00F73656 /* Modifier05_keyboardShortcutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier05_keyboardShortcutApp.swift; sourceTree = "<group>"; };
+		3C9EC6712715588E00F73656 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C9EC6732715588F00F73656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C9EC6762715588F00F73656 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C9EC67C2715588F00F73656 /* Modifier05-keyboardShortcutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modifier05-keyboardShortcutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9EC6802715588F00F73656 /* Modifier05_keyboardShortcutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier05_keyboardShortcutTests.swift; sourceTree = "<group>"; };
+		3C9EC6862715588F00F73656 /* Modifier05-keyboardShortcutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modifier05-keyboardShortcutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9EC68A2715588F00F73656 /* Modifier05_keyboardShortcutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier05_keyboardShortcutUITests.swift; sourceTree = "<group>"; };
+		3C9EC68C2715588F00F73656 /* Modifier05_keyboardShortcutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier05_keyboardShortcutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9EC6692715588E00F73656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9EC6792715588F00F73656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9EC6832715588F00F73656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9EC6632715588E00F73656 = {
+			isa = PBXGroup;
+			children = (
+				3C9EC66E2715588E00F73656 /* Modifier05-keyboardShortcut */,
+				3C9EC67F2715588F00F73656 /* Modifier05-keyboardShortcutTests */,
+				3C9EC6892715588F00F73656 /* Modifier05-keyboardShortcutUITests */,
+				3C9EC66D2715588E00F73656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9EC66D2715588E00F73656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9EC66C2715588E00F73656 /* Modifier05-keyboardShortcut.app */,
+				3C9EC67C2715588F00F73656 /* Modifier05-keyboardShortcutTests.xctest */,
+				3C9EC6862715588F00F73656 /* Modifier05-keyboardShortcutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9EC66E2715588E00F73656 /* Modifier05-keyboardShortcut */ = {
+			isa = PBXGroup;
+			children = (
+				3C9EC66F2715588E00F73656 /* Modifier05_keyboardShortcutApp.swift */,
+				3C9EC6712715588E00F73656 /* ContentView.swift */,
+				3C9EC6732715588F00F73656 /* Assets.xcassets */,
+				3C9EC6752715588F00F73656 /* Preview Content */,
+			);
+			path = "Modifier05-keyboardShortcut";
+			sourceTree = "<group>";
+		};
+		3C9EC6752715588F00F73656 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C9EC6762715588F00F73656 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C9EC67F2715588F00F73656 /* Modifier05-keyboardShortcutTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9EC6802715588F00F73656 /* Modifier05_keyboardShortcutTests.swift */,
+			);
+			path = "Modifier05-keyboardShortcutTests";
+			sourceTree = "<group>";
+		};
+		3C9EC6892715588F00F73656 /* Modifier05-keyboardShortcutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9EC68A2715588F00F73656 /* Modifier05_keyboardShortcutUITests.swift */,
+				3C9EC68C2715588F00F73656 /* Modifier05_keyboardShortcutUITestsLaunchTests.swift */,
+			);
+			path = "Modifier05-keyboardShortcutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9EC66B2715588E00F73656 /* Modifier05-keyboardShortcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9EC6902715588F00F73656 /* Build configuration list for PBXNativeTarget "Modifier05-keyboardShortcut" */;
+			buildPhases = (
+				3C9EC6682715588E00F73656 /* Sources */,
+				3C9EC6692715588E00F73656 /* Frameworks */,
+				3C9EC66A2715588E00F73656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Modifier05-keyboardShortcut";
+			productName = "Modifier05-keyboardShortcut";
+			productReference = 3C9EC66C2715588E00F73656 /* Modifier05-keyboardShortcut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C9EC67B2715588F00F73656 /* Modifier05-keyboardShortcutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9EC6932715588F00F73656 /* Build configuration list for PBXNativeTarget "Modifier05-keyboardShortcutTests" */;
+			buildPhases = (
+				3C9EC6782715588F00F73656 /* Sources */,
+				3C9EC6792715588F00F73656 /* Frameworks */,
+				3C9EC67A2715588F00F73656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9EC67E2715588F00F73656 /* PBXTargetDependency */,
+			);
+			name = "Modifier05-keyboardShortcutTests";
+			productName = "Modifier05-keyboardShortcutTests";
+			productReference = 3C9EC67C2715588F00F73656 /* Modifier05-keyboardShortcutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C9EC6852715588F00F73656 /* Modifier05-keyboardShortcutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9EC6962715588F00F73656 /* Build configuration list for PBXNativeTarget "Modifier05-keyboardShortcutUITests" */;
+			buildPhases = (
+				3C9EC6822715588F00F73656 /* Sources */,
+				3C9EC6832715588F00F73656 /* Frameworks */,
+				3C9EC6842715588F00F73656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9EC6882715588F00F73656 /* PBXTargetDependency */,
+			);
+			name = "Modifier05-keyboardShortcutUITests";
+			productName = "Modifier05-keyboardShortcutUITests";
+			productReference = 3C9EC6862715588F00F73656 /* Modifier05-keyboardShortcutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9EC6642715588E00F73656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3C9EC66B2715588E00F73656 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3C9EC67B2715588F00F73656 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3C9EC66B2715588E00F73656;
+					};
+					3C9EC6852715588F00F73656 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3C9EC66B2715588E00F73656;
+					};
+				};
+			};
+			buildConfigurationList = 3C9EC6672715588E00F73656 /* Build configuration list for PBXProject "Modifier05-keyboardShortcut" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9EC6632715588E00F73656;
+			productRefGroup = 3C9EC66D2715588E00F73656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9EC66B2715588E00F73656 /* Modifier05-keyboardShortcut */,
+				3C9EC67B2715588F00F73656 /* Modifier05-keyboardShortcutTests */,
+				3C9EC6852715588F00F73656 /* Modifier05-keyboardShortcutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9EC66A2715588E00F73656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9EC6772715588F00F73656 /* Preview Assets.xcassets in Resources */,
+				3C9EC6742715588F00F73656 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9EC67A2715588F00F73656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9EC6842715588F00F73656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9EC6682715588E00F73656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9EC6722715588E00F73656 /* ContentView.swift in Sources */,
+				3C9EC6702715588E00F73656 /* Modifier05_keyboardShortcutApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9EC6782715588F00F73656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9EC6812715588F00F73656 /* Modifier05_keyboardShortcutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9EC6822715588F00F73656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9EC68B2715588F00F73656 /* Modifier05_keyboardShortcutUITests.swift in Sources */,
+				3C9EC68D2715588F00F73656 /* Modifier05_keyboardShortcutUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9EC67E2715588F00F73656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9EC66B2715588E00F73656 /* Modifier05-keyboardShortcut */;
+			targetProxy = 3C9EC67D2715588F00F73656 /* PBXContainerItemProxy */;
+		};
+		3C9EC6882715588F00F73656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C9EC66B2715588E00F73656 /* Modifier05-keyboardShortcut */;
+			targetProxy = 3C9EC6872715588F00F73656 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C9EC68E2715588F00F73656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C9EC68F2715588F00F73656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9EC6912715588F00F73656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Modifier05-keyboardShortcut/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier05-keyboardShortcut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C9EC6922715588F00F73656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Modifier05-keyboardShortcut/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier05-keyboardShortcut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C9EC6942715588F00F73656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier05-keyboardShortcutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modifier05-keyboardShortcut.app/Modifier05-keyboardShortcut";
+			};
+			name = Debug;
+		};
+		3C9EC6952715588F00F73656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier05-keyboardShortcutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modifier05-keyboardShortcut.app/Modifier05-keyboardShortcut";
+			};
+			name = Release;
+		};
+		3C9EC6972715588F00F73656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier05-keyboardShortcutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Modifier05-keyboardShortcut";
+			};
+			name = Debug;
+		};
+		3C9EC6982715588F00F73656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier05-keyboardShortcutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Modifier05-keyboardShortcut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9EC6672715588E00F73656 /* Build configuration list for PBXProject "Modifier05-keyboardShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9EC68E2715588F00F73656 /* Debug */,
+				3C9EC68F2715588F00F73656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9EC6902715588F00F73656 /* Build configuration list for PBXNativeTarget "Modifier05-keyboardShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9EC6912715588F00F73656 /* Debug */,
+				3C9EC6922715588F00F73656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9EC6932715588F00F73656 /* Build configuration list for PBXNativeTarget "Modifier05-keyboardShortcutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9EC6942715588F00F73656 /* Debug */,
+				3C9EC6952715588F00F73656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9EC6962715588F00F73656 /* Build configuration list for PBXNativeTarget "Modifier05-keyboardShortcutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9EC6972715588F00F73656 /* Debug */,
+				3C9EC6982715588F00F73656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9EC6642715588E00F73656 /* Project object */;
+}

@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CDB328C27169FBD00CB04FA /* Modifier09_EllipticalGradientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB328B27169FBD00CB04FA /* Modifier09_EllipticalGradientApp.swift */; };
+		3CDB328E27169FBD00CB04FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB328D27169FBD00CB04FA /* ContentView.swift */; };
+		3CDB329027169FBE00CB04FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDB328F27169FBE00CB04FA /* Assets.xcassets */; };
+		3CDB329327169FBE00CB04FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDB329227169FBE00CB04FA /* Preview Assets.xcassets */; };
+		3CDB329D27169FBE00CB04FA /* Modifier09_EllipticalGradientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB329C27169FBE00CB04FA /* Modifier09_EllipticalGradientTests.swift */; };
+		3CDB32A727169FBE00CB04FA /* Modifier09_EllipticalGradientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB32A627169FBE00CB04FA /* Modifier09_EllipticalGradientUITests.swift */; };
+		3CDB32A927169FBE00CB04FA /* Modifier09_EllipticalGradientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB32A827169FBE00CB04FA /* Modifier09_EllipticalGradientUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CDB329927169FBE00CB04FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDB328027169FBD00CB04FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDB328727169FBD00CB04FA;
+			remoteInfo = "Modifier09-EllipticalGradient";
+		};
+		3CDB32A327169FBE00CB04FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CDB328027169FBD00CB04FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CDB328727169FBD00CB04FA;
+			remoteInfo = "Modifier09-EllipticalGradient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CDB328827169FBD00CB04FA /* Modifier09-EllipticalGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modifier09-EllipticalGradient.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDB328B27169FBD00CB04FA /* Modifier09_EllipticalGradientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier09_EllipticalGradientApp.swift; sourceTree = "<group>"; };
+		3CDB328D27169FBD00CB04FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CDB328F27169FBE00CB04FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CDB329227169FBE00CB04FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CDB329827169FBE00CB04FA /* Modifier09-EllipticalGradientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modifier09-EllipticalGradientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDB329C27169FBE00CB04FA /* Modifier09_EllipticalGradientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier09_EllipticalGradientTests.swift; sourceTree = "<group>"; };
+		3CDB32A227169FBE00CB04FA /* Modifier09-EllipticalGradientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modifier09-EllipticalGradientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDB32A627169FBE00CB04FA /* Modifier09_EllipticalGradientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier09_EllipticalGradientUITests.swift; sourceTree = "<group>"; };
+		3CDB32A827169FBE00CB04FA /* Modifier09_EllipticalGradientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier09_EllipticalGradientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CDB328527169FBD00CB04FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB329527169FBE00CB04FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB329F27169FBE00CB04FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CDB327F27169FBD00CB04FA = {
+			isa = PBXGroup;
+			children = (
+				3CDB328A27169FBD00CB04FA /* Modifier09-EllipticalGradient */,
+				3CDB329B27169FBE00CB04FA /* Modifier09-EllipticalGradientTests */,
+				3CDB32A527169FBE00CB04FA /* Modifier09-EllipticalGradientUITests */,
+				3CDB328927169FBD00CB04FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CDB328927169FBD00CB04FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB328827169FBD00CB04FA /* Modifier09-EllipticalGradient.app */,
+				3CDB329827169FBE00CB04FA /* Modifier09-EllipticalGradientTests.xctest */,
+				3CDB32A227169FBE00CB04FA /* Modifier09-EllipticalGradientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CDB328A27169FBD00CB04FA /* Modifier09-EllipticalGradient */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB328B27169FBD00CB04FA /* Modifier09_EllipticalGradientApp.swift */,
+				3CDB328D27169FBD00CB04FA /* ContentView.swift */,
+				3CDB328F27169FBE00CB04FA /* Assets.xcassets */,
+				3CDB329127169FBE00CB04FA /* Preview Content */,
+			);
+			path = "Modifier09-EllipticalGradient";
+			sourceTree = "<group>";
+		};
+		3CDB329127169FBE00CB04FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB329227169FBE00CB04FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CDB329B27169FBE00CB04FA /* Modifier09-EllipticalGradientTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB329C27169FBE00CB04FA /* Modifier09_EllipticalGradientTests.swift */,
+			);
+			path = "Modifier09-EllipticalGradientTests";
+			sourceTree = "<group>";
+		};
+		3CDB32A527169FBE00CB04FA /* Modifier09-EllipticalGradientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDB32A627169FBE00CB04FA /* Modifier09_EllipticalGradientUITests.swift */,
+				3CDB32A827169FBE00CB04FA /* Modifier09_EllipticalGradientUITestsLaunchTests.swift */,
+			);
+			path = "Modifier09-EllipticalGradientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CDB328727169FBD00CB04FA /* Modifier09-EllipticalGradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDB32AC27169FBE00CB04FA /* Build configuration list for PBXNativeTarget "Modifier09-EllipticalGradient" */;
+			buildPhases = (
+				3CDB328427169FBD00CB04FA /* Sources */,
+				3CDB328527169FBD00CB04FA /* Frameworks */,
+				3CDB328627169FBD00CB04FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Modifier09-EllipticalGradient";
+			productName = "Modifier09-EllipticalGradient";
+			productReference = 3CDB328827169FBD00CB04FA /* Modifier09-EllipticalGradient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CDB329727169FBE00CB04FA /* Modifier09-EllipticalGradientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDB32AF27169FBE00CB04FA /* Build configuration list for PBXNativeTarget "Modifier09-EllipticalGradientTests" */;
+			buildPhases = (
+				3CDB329427169FBE00CB04FA /* Sources */,
+				3CDB329527169FBE00CB04FA /* Frameworks */,
+				3CDB329627169FBE00CB04FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDB329A27169FBE00CB04FA /* PBXTargetDependency */,
+			);
+			name = "Modifier09-EllipticalGradientTests";
+			productName = "Modifier09-EllipticalGradientTests";
+			productReference = 3CDB329827169FBE00CB04FA /* Modifier09-EllipticalGradientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CDB32A127169FBE00CB04FA /* Modifier09-EllipticalGradientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDB32B227169FBE00CB04FA /* Build configuration list for PBXNativeTarget "Modifier09-EllipticalGradientUITests" */;
+			buildPhases = (
+				3CDB329E27169FBE00CB04FA /* Sources */,
+				3CDB329F27169FBE00CB04FA /* Frameworks */,
+				3CDB32A027169FBE00CB04FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CDB32A427169FBE00CB04FA /* PBXTargetDependency */,
+			);
+			name = "Modifier09-EllipticalGradientUITests";
+			productName = "Modifier09-EllipticalGradientUITests";
+			productReference = 3CDB32A227169FBE00CB04FA /* Modifier09-EllipticalGradientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CDB328027169FBD00CB04FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3CDB328727169FBD00CB04FA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3CDB329727169FBE00CB04FA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CDB328727169FBD00CB04FA;
+					};
+					3CDB32A127169FBE00CB04FA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CDB328727169FBD00CB04FA;
+					};
+				};
+			};
+			buildConfigurationList = 3CDB328327169FBD00CB04FA /* Build configuration list for PBXProject "Modifier09-EllipticalGradient" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CDB327F27169FBD00CB04FA;
+			productRefGroup = 3CDB328927169FBD00CB04FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CDB328727169FBD00CB04FA /* Modifier09-EllipticalGradient */,
+				3CDB329727169FBE00CB04FA /* Modifier09-EllipticalGradientTests */,
+				3CDB32A127169FBE00CB04FA /* Modifier09-EllipticalGradientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CDB328627169FBD00CB04FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB329327169FBE00CB04FA /* Preview Assets.xcassets in Resources */,
+				3CDB329027169FBE00CB04FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB329627169FBE00CB04FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB32A027169FBE00CB04FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CDB328427169FBD00CB04FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB328E27169FBD00CB04FA /* ContentView.swift in Sources */,
+				3CDB328C27169FBD00CB04FA /* Modifier09_EllipticalGradientApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB329427169FBE00CB04FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB329D27169FBE00CB04FA /* Modifier09_EllipticalGradientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CDB329E27169FBE00CB04FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB32A727169FBE00CB04FA /* Modifier09_EllipticalGradientUITests.swift in Sources */,
+				3CDB32A927169FBE00CB04FA /* Modifier09_EllipticalGradientUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CDB329A27169FBE00CB04FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDB328727169FBD00CB04FA /* Modifier09-EllipticalGradient */;
+			targetProxy = 3CDB329927169FBE00CB04FA /* PBXContainerItemProxy */;
+		};
+		3CDB32A427169FBE00CB04FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CDB328727169FBD00CB04FA /* Modifier09-EllipticalGradient */;
+			targetProxy = 3CDB32A327169FBE00CB04FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CDB32AA27169FBE00CB04FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CDB32AB27169FBE00CB04FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CDB32AD27169FBE00CB04FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Modifier09-EllipticalGradient/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier09-EllipticalGradient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CDB32AE27169FBE00CB04FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Modifier09-EllipticalGradient/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier09-EllipticalGradient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CDB32B027169FBE00CB04FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier09-EllipticalGradientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modifier09-EllipticalGradient.app/Modifier09-EllipticalGradient";
+			};
+			name = Debug;
+		};
+		3CDB32B127169FBE00CB04FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier09-EllipticalGradientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modifier09-EllipticalGradient.app/Modifier09-EllipticalGradient";
+			};
+			name = Release;
+		};
+		3CDB32B327169FBE00CB04FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier09-EllipticalGradientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Modifier09-EllipticalGradient";
+			};
+			name = Debug;
+		};
+		3CDB32B427169FBE00CB04FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier09-EllipticalGradientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Modifier09-EllipticalGradient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CDB328327169FBD00CB04FA /* Build configuration list for PBXProject "Modifier09-EllipticalGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDB32AA27169FBE00CB04FA /* Debug */,
+				3CDB32AB27169FBE00CB04FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDB32AC27169FBE00CB04FA /* Build configuration list for PBXNativeTarget "Modifier09-EllipticalGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDB32AD27169FBE00CB04FA /* Debug */,
+				3CDB32AE27169FBE00CB04FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDB32AF27169FBE00CB04FA /* Build configuration list for PBXNativeTarget "Modifier09-EllipticalGradientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDB32B027169FBE00CB04FA /* Debug */,
+				3CDB32B127169FBE00CB04FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDB32B227169FBE00CB04FA /* Build configuration list for PBXNativeTarget "Modifier09-EllipticalGradientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDB32B327169FBE00CB04FA /* Debug */,
+				3CDB32B427169FBE00CB04FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CDB328027169FBD00CB04FA /* Project object */;
+}

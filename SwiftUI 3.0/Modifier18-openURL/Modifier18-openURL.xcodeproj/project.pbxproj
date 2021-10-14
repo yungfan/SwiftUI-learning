@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CABC35F2718039400C77647 /* Modifier18_openURLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABC35E2718039400C77647 /* Modifier18_openURLApp.swift */; };
+		3CABC3612718039400C77647 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABC3602718039400C77647 /* ContentView.swift */; };
+		3CABC3632718039500C77647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CABC3622718039500C77647 /* Assets.xcassets */; };
+		3CABC3662718039500C77647 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CABC3652718039500C77647 /* Preview Assets.xcassets */; };
+		3CABC3702718039500C77647 /* Modifier18_openURLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABC36F2718039500C77647 /* Modifier18_openURLTests.swift */; };
+		3CABC37A2718039600C77647 /* Modifier18_openURLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABC3792718039600C77647 /* Modifier18_openURLUITests.swift */; };
+		3CABC37C2718039600C77647 /* Modifier18_openURLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABC37B2718039600C77647 /* Modifier18_openURLUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CABC36C2718039500C77647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CABC3532718039400C77647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CABC35A2718039400C77647;
+			remoteInfo = "Modifier18-openURL";
+		};
+		3CABC3762718039600C77647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CABC3532718039400C77647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CABC35A2718039400C77647;
+			remoteInfo = "Modifier18-openURL";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CABC35B2718039400C77647 /* Modifier18-openURL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modifier18-openURL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CABC35E2718039400C77647 /* Modifier18_openURLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier18_openURLApp.swift; sourceTree = "<group>"; };
+		3CABC3602718039400C77647 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CABC3622718039500C77647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CABC3652718039500C77647 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CABC36B2718039500C77647 /* Modifier18-openURLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modifier18-openURLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CABC36F2718039500C77647 /* Modifier18_openURLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier18_openURLTests.swift; sourceTree = "<group>"; };
+		3CABC3752718039600C77647 /* Modifier18-openURLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modifier18-openURLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CABC3792718039600C77647 /* Modifier18_openURLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier18_openURLUITests.swift; sourceTree = "<group>"; };
+		3CABC37B2718039600C77647 /* Modifier18_openURLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier18_openURLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CABC3582718039400C77647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CABC3682718039500C77647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CABC3722718039600C77647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CABC3522718039400C77647 = {
+			isa = PBXGroup;
+			children = (
+				3CABC35D2718039400C77647 /* Modifier18-openURL */,
+				3CABC36E2718039500C77647 /* Modifier18-openURLTests */,
+				3CABC3782718039600C77647 /* Modifier18-openURLUITests */,
+				3CABC35C2718039400C77647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CABC35C2718039400C77647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CABC35B2718039400C77647 /* Modifier18-openURL.app */,
+				3CABC36B2718039500C77647 /* Modifier18-openURLTests.xctest */,
+				3CABC3752718039600C77647 /* Modifier18-openURLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CABC35D2718039400C77647 /* Modifier18-openURL */ = {
+			isa = PBXGroup;
+			children = (
+				3CABC35E2718039400C77647 /* Modifier18_openURLApp.swift */,
+				3CABC3602718039400C77647 /* ContentView.swift */,
+				3CABC3622718039500C77647 /* Assets.xcassets */,
+				3CABC3642718039500C77647 /* Preview Content */,
+			);
+			path = "Modifier18-openURL";
+			sourceTree = "<group>";
+		};
+		3CABC3642718039500C77647 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CABC3652718039500C77647 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CABC36E2718039500C77647 /* Modifier18-openURLTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CABC36F2718039500C77647 /* Modifier18_openURLTests.swift */,
+			);
+			path = "Modifier18-openURLTests";
+			sourceTree = "<group>";
+		};
+		3CABC3782718039600C77647 /* Modifier18-openURLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CABC3792718039600C77647 /* Modifier18_openURLUITests.swift */,
+				3CABC37B2718039600C77647 /* Modifier18_openURLUITestsLaunchTests.swift */,
+			);
+			path = "Modifier18-openURLUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CABC35A2718039400C77647 /* Modifier18-openURL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CABC37F2718039600C77647 /* Build configuration list for PBXNativeTarget "Modifier18-openURL" */;
+			buildPhases = (
+				3CABC3572718039400C77647 /* Sources */,
+				3CABC3582718039400C77647 /* Frameworks */,
+				3CABC3592718039400C77647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Modifier18-openURL";
+			productName = "Modifier18-openURL";
+			productReference = 3CABC35B2718039400C77647 /* Modifier18-openURL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CABC36A2718039500C77647 /* Modifier18-openURLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CABC3822718039600C77647 /* Build configuration list for PBXNativeTarget "Modifier18-openURLTests" */;
+			buildPhases = (
+				3CABC3672718039500C77647 /* Sources */,
+				3CABC3682718039500C77647 /* Frameworks */,
+				3CABC3692718039500C77647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CABC36D2718039500C77647 /* PBXTargetDependency */,
+			);
+			name = "Modifier18-openURLTests";
+			productName = "Modifier18-openURLTests";
+			productReference = 3CABC36B2718039500C77647 /* Modifier18-openURLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CABC3742718039600C77647 /* Modifier18-openURLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CABC3852718039600C77647 /* Build configuration list for PBXNativeTarget "Modifier18-openURLUITests" */;
+			buildPhases = (
+				3CABC3712718039600C77647 /* Sources */,
+				3CABC3722718039600C77647 /* Frameworks */,
+				3CABC3732718039600C77647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CABC3772718039600C77647 /* PBXTargetDependency */,
+			);
+			name = "Modifier18-openURLUITests";
+			productName = "Modifier18-openURLUITests";
+			productReference = 3CABC3752718039600C77647 /* Modifier18-openURLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CABC3532718039400C77647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					3CABC35A2718039400C77647 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					3CABC36A2718039500C77647 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CABC35A2718039400C77647;
+					};
+					3CABC3742718039600C77647 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 3CABC35A2718039400C77647;
+					};
+				};
+			};
+			buildConfigurationList = 3CABC3562718039400C77647 /* Build configuration list for PBXProject "Modifier18-openURL" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CABC3522718039400C77647;
+			productRefGroup = 3CABC35C2718039400C77647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CABC35A2718039400C77647 /* Modifier18-openURL */,
+				3CABC36A2718039500C77647 /* Modifier18-openURLTests */,
+				3CABC3742718039600C77647 /* Modifier18-openURLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CABC3592718039400C77647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CABC3662718039500C77647 /* Preview Assets.xcassets in Resources */,
+				3CABC3632718039500C77647 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CABC3692718039500C77647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CABC3732718039600C77647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CABC3572718039400C77647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CABC3612718039400C77647 /* ContentView.swift in Sources */,
+				3CABC35F2718039400C77647 /* Modifier18_openURLApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CABC3672718039500C77647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CABC3702718039500C77647 /* Modifier18_openURLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CABC3712718039600C77647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CABC37C2718039600C77647 /* Modifier18_openURLUITestsLaunchTests.swift in Sources */,
+				3CABC37A2718039600C77647 /* Modifier18_openURLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CABC36D2718039500C77647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CABC35A2718039400C77647 /* Modifier18-openURL */;
+			targetProxy = 3CABC36C2718039500C77647 /* PBXContainerItemProxy */;
+		};
+		3CABC3772718039600C77647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CABC35A2718039400C77647 /* Modifier18-openURL */;
+			targetProxy = 3CABC3762718039600C77647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CABC37D2718039600C77647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CABC37E2718039600C77647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CABC3802718039600C77647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Modifier18-openURL/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier18-openURL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CABC3812718039600C77647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Modifier18-openURL/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier18-openURL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CABC3832718039600C77647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier18-openURLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modifier18-openURL.app/Modifier18-openURL";
+			};
+			name = Debug;
+		};
+		3CABC3842718039600C77647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier18-openURLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modifier18-openURL.app/Modifier18-openURL";
+			};
+			name = Release;
+		};
+		3CABC3862718039600C77647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier18-openURLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Modifier18-openURL";
+			};
+			name = Debug;
+		};
+		3CABC3872718039600C77647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developer.yf.Modifier18-openURLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Modifier18-openURL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CABC3562718039400C77647 /* Build configuration list for PBXProject "Modifier18-openURL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CABC37D2718039600C77647 /* Debug */,
+				3CABC37E2718039600C77647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CABC37F2718039600C77647 /* Build configuration list for PBXNativeTarget "Modifier18-openURL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CABC3802718039600C77647 /* Debug */,
+				3CABC3812718039600C77647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CABC3822718039600C77647 /* Build configuration list for PBXNativeTarget "Modifier18-openURLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CABC3832718039600C77647 /* Debug */,
+				3CABC3842718039600C77647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CABC3852718039600C77647 /* Build configuration list for PBXNativeTarget "Modifier18-openURLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CABC3862718039600C77647 /* Debug */,
+				3CABC3872718039600C77647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CABC3532718039400C77647 /* Project object */;
+}
