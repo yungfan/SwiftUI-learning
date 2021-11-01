@@ -15,30 +15,23 @@ extension UIApplication {
 }
 
 struct UpdateView: View {
-    
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    
+
     @ObservedObject var contact: Contact
-    
-    
+
     var body: some View {
-        
         VStack {
-            
             TextField("请输入用户名", text: $contact.name).textFieldStyle(RoundedBorderTextFieldStyle()).padding()
             TextField("请输入手机号", text: $contact.phone).keyboardType(.numberPad).textFieldStyle(RoundedBorderTextFieldStyle()).padding()
             TextField("请输入地址", text: $contact.address).textFieldStyle(RoundedBorderTextFieldStyle()).padding()
-            
-            Button("确定"){
-                
+
+            Button("确定") {
                 self.presentationMode.wrappedValue.dismiss()
-                
-                //UIApplication.shared.endEditing()
-                
+
+                // UIApplication.shared.endEditing()
             }
-            
+
             Spacer()
         }
-        
     }
 }

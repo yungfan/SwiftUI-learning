@@ -8,31 +8,22 @@
 
 import Foundation
 
-
 class Contact: ObservableObject, Identifiable {
-    
     var id = UUID()
-    
-   @Published var name: String
-   @Published  var phone: String
-   @Published  var address: String
-    
-    
+
+    @Published var name: String
+    @Published var phone: String
+    @Published var address: String
+
     init() {
-        
         name = ""
         phone = ""
         address = ""
-        
-        
     }
-    
+
     init(name: String, phone: String, address: String) {
-        
         self.name = name
         self.phone = phone
         self.address = address
-        
     }
-    
 }

@@ -8,56 +8,45 @@
 
 import SwiftUI
 
+// 保存点击的Contact
+var selectedContact: Contact = Contact()
+
 struct ContentView: View {
-    
     @EnvironmentObject var cons: Contacts
-    
-    @State private var contact: Contact = Contact()
-    
+
     @State private var isPresented: Bool = false
-    
+
     var body: some View {
-        
         NavigationView {
-            
-            List{
-                
+            List {
                 ForEach(cons.contacts) { contact in
-                    
+
                     Button(action: {
-                        
-                        self.contact = contact
-                        
+                        selectedContact = contact
+
                         self.isPresented = true
-                        
+
                     }) {
-                        
                         RowView(contact: contact)
                     }
-                    
+
                 }.onDelete(perform: delete(at:))
-                
-                
-            }.sheet(isPresented: $isPresented, content: { 
-                UpdateView(contact: self.contact)
+
+            }.sheet(isPresented: $isPresented, content: {
+                UpdateView(contact: selectedContact)
             })
-                
+
                 .navigationBarTitle("通讯录")
                 .navigationBarItems(trailing: NavigationLink(destination: AddView(contact: Contact()), label: {
                     Image(systemName: "person.circle").font(.title)
                 }))
-            
         }
     }
-    
+
     func delete(at: IndexSet) {
-        
         if let at = at.first {
-            
             cons.contacts.remove(at: at)
-            
         }
-        
     }
 }
 
