@@ -9,38 +9,29 @@
 import SwiftUI
 import WebKit
 
-
 struct DetailWebView: UIViewRepresentable {
-    
     var urlString: String
-    
+
     func makeUIView(context: UIViewRepresentableContext<DetailWebView>) -> WKWebView {
-        
         let webView = WKWebView()
-        
+
         return webView
     }
-    
+
     func updateUIView(_ uiView: WKWebView, context: UIViewRepresentableContext<DetailWebView>) {
-        
         let url = URL(string: urlString)
-        
+
         let request = URLRequest(url: url!)
-        
+
         uiView.load(request)
-        
     }
-    
 }
 
 struct DetailsView: View {
-    
     var urlString: String = ""
-    
+
     var body: some View {
-        
         DetailWebView(urlString: urlString)
-        
     }
 }
 

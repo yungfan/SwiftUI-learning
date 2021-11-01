@@ -9,38 +9,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     @ObservedObject var dataPublisher: DataPublisher = DataPublisher()
-    
+
     var body: some View {
-        
-        
         NavigationView {
-            
             if dataPublisher.news.count == 0 {
-                
                 Text("数据加载中").font(.largeTitle).foregroundColor(.red)
-                
-            }
-                
-            else {
-                
+            } else {
                 List {
-                    
                     ForEach(dataPublisher.news, id: \.self) { item in
-                        
+
                         NavigationLink(destination: DetailsView(urlString: item.url)) {
-                            
                             RowView(dataItem: item)
-                            
                         }
-                        
-                        
                     }
                 }.navigationBarTitle("新闻列表")
-                
             }
-            
         }
     }
 }

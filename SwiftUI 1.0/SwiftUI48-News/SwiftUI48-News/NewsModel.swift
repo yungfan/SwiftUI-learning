@@ -21,7 +21,7 @@ struct Result: Codable {
     let data: [DataItem]
 }
 
-// MARK: - Datum
+// MARK: - DataItem
 struct DataItem: Codable, Hashable {
     var title: String
     var date: String

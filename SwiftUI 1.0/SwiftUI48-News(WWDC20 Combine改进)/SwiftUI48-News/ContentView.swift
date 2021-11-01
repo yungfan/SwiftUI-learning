@@ -10,11 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var dataPublisher: DataPublisher = DataPublisher()
-    
+
     var body: some View {
         NavigationView {
             List {
-                ForEach(dataPublisher.news, id: \.self) { item in        
+                ForEach(dataPublisher.news, id: \.self) { item in
                     NavigationLink(destination: DetailsView(urlString: item.url)) {
                         RowView(dataItem: item)
                     }
