@@ -24,7 +24,9 @@ struct AddView: View {
             Button("确定") {
                 self.presentationMode.wrappedValue.dismiss()
 
-                self.cons.contacts.append(self.contact)
+                
+                self.cons.contacts.insert(contact, at: 0)
+                // self.cons.contacts.append(self.contact)
             }
 
             Spacer()
