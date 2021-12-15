@@ -9,6 +9,8 @@ import CloudKit
 import SwiftUI
 
 struct Person: Hashable {
+    let id = UUID()
+    let recordID: CKRecord.ID
     let name: String
     let age: String
     let sex: String
@@ -22,7 +24,7 @@ class ViewModel: ObservableObject {
 
     // 增加
     func add(person: Person) {
-        let record = CKRecord(recordType: "Person")
+        let record = CKRecord(recordType: "Person", recordID: person.recordID)
         record.setValue(person.name, forKey: "name")
         record.setValue(person.age, forKey: "age")
         record.setValue(person.sex, forKey: "sex")
@@ -31,7 +33,6 @@ class ViewModel: ObservableObject {
         database.save(record) { record, error in
             if record != nil, error == nil {
                 print("saved")
-
                 self.query()
             } else {
                 print(error.debugDescription)
@@ -41,12 +42,8 @@ class ViewModel: ObservableObject {
 
     // 修改
     func update(person: Person) {
-        // 查询记录
-        let predicate = NSPredicate(format: "%K = %@", "name", person.name)
-        let query = CKQuery(recordType: "Person", predicate: predicate)
-
-        database.perform(query, inZoneWith: nil) { records, error in
-            guard let record = records?.first, error == nil else { return }
+        database.fetch(withRecordID: person.recordID) { record, error in
+            guard let record = record, error == nil else { return }
             // 修改记录
             record.setValue(person.name, forKey: "name")
             record.setValue(person.age, forKey: "age")
@@ -56,7 +53,6 @@ class ViewModel: ObservableObject {
             self.database.save(record) { record, error in
                 if record != nil, error == nil {
                     print("updated")
-
                     self.query()
                 } else {
                     print(error.debugDescription)
@@ -67,19 +63,13 @@ class ViewModel: ObservableObject {
 
     // 删除
     func delete(person: Person) {
-        let predicate = NSPredicate(format: "%K = %@", "name", person.name)
-        let query = CKQuery(recordType: "Person", predicate: predicate)
-        database.perform(query, inZoneWith: nil) { records, error in
-            guard let records = records, error == nil else { return }
-            // 删除记录
-            self.database.delete(withRecordID: records.first!.recordID) { _, error in
-                if error == nil {
-                    print("deleted")
-
-                    self.query()
-                } else {
-                    print(error.debugDescription)
-                }
+        // 删除记录
+        database.delete(withRecordID: person.recordID) { _, error in
+            if error != nil {
+                print(error.debugDescription)
+            } else {
+                print("deleted")
+                self.query()
             }
         }
     }
@@ -95,7 +85,7 @@ class ViewModel: ObservableObject {
                     $0.creationDate! < $1.creationDate!
                 }
                 self.person = sortedRecords.compactMap { record in
-                    Person(name: record.value(forKey: "name") as! String, age: record.value(forKey: "age") as! String, sex: record.value(forKey: "sex") as! String)
+                    Person(recordID: record.recordID, name: record.value(forKey: "name") as! String, age: record.value(forKey: "age") as! String, sex: record.value(forKey: "sex") as! String)
                 }
             }
         }
@@ -108,6 +98,7 @@ struct ContentView: View {
     @State private var age = "10"
     @State private var sex = "男"
     @State private var type = true
+    @State private var updateRecordID: CKRecord.ID!
 
     var body: some View {
         HStack {
@@ -122,18 +113,15 @@ struct ContentView: View {
                 .textFieldStyle(.roundedBorder)
 
             Button(type ? "保存" : "更新") {
-                let p = Person(name: name, age: age, sex: sex)
-
                 if type {
+                    let recordID = CKRecord.ID(recordName: UUID().uuidString)
+                    let p = Person(recordID: recordID, name: name, age: age, sex: sex)
                     viewModel.add(person: p)
                 } else {
+                    let p = Person(recordID: updateRecordID, name: name, age: age, sex: sex)
                     viewModel.update(person: p)
                     type = true
                 }
-
-                name = ""
-                age = ""
-                sex = "男"
             }
         }
         .padding()
@@ -152,12 +140,13 @@ struct ContentView: View {
                 .swipeActions(edge: .trailing, allowsFullSwipe: true) {
                     Button("删除", role: .destructive) {
                         viewModel.person.removeAll { person in
-                            p.name == person.name
+                            p.recordID == person.recordID
                         }
                         viewModel.delete(person: p)
                     }
 
                     Button("更新") {
+                        updateRecordID = p.recordID
                         name = p.name
                         age = p.age
                         sex = p.sex
@@ -181,4 +170,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
