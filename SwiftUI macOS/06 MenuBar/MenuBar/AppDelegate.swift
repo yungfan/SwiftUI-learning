@@ -39,13 +39,11 @@ private final class MacExtrasConfigurator: NSObject {
 
             // 第一个菜单，打开窗口
             let first = NSMenuItem(title: "Open", action: #selector(openClicked), keyEquivalent: "o")
-            first.title = "Open Window"
             first.target = self
             mainMenu.addItem(first)
 
             // 第二个菜单，关闭App
             let second = NSMenuItem(title: "Quit", action: #selector(quitClicked), keyEquivalent: "q")
-            second.title = "Exit"
             second.target = self
             mainMenu.addItem(second)
             // 设置菜单

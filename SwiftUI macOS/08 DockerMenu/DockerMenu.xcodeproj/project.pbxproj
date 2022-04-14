@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF04E69280838BF003E5151 /* DockerMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF04E68280838BF003E5151 /* DockerMenuApp.swift */; };
+		3CF04E6B280838BF003E5151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF04E6A280838BF003E5151 /* ContentView.swift */; };
+		3CF04E6D280838C1003E5151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF04E6C280838C1003E5151 /* Assets.xcassets */; };
+		3CF04E70280838C1003E5151 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF04E6F280838C1003E5151 /* Preview Assets.xcassets */; };
+		3CF04E7B280838C1003E5151 /* DockerMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF04E7A280838C1003E5151 /* DockerMenuTests.swift */; };
+		3CF04E85280838C1003E5151 /* DockerMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF04E84280838C1003E5151 /* DockerMenuUITests.swift */; };
+		3CF04E87280838C1003E5151 /* DockerMenuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF04E86280838C1003E5151 /* DockerMenuUITestsLaunchTests.swift */; };
+		3CF04E94280838F6003E5151 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF04E93280838F6003E5151 /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF04E77280838C1003E5151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF04E5D280838BF003E5151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF04E64280838BF003E5151;
+			remoteInfo = DockerMenu;
+		};
+		3CF04E81280838C1003E5151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF04E5D280838BF003E5151 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF04E64280838BF003E5151;
+			remoteInfo = DockerMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CF04E65280838BF003E5151 /* DockerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF04E68280838BF003E5151 /* DockerMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerMenuApp.swift; sourceTree = "<group>"; };
+		3CF04E6A280838BF003E5151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CF04E6C280838C1003E5151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CF04E6F280838C1003E5151 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CF04E71280838C1003E5151 /* DockerMenu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DockerMenu.entitlements; sourceTree = "<group>"; };
+		3CF04E76280838C1003E5151 /* DockerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DockerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF04E7A280838C1003E5151 /* DockerMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerMenuTests.swift; sourceTree = "<group>"; };
+		3CF04E80280838C1003E5151 /* DockerMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DockerMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF04E84280838C1003E5151 /* DockerMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerMenuUITests.swift; sourceTree = "<group>"; };
+		3CF04E86280838C1003E5151 /* DockerMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CF04E93280838F6003E5151 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF04E62280838BF003E5151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF04E73280838C1003E5151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF04E7D280838C1003E5151 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF04E5C280838BF003E5151 = {
+			isa = PBXGroup;
+			children = (
+				3CF04E67280838BF003E5151 /* DockerMenu */,
+				3CF04E79280838C1003E5151 /* DockerMenuTests */,
+				3CF04E83280838C1003E5151 /* DockerMenuUITests */,
+				3CF04E66280838BF003E5151 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF04E66280838BF003E5151 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF04E65280838BF003E5151 /* DockerMenu.app */,
+				3CF04E76280838C1003E5151 /* DockerMenuTests.xctest */,
+				3CF04E80280838C1003E5151 /* DockerMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF04E67280838BF003E5151 /* DockerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3CF04E68280838BF003E5151 /* DockerMenuApp.swift */,
+				3CF04E6A280838BF003E5151 /* ContentView.swift */,
+				3CF04E93280838F6003E5151 /* AppDelegate.swift */,
+				3CF04E6C280838C1003E5151 /* Assets.xcassets */,
+				3CF04E71280838C1003E5151 /* DockerMenu.entitlements */,
+				3CF04E6E280838C1003E5151 /* Preview Content */,
+			);
+			path = DockerMenu;
+			sourceTree = "<group>";
+		};
+		3CF04E6E280838C1003E5151 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CF04E6F280838C1003E5151 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CF04E79280838C1003E5151 /* DockerMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF04E7A280838C1003E5151 /* DockerMenuTests.swift */,
+			);
+			path = DockerMenuTests;
+			sourceTree = "<group>";
+		};
+		3CF04E83280838C1003E5151 /* DockerMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF04E84280838C1003E5151 /* DockerMenuUITests.swift */,
+				3CF04E86280838C1003E5151 /* DockerMenuUITestsLaunchTests.swift */,
+			);
+			path = DockerMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF04E64280838BF003E5151 /* DockerMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF04E8A280838C1003E5151 /* Build configuration list for PBXNativeTarget "DockerMenu" */;
+			buildPhases = (
+				3CF04E61280838BF003E5151 /* Sources */,
+				3CF04E62280838BF003E5151 /* Frameworks */,
+				3CF04E63280838BF003E5151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DockerMenu;
+			productName = DockerMenu;
+			productReference = 3CF04E65280838BF003E5151 /* DockerMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF04E75280838C1003E5151 /* DockerMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF04E8D280838C1003E5151 /* Build configuration list for PBXNativeTarget "DockerMenuTests" */;
+			buildPhases = (
+				3CF04E72280838C1003E5151 /* Sources */,
+				3CF04E73280838C1003E5151 /* Frameworks */,
+				3CF04E74280838C1003E5151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF04E78280838C1003E5151 /* PBXTargetDependency */,
+			);
+			name = DockerMenuTests;
+			productName = DockerMenuTests;
+			productReference = 3CF04E76280838C1003E5151 /* DockerMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CF04E7F280838C1003E5151 /* DockerMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF04E90280838C1003E5151 /* Build configuration list for PBXNativeTarget "DockerMenuUITests" */;
+			buildPhases = (
+				3CF04E7C280838C1003E5151 /* Sources */,
+				3CF04E7D280838C1003E5151 /* Frameworks */,
+				3CF04E7E280838C1003E5151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF04E82280838C1003E5151 /* PBXTargetDependency */,
+			);
+			name = DockerMenuUITests;
+			productName = DockerMenuUITests;
+			productReference = 3CF04E80280838C1003E5151 /* DockerMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF04E5D280838BF003E5151 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3CF04E64280838BF003E5151 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3CF04E75280838C1003E5151 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3CF04E64280838BF003E5151;
+					};
+					3CF04E7F280838C1003E5151 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3CF04E64280838BF003E5151;
+					};
+				};
+			};
+			buildConfigurationList = 3CF04E60280838BF003E5151 /* Build configuration list for PBXProject "DockerMenu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF04E5C280838BF003E5151;
+			productRefGroup = 3CF04E66280838BF003E5151 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF04E64280838BF003E5151 /* DockerMenu */,
+				3CF04E75280838C1003E5151 /* DockerMenuTests */,
+				3CF04E7F280838C1003E5151 /* DockerMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF04E63280838BF003E5151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF04E70280838C1003E5151 /* Preview Assets.xcassets in Resources */,
+				3CF04E6D280838C1003E5151 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF04E74280838C1003E5151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF04E7E280838C1003E5151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF04E61280838BF003E5151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF04E94280838F6003E5151 /* AppDelegate.swift in Sources */,
+				3CF04E6B280838BF003E5151 /* ContentView.swift in Sources */,
+				3CF04E69280838BF003E5151 /* DockerMenuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF04E72280838C1003E5151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF04E7B280838C1003E5151 /* DockerMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF04E7C280838C1003E5151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF04E85280838C1003E5151 /* DockerMenuUITests.swift in Sources */,
+				3CF04E87280838C1003E5151 /* DockerMenuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF04E78280838C1003E5151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF04E64280838BF003E5151 /* DockerMenu */;
+			targetProxy = 3CF04E77280838C1003E5151 /* PBXContainerItemProxy */;
+		};
+		3CF04E82280838C1003E5151 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF04E64280838BF003E5151 /* DockerMenu */;
+			targetProxy = 3CF04E81280838C1003E5151 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CF04E88280838C1003E5151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CF04E89280838C1003E5151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3CF04E8B280838C1003E5151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DockerMenu/DockerMenu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DockerMenu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.DockerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3CF04E8C280838C1003E5151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DockerMenu/DockerMenu.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DockerMenu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.DockerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3CF04E8E280838C1003E5151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.DockerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DockerMenu.app/Contents/MacOS/DockerMenu";
+			};
+			name = Debug;
+		};
+		3CF04E8F280838C1003E5151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.DockerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DockerMenu.app/Contents/MacOS/DockerMenu";
+			};
+			name = Release;
+		};
+		3CF04E91280838C1003E5151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.DockerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DockerMenu;
+			};
+			name = Debug;
+		};
+		3CF04E92280838C1003E5151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.DockerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DockerMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF04E60280838BF003E5151 /* Build configuration list for PBXProject "DockerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF04E88280838C1003E5151 /* Debug */,
+				3CF04E89280838C1003E5151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF04E8A280838C1003E5151 /* Build configuration list for PBXNativeTarget "DockerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF04E8B280838C1003E5151 /* Debug */,
+				3CF04E8C280838C1003E5151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF04E8D280838C1003E5151 /* Build configuration list for PBXNativeTarget "DockerMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF04E8E280838C1003E5151 /* Debug */,
+				3CF04E8F280838C1003E5151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF04E90280838C1003E5151 /* Build configuration list for PBXNativeTarget "DockerMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF04E91280838C1003E5151 /* Debug */,
+				3CF04E92280838C1003E5151 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF04E5D280838BF003E5151 /* Project object */;
+}
