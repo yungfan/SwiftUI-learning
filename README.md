@@ -5,6 +5,7 @@
 #### 2020.03.06 — SwiftUI — 开发环境：macOS 10.15.3 + Xcode 11.3.1 + iOS 13.3
 #### 2020.09.23 — SwiftUI 2.0 — 开发环境：macOS 10.15.6 + Xcode 12 + iOS 14
 #### 2021.10.14 — SwiftUI 3.0 — 开发环境：macOS 11.6 + Xcode 13 + iOS 15
+#### 2022.04.14 — SwiftUI macOS — 开发环境：macOS 12.3.1 + Xcode 13.3.1 + iOS 15
 
 ## 视频教程
 ### [SwiftUI 视频教程地址](https://ke.qq.com/course/455801)
