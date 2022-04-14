@@ -28,7 +28,7 @@ struct ContentView: View {
     @State private var sortOrder = [KeyPathComparator(\Student.age)]
 
     var body: some View {
-        // 可选中可排序
+        // 可选中，可排序
         Table(students, selection: $selectedStudent, sortOrder: $sortOrder) {
             TableColumn("姓名", value: \.name)
             TableColumn("性别", value: \.sex)
@@ -36,7 +36,7 @@ struct ContentView: View {
             TableColumn("班级", value: \.stuClass)
         }
         .onChange(of: sortOrder) {
-            students.sort(using: $0)
+            students.sort(using: $0) // 排序
         }
     }
 }
