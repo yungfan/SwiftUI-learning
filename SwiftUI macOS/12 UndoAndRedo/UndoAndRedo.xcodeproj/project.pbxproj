@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C8ACFF0280961420071B9FC /* UndoAndRedoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8ACFEF280961420071B9FC /* UndoAndRedoApp.swift */; };
+		3C8ACFF2280961420071B9FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8ACFF1280961420071B9FC /* ContentView.swift */; };
+		3C8ACFF4280961440071B9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8ACFF3280961440071B9FC /* Assets.xcassets */; };
+		3C8ACFF7280961440071B9FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8ACFF6280961440071B9FC /* Preview Assets.xcassets */; };
+		3C8AD002280961440071B9FC /* UndoAndRedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8AD001280961440071B9FC /* UndoAndRedoTests.swift */; };
+		3C8AD00C280961440071B9FC /* UndoAndRedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8AD00B280961440071B9FC /* UndoAndRedoUITests.swift */; };
+		3C8AD00E280961440071B9FC /* UndoAndRedoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8AD00D280961440071B9FC /* UndoAndRedoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C8ACFFE280961440071B9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8ACFE4280961420071B9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8ACFEB280961420071B9FC;
+			remoteInfo = UndoAndRedo;
+		};
+		3C8AD008280961440071B9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8ACFE4280961420071B9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8ACFEB280961420071B9FC;
+			remoteInfo = UndoAndRedo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C8ACFEC280961420071B9FC /* UndoAndRedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UndoAndRedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8ACFEF280961420071B9FC /* UndoAndRedoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoAndRedoApp.swift; sourceTree = "<group>"; };
+		3C8ACFF1280961420071B9FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C8ACFF3280961440071B9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C8ACFF6280961440071B9FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C8ACFF8280961440071B9FC /* UndoAndRedo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UndoAndRedo.entitlements; sourceTree = "<group>"; };
+		3C8ACFFD280961440071B9FC /* UndoAndRedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndoAndRedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8AD001280961440071B9FC /* UndoAndRedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoAndRedoTests.swift; sourceTree = "<group>"; };
+		3C8AD007280961440071B9FC /* UndoAndRedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UndoAndRedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8AD00B280961440071B9FC /* UndoAndRedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoAndRedoUITests.swift; sourceTree = "<group>"; };
+		3C8AD00D280961440071B9FC /* UndoAndRedoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoAndRedoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8ACFE9280961420071B9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8ACFFA280961440071B9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8AD004280961440071B9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C8ACFE3280961420071B9FC = {
+			isa = PBXGroup;
+			children = (
+				3C8ACFEE280961420071B9FC /* UndoAndRedo */,
+				3C8AD000280961440071B9FC /* UndoAndRedoTests */,
+				3C8AD00A280961440071B9FC /* UndoAndRedoUITests */,
+				3C8ACFED280961420071B9FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C8ACFED280961420071B9FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ACFEC280961420071B9FC /* UndoAndRedo.app */,
+				3C8ACFFD280961440071B9FC /* UndoAndRedoTests.xctest */,
+				3C8AD007280961440071B9FC /* UndoAndRedoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C8ACFEE280961420071B9FC /* UndoAndRedo */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ACFEF280961420071B9FC /* UndoAndRedoApp.swift */,
+				3C8ACFF1280961420071B9FC /* ContentView.swift */,
+				3C8ACFF3280961440071B9FC /* Assets.xcassets */,
+				3C8ACFF8280961440071B9FC /* UndoAndRedo.entitlements */,
+				3C8ACFF5280961440071B9FC /* Preview Content */,
+			);
+			path = UndoAndRedo;
+			sourceTree = "<group>";
+		};
+		3C8ACFF5280961440071B9FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C8ACFF6280961440071B9FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C8AD000280961440071B9FC /* UndoAndRedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C8AD001280961440071B9FC /* UndoAndRedoTests.swift */,
+			);
+			path = UndoAndRedoTests;
+			sourceTree = "<group>";
+		};
+		3C8AD00A280961440071B9FC /* UndoAndRedoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C8AD00B280961440071B9FC /* UndoAndRedoUITests.swift */,
+				3C8AD00D280961440071B9FC /* UndoAndRedoUITestsLaunchTests.swift */,
+			);
+			path = UndoAndRedoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C8ACFEB280961420071B9FC /* UndoAndRedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8AD011280961440071B9FC /* Build configuration list for PBXNativeTarget "UndoAndRedo" */;
+			buildPhases = (
+				3C8ACFE8280961420071B9FC /* Sources */,
+				3C8ACFE9280961420071B9FC /* Frameworks */,
+				3C8ACFEA280961420071B9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UndoAndRedo;
+			productName = UndoAndRedo;
+			productReference = 3C8ACFEC280961420071B9FC /* UndoAndRedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C8ACFFC280961440071B9FC /* UndoAndRedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8AD014280961440071B9FC /* Build configuration list for PBXNativeTarget "UndoAndRedoTests" */;
+			buildPhases = (
+				3C8ACFF9280961440071B9FC /* Sources */,
+				3C8ACFFA280961440071B9FC /* Frameworks */,
+				3C8ACFFB280961440071B9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8ACFFF280961440071B9FC /* PBXTargetDependency */,
+			);
+			name = UndoAndRedoTests;
+			productName = UndoAndRedoTests;
+			productReference = 3C8ACFFD280961440071B9FC /* UndoAndRedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C8AD006280961440071B9FC /* UndoAndRedoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8AD017280961440071B9FC /* Build configuration list for PBXNativeTarget "UndoAndRedoUITests" */;
+			buildPhases = (
+				3C8AD003280961440071B9FC /* Sources */,
+				3C8AD004280961440071B9FC /* Frameworks */,
+				3C8AD005280961440071B9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8AD009280961440071B9FC /* PBXTargetDependency */,
+			);
+			name = UndoAndRedoUITests;
+			productName = UndoAndRedoUITests;
+			productReference = 3C8AD007280961440071B9FC /* UndoAndRedoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C8ACFE4280961420071B9FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3C8ACFEB280961420071B9FC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3C8ACFFC280961440071B9FC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C8ACFEB280961420071B9FC;
+					};
+					3C8AD006280961440071B9FC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C8ACFEB280961420071B9FC;
+					};
+				};
+			};
+			buildConfigurationList = 3C8ACFE7280961420071B9FC /* Build configuration list for PBXProject "UndoAndRedo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C8ACFE3280961420071B9FC;
+			productRefGroup = 3C8ACFED280961420071B9FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C8ACFEB280961420071B9FC /* UndoAndRedo */,
+				3C8ACFFC280961440071B9FC /* UndoAndRedoTests */,
+				3C8AD006280961440071B9FC /* UndoAndRedoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C8ACFEA280961420071B9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8ACFF7280961440071B9FC /* Preview Assets.xcassets in Resources */,
+				3C8ACFF4280961440071B9FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8ACFFB280961440071B9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8AD005280961440071B9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8ACFE8280961420071B9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8ACFF2280961420071B9FC /* ContentView.swift in Sources */,
+				3C8ACFF0280961420071B9FC /* UndoAndRedoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8ACFF9280961440071B9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8AD002280961440071B9FC /* UndoAndRedoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8AD003280961440071B9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8AD00E280961440071B9FC /* UndoAndRedoUITestsLaunchTests.swift in Sources */,
+				3C8AD00C280961440071B9FC /* UndoAndRedoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C8ACFFF280961440071B9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8ACFEB280961420071B9FC /* UndoAndRedo */;
+			targetProxy = 3C8ACFFE280961440071B9FC /* PBXContainerItemProxy */;
+		};
+		3C8AD009280961440071B9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8ACFEB280961420071B9FC /* UndoAndRedo */;
+			targetProxy = 3C8AD008280961440071B9FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C8AD00F280961440071B9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C8AD010280961440071B9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C8AD012280961440071B9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UndoAndRedo/UndoAndRedo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UndoAndRedo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.UndoAndRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3C8AD013280961440071B9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UndoAndRedo/UndoAndRedo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UndoAndRedo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.UndoAndRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3C8AD015280961440071B9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.UndoAndRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UndoAndRedo.app/Contents/MacOS/UndoAndRedo";
+			};
+			name = Debug;
+		};
+		3C8AD016280961440071B9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.UndoAndRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UndoAndRedo.app/Contents/MacOS/UndoAndRedo";
+			};
+			name = Release;
+		};
+		3C8AD018280961440071B9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.UndoAndRedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UndoAndRedo;
+			};
+			name = Debug;
+		};
+		3C8AD019280961440071B9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.UndoAndRedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UndoAndRedo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8ACFE7280961420071B9FC /* Build configuration list for PBXProject "UndoAndRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8AD00F280961440071B9FC /* Debug */,
+				3C8AD010280961440071B9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8AD011280961440071B9FC /* Build configuration list for PBXNativeTarget "UndoAndRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8AD012280961440071B9FC /* Debug */,
+				3C8AD013280961440071B9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8AD014280961440071B9FC /* Build configuration list for PBXNativeTarget "UndoAndRedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8AD015280961440071B9FC /* Debug */,
+				3C8AD016280961440071B9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8AD017280961440071B9FC /* Build configuration list for PBXNativeTarget "UndoAndRedoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8AD018280961440071B9FC /* Debug */,
+				3C8AD019280961440071B9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C8ACFE4280961420071B9FC /* Project object */;
+}
