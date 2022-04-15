@@ -25,7 +25,7 @@ struct ContentView: View {
                     })
                 }
             }
-            .navigationTitle("WindowGroup")
+            .navigationTitle("Sidebar")
         }
         .frame(minWidth: 700,
                idealWidth: 1000,

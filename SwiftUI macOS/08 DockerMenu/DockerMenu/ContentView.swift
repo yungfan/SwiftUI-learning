@@ -18,7 +18,7 @@ struct ContentView: View {
 
                 Text("主界面")
             }
-            .navigationTitle("Preferences")
+            .navigationTitle("DockerMenu")
         }
         .frame(minWidth: 700,
                idealWidth: 1000,
