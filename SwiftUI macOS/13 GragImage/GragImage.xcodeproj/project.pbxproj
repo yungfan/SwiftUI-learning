@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAD7046280AAF2C005C3B3D /* GragImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD7045280AAF2C005C3B3D /* GragImageApp.swift */; };
+		3CAD7048280AAF2C005C3B3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD7047280AAF2C005C3B3D /* ContentView.swift */; };
+		3CAD704A280AAF2E005C3B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAD7049280AAF2E005C3B3D /* Assets.xcassets */; };
+		3CAD704D280AAF2E005C3B3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAD704C280AAF2E005C3B3D /* Preview Assets.xcassets */; };
+		3CAD7058280AAF2E005C3B3D /* GragImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD7057280AAF2E005C3B3D /* GragImageTests.swift */; };
+		3CAD7062280AAF2E005C3B3D /* GragImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD7061280AAF2E005C3B3D /* GragImageUITests.swift */; };
+		3CAD7064280AAF2E005C3B3D /* GragImageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAD7063280AAF2E005C3B3D /* GragImageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CAD7054280AAF2E005C3B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAD703A280AAF2C005C3B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAD7041280AAF2C005C3B3D;
+			remoteInfo = GragImage;
+		};
+		3CAD705E280AAF2E005C3B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAD703A280AAF2C005C3B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAD7041280AAF2C005C3B3D;
+			remoteInfo = GragImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CAD7042280AAF2C005C3B3D /* GragImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GragImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAD7045280AAF2C005C3B3D /* GragImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GragImageApp.swift; sourceTree = "<group>"; };
+		3CAD7047280AAF2C005C3B3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CAD7049280AAF2E005C3B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CAD704C280AAF2E005C3B3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CAD704E280AAF2E005C3B3D /* GragImage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GragImage.entitlements; sourceTree = "<group>"; };
+		3CAD7053280AAF2E005C3B3D /* GragImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GragImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAD7057280AAF2E005C3B3D /* GragImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GragImageTests.swift; sourceTree = "<group>"; };
+		3CAD705D280AAF2E005C3B3D /* GragImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GragImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAD7061280AAF2E005C3B3D /* GragImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GragImageUITests.swift; sourceTree = "<group>"; };
+		3CAD7063280AAF2E005C3B3D /* GragImageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GragImageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAD703F280AAF2C005C3B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD7050280AAF2E005C3B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD705A280AAF2E005C3B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAD7039280AAF2C005C3B3D = {
+			isa = PBXGroup;
+			children = (
+				3CAD7044280AAF2C005C3B3D /* GragImage */,
+				3CAD7056280AAF2E005C3B3D /* GragImageTests */,
+				3CAD7060280AAF2E005C3B3D /* GragImageUITests */,
+				3CAD7043280AAF2C005C3B3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAD7043280AAF2C005C3B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD7042280AAF2C005C3B3D /* GragImage.app */,
+				3CAD7053280AAF2E005C3B3D /* GragImageTests.xctest */,
+				3CAD705D280AAF2E005C3B3D /* GragImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAD7044280AAF2C005C3B3D /* GragImage */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD7045280AAF2C005C3B3D /* GragImageApp.swift */,
+				3CAD7047280AAF2C005C3B3D /* ContentView.swift */,
+				3CAD7049280AAF2E005C3B3D /* Assets.xcassets */,
+				3CAD704E280AAF2E005C3B3D /* GragImage.entitlements */,
+				3CAD704B280AAF2E005C3B3D /* Preview Content */,
+			);
+			path = GragImage;
+			sourceTree = "<group>";
+		};
+		3CAD704B280AAF2E005C3B3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD704C280AAF2E005C3B3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CAD7056280AAF2E005C3B3D /* GragImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD7057280AAF2E005C3B3D /* GragImageTests.swift */,
+			);
+			path = GragImageTests;
+			sourceTree = "<group>";
+		};
+		3CAD7060280AAF2E005C3B3D /* GragImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAD7061280AAF2E005C3B3D /* GragImageUITests.swift */,
+				3CAD7063280AAF2E005C3B3D /* GragImageUITestsLaunchTests.swift */,
+			);
+			path = GragImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAD7041280AAF2C005C3B3D /* GragImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAD7067280AAF2E005C3B3D /* Build configuration list for PBXNativeTarget "GragImage" */;
+			buildPhases = (
+				3CAD703E280AAF2C005C3B3D /* Sources */,
+				3CAD703F280AAF2C005C3B3D /* Frameworks */,
+				3CAD7040280AAF2C005C3B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GragImage;
+			productName = GragImage;
+			productReference = 3CAD7042280AAF2C005C3B3D /* GragImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CAD7052280AAF2E005C3B3D /* GragImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAD706A280AAF2E005C3B3D /* Build configuration list for PBXNativeTarget "GragImageTests" */;
+			buildPhases = (
+				3CAD704F280AAF2E005C3B3D /* Sources */,
+				3CAD7050280AAF2E005C3B3D /* Frameworks */,
+				3CAD7051280AAF2E005C3B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAD7055280AAF2E005C3B3D /* PBXTargetDependency */,
+			);
+			name = GragImageTests;
+			productName = GragImageTests;
+			productReference = 3CAD7053280AAF2E005C3B3D /* GragImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CAD705C280AAF2E005C3B3D /* GragImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAD706D280AAF2E005C3B3D /* Build configuration list for PBXNativeTarget "GragImageUITests" */;
+			buildPhases = (
+				3CAD7059280AAF2E005C3B3D /* Sources */,
+				3CAD705A280AAF2E005C3B3D /* Frameworks */,
+				3CAD705B280AAF2E005C3B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAD705F280AAF2E005C3B3D /* PBXTargetDependency */,
+			);
+			name = GragImageUITests;
+			productName = GragImageUITests;
+			productReference = 3CAD705D280AAF2E005C3B3D /* GragImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAD703A280AAF2C005C3B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3CAD7041280AAF2C005C3B3D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3CAD7052280AAF2E005C3B3D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3CAD7041280AAF2C005C3B3D;
+					};
+					3CAD705C280AAF2E005C3B3D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3CAD7041280AAF2C005C3B3D;
+					};
+				};
+			};
+			buildConfigurationList = 3CAD703D280AAF2C005C3B3D /* Build configuration list for PBXProject "GragImage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CAD7039280AAF2C005C3B3D;
+			productRefGroup = 3CAD7043280AAF2C005C3B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAD7041280AAF2C005C3B3D /* GragImage */,
+				3CAD7052280AAF2E005C3B3D /* GragImageTests */,
+				3CAD705C280AAF2E005C3B3D /* GragImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CAD7040280AAF2C005C3B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD704D280AAF2E005C3B3D /* Preview Assets.xcassets in Resources */,
+				3CAD704A280AAF2E005C3B3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD7051280AAF2E005C3B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD705B280AAF2E005C3B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAD703E280AAF2C005C3B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD7048280AAF2C005C3B3D /* ContentView.swift in Sources */,
+				3CAD7046280AAF2C005C3B3D /* GragImageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD704F280AAF2E005C3B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD7058280AAF2E005C3B3D /* GragImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAD7059280AAF2E005C3B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAD7062280AAF2E005C3B3D /* GragImageUITests.swift in Sources */,
+				3CAD7064280AAF2E005C3B3D /* GragImageUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CAD7055280AAF2E005C3B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAD7041280AAF2C005C3B3D /* GragImage */;
+			targetProxy = 3CAD7054280AAF2E005C3B3D /* PBXContainerItemProxy */;
+		};
+		3CAD705F280AAF2E005C3B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAD7041280AAF2C005C3B3D /* GragImage */;
+			targetProxy = 3CAD705E280AAF2E005C3B3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CAD7065280AAF2E005C3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CAD7066280AAF2E005C3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3CAD7068280AAF2E005C3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GragImage/GragImage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GragImage/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.GragImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3CAD7069280AAF2E005C3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GragImage/GragImage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GragImage/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.GragImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3CAD706B280AAF2E005C3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.GragImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GragImage.app/Contents/MacOS/GragImage";
+			};
+			name = Debug;
+		};
+		3CAD706C280AAF2E005C3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.GragImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GragImage.app/Contents/MacOS/GragImage";
+			};
+			name = Release;
+		};
+		3CAD706E280AAF2E005C3B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.GragImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GragImage;
+			};
+			name = Debug;
+		};
+		3CAD706F280AAF2E005C3B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.GragImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GragImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAD703D280AAF2C005C3B3D /* Build configuration list for PBXProject "GragImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD7065280AAF2E005C3B3D /* Debug */,
+				3CAD7066280AAF2E005C3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAD7067280AAF2E005C3B3D /* Build configuration list for PBXNativeTarget "GragImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD7068280AAF2E005C3B3D /* Debug */,
+				3CAD7069280AAF2E005C3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAD706A280AAF2E005C3B3D /* Build configuration list for PBXNativeTarget "GragImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD706B280AAF2E005C3B3D /* Debug */,
+				3CAD706C280AAF2E005C3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAD706D280AAF2E005C3B3D /* Build configuration list for PBXNativeTarget "GragImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD706E280AAF2E005C3B3D /* Debug */,
+				3CAD706F280AAF2E005C3B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CAD703A280AAF2C005C3B3D /* Project object */;
+}
