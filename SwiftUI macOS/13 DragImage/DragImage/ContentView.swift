@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  GragImage
+//  DragImage
 //
 //  Created by 杨帆 on 2022/4/16.
 //
@@ -64,3 +64,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

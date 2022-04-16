@@ -1,13 +1,13 @@
 //
-//  GragImageUITestsLaunchTests.swift
-//  GragImageUITests
+//  DragImageUITestsLaunchTests.swift
+//  DragImageUITests
 //
 //  Created by 杨帆 on 2022/4/16.
 //
 
 import XCTest
 
-class GragImageUITestsLaunchTests: XCTestCase {
+class DragImageUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
