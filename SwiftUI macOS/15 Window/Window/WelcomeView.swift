@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    let screenSize = NSScreen.main?.frame.size ?? CGSize(width: 800, height: 600) // 全屏显示
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -20,11 +22,6 @@ struct WelcomeView: View {
             Text("Hello, world!")
                 .padding()
         }
-        .frame(minWidth: 700,
-               idealWidth: 1000,
-               maxWidth: .infinity,
-               minHeight: 400,
-               idealHeight: 800,
-               maxHeight: .infinity)
+        .frame(width: screenSize.width, height: screenSize.height)
     }
 }
