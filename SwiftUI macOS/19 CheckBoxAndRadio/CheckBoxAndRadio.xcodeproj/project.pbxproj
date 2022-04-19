@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0176EB280EC32200589BF6 /* CheckBoxAndRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0176EA280EC32200589BF6 /* CheckBoxAndRadioApp.swift */; };
+		3C0176ED280EC32200589BF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0176EC280EC32200589BF6 /* ContentView.swift */; };
+		3C0176EF280EC32300589BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0176EE280EC32300589BF6 /* Assets.xcassets */; };
+		3C0176F2280EC32300589BF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0176F1280EC32300589BF6 /* Preview Assets.xcassets */; };
+		3C0176FD280EC32400589BF6 /* CheckBoxAndRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0176FC280EC32400589BF6 /* CheckBoxAndRadioTests.swift */; };
+		3C017707280EC32400589BF6 /* CheckBoxAndRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C017706280EC32400589BF6 /* CheckBoxAndRadioUITests.swift */; };
+		3C017709280EC32400589BF6 /* CheckBoxAndRadioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C017708280EC32400589BF6 /* CheckBoxAndRadioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C0176F9280EC32400589BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0176DF280EC32200589BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0176E6280EC32200589BF6;
+			remoteInfo = CheckBoxAndRadio;
+		};
+		3C017703280EC32400589BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0176DF280EC32200589BF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0176E6280EC32200589BF6;
+			remoteInfo = CheckBoxAndRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C0176E7280EC32200589BF6 /* CheckBoxAndRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBoxAndRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0176EA280EC32200589BF6 /* CheckBoxAndRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxAndRadioApp.swift; sourceTree = "<group>"; };
+		3C0176EC280EC32200589BF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C0176EE280EC32300589BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C0176F1280EC32300589BF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C0176F3280EC32300589BF6 /* CheckBoxAndRadio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CheckBoxAndRadio.entitlements; sourceTree = "<group>"; };
+		3C0176F8280EC32400589BF6 /* CheckBoxAndRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxAndRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0176FC280EC32400589BF6 /* CheckBoxAndRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxAndRadioTests.swift; sourceTree = "<group>"; };
+		3C017702280EC32400589BF6 /* CheckBoxAndRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxAndRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C017706280EC32400589BF6 /* CheckBoxAndRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxAndRadioUITests.swift; sourceTree = "<group>"; };
+		3C017708280EC32400589BF6 /* CheckBoxAndRadioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxAndRadioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C0176E4280EC32200589BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0176F5280EC32400589BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0176FF280EC32400589BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0176DE280EC32200589BF6 = {
+			isa = PBXGroup;
+			children = (
+				3C0176E9280EC32200589BF6 /* CheckBoxAndRadio */,
+				3C0176FB280EC32400589BF6 /* CheckBoxAndRadioTests */,
+				3C017705280EC32400589BF6 /* CheckBoxAndRadioUITests */,
+				3C0176E8280EC32200589BF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C0176E8280EC32200589BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C0176E7280EC32200589BF6 /* CheckBoxAndRadio.app */,
+				3C0176F8280EC32400589BF6 /* CheckBoxAndRadioTests.xctest */,
+				3C017702280EC32400589BF6 /* CheckBoxAndRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C0176E9280EC32200589BF6 /* CheckBoxAndRadio */ = {
+			isa = PBXGroup;
+			children = (
+				3C0176EA280EC32200589BF6 /* CheckBoxAndRadioApp.swift */,
+				3C0176EC280EC32200589BF6 /* ContentView.swift */,
+				3C0176EE280EC32300589BF6 /* Assets.xcassets */,
+				3C0176F3280EC32300589BF6 /* CheckBoxAndRadio.entitlements */,
+				3C0176F0280EC32300589BF6 /* Preview Content */,
+			);
+			path = CheckBoxAndRadio;
+			sourceTree = "<group>";
+		};
+		3C0176F0280EC32300589BF6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C0176F1280EC32300589BF6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C0176FB280EC32400589BF6 /* CheckBoxAndRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C0176FC280EC32400589BF6 /* CheckBoxAndRadioTests.swift */,
+			);
+			path = CheckBoxAndRadioTests;
+			sourceTree = "<group>";
+		};
+		3C017705280EC32400589BF6 /* CheckBoxAndRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C017706280EC32400589BF6 /* CheckBoxAndRadioUITests.swift */,
+				3C017708280EC32400589BF6 /* CheckBoxAndRadioUITestsLaunchTests.swift */,
+			);
+			path = CheckBoxAndRadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C0176E6280EC32200589BF6 /* CheckBoxAndRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C01770C280EC32400589BF6 /* Build configuration list for PBXNativeTarget "CheckBoxAndRadio" */;
+			buildPhases = (
+				3C0176E3280EC32200589BF6 /* Sources */,
+				3C0176E4280EC32200589BF6 /* Frameworks */,
+				3C0176E5280EC32200589BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckBoxAndRadio;
+			productName = CheckBoxAndRadio;
+			productReference = 3C0176E7280EC32200589BF6 /* CheckBoxAndRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C0176F7280EC32400589BF6 /* CheckBoxAndRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C01770F280EC32400589BF6 /* Build configuration list for PBXNativeTarget "CheckBoxAndRadioTests" */;
+			buildPhases = (
+				3C0176F4280EC32400589BF6 /* Sources */,
+				3C0176F5280EC32400589BF6 /* Frameworks */,
+				3C0176F6280EC32400589BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C0176FA280EC32400589BF6 /* PBXTargetDependency */,
+			);
+			name = CheckBoxAndRadioTests;
+			productName = CheckBoxAndRadioTests;
+			productReference = 3C0176F8280EC32400589BF6 /* CheckBoxAndRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C017701280EC32400589BF6 /* CheckBoxAndRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C017712280EC32400589BF6 /* Build configuration list for PBXNativeTarget "CheckBoxAndRadioUITests" */;
+			buildPhases = (
+				3C0176FE280EC32400589BF6 /* Sources */,
+				3C0176FF280EC32400589BF6 /* Frameworks */,
+				3C017700280EC32400589BF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C017704280EC32400589BF6 /* PBXTargetDependency */,
+			);
+			name = CheckBoxAndRadioUITests;
+			productName = CheckBoxAndRadioUITests;
+			productReference = 3C017702280EC32400589BF6 /* CheckBoxAndRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C0176DF280EC32200589BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3C0176E6280EC32200589BF6 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3C0176F7280EC32400589BF6 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C0176E6280EC32200589BF6;
+					};
+					3C017701280EC32400589BF6 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3C0176E6280EC32200589BF6;
+					};
+				};
+			};
+			buildConfigurationList = 3C0176E2280EC32200589BF6 /* Build configuration list for PBXProject "CheckBoxAndRadio" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C0176DE280EC32200589BF6;
+			productRefGroup = 3C0176E8280EC32200589BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C0176E6280EC32200589BF6 /* CheckBoxAndRadio */,
+				3C0176F7280EC32400589BF6 /* CheckBoxAndRadioTests */,
+				3C017701280EC32400589BF6 /* CheckBoxAndRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C0176E5280EC32200589BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0176F2280EC32300589BF6 /* Preview Assets.xcassets in Resources */,
+				3C0176EF280EC32300589BF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0176F6280EC32400589BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C017700280EC32400589BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C0176E3280EC32200589BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0176ED280EC32200589BF6 /* ContentView.swift in Sources */,
+				3C0176EB280EC32200589BF6 /* CheckBoxAndRadioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0176F4280EC32400589BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0176FD280EC32400589BF6 /* CheckBoxAndRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0176FE280EC32400589BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C017707280EC32400589BF6 /* CheckBoxAndRadioUITests.swift in Sources */,
+				3C017709280EC32400589BF6 /* CheckBoxAndRadioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C0176FA280EC32400589BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C0176E6280EC32200589BF6 /* CheckBoxAndRadio */;
+			targetProxy = 3C0176F9280EC32400589BF6 /* PBXContainerItemProxy */;
+		};
+		3C017704280EC32400589BF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C0176E6280EC32200589BF6 /* CheckBoxAndRadio */;
+			targetProxy = 3C017703280EC32400589BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C01770A280EC32400589BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C01770B280EC32400589BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C01770D280EC32400589BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheckBoxAndRadio/CheckBoxAndRadio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckBoxAndRadio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.CheckBoxAndRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3C01770E280EC32400589BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CheckBoxAndRadio/CheckBoxAndRadio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckBoxAndRadio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.CheckBoxAndRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3C017710280EC32400589BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.CheckBoxAndRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckBoxAndRadio.app/Contents/MacOS/CheckBoxAndRadio";
+			};
+			name = Debug;
+		};
+		3C017711280EC32400589BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.CheckBoxAndRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckBoxAndRadio.app/Contents/MacOS/CheckBoxAndRadio";
+			};
+			name = Release;
+		};
+		3C017713280EC32400589BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.CheckBoxAndRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CheckBoxAndRadio;
+			};
+			name = Debug;
+		};
+		3C017714280EC32400589BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.yf.cn.CheckBoxAndRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CheckBoxAndRadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0176E2280EC32200589BF6 /* Build configuration list for PBXProject "CheckBoxAndRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C01770A280EC32400589BF6 /* Debug */,
+				3C01770B280EC32400589BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C01770C280EC32400589BF6 /* Build configuration list for PBXNativeTarget "CheckBoxAndRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C01770D280EC32400589BF6 /* Debug */,
+				3C01770E280EC32400589BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C01770F280EC32400589BF6 /* Build configuration list for PBXNativeTarget "CheckBoxAndRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C017710280EC32400589BF6 /* Debug */,
+				3C017711280EC32400589BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C017712280EC32400589BF6 /* Build configuration list for PBXNativeTarget "CheckBoxAndRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C017713280EC32400589BF6 /* Debug */,
+				3C017714280EC32400589BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C0176DF280EC32200589BF6 /* Project object */;
+}
