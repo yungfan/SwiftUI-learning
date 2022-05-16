@@ -14,7 +14,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         menuExtrasConfigurator = .init()
-        // 为了隐藏Dock栏的图标和窗口，还需要在Info.plist中设置Application is agent (UIElement)为true
     }
 }
 
@@ -51,10 +50,12 @@ private final class MacExtrasConfigurator: NSObject {
         }
     }
 
+    // 打开另外一个窗口
     @objc private func openClicked(_ sender: Any?) {
         openURL(URL(string: "MenuBar://myScene")!)
     }
 
+    // 退出App
     @objc private func quitClicked(_ sender: Any?) {
         // NSApp.terminate(self)
         NSApplication.shared.terminate(nil)

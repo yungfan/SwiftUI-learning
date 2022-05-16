@@ -12,13 +12,15 @@ struct MenuBarApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
 
     var body: some Scene {
+        // 默认主窗口
         WindowGroup {
-            EmptyView()
-                .frame(width: .zero)
+            ContentView()
+            // .frame(width: .zero)
         }
 
+        // 点击菜单栏打开一个新窗口
         WindowGroup("myScene") {
-            ContentView()
+            MenuView()
         }
         .handlesExternalEvents(matching: ["myScene"])
     }

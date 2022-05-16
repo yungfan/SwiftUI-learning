@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CE34F2628320A0100030D94 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE34F2528320A0100030D94 /* MenuView.swift */; };
 		3CF04E2F2807C3FD003E5151 /* MenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF04E2E2807C3FD003E5151 /* MenuBarApp.swift */; };
 		3CF04E312807C3FD003E5151 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF04E302807C3FD003E5151 /* ContentView.swift */; };
 		3CF04E332807C3FE003E5151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF04E322807C3FE003E5151 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CE34F2528320A0100030D94 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		3CF04E2B2807C3FD003E5151 /* MenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF04E2E2807C3FD003E5151 /* MenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarApp.swift; sourceTree = "<group>"; };
 		3CF04E302807C3FD003E5151 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				3CF04E5B2807C6C0003E5151 /* Info.plist */,
 				3CF04E2E2807C3FD003E5151 /* MenuBarApp.swift */,
 				3CF04E302807C3FD003E5151 /* ContentView.swift */,
+				3CE34F2528320A0100030D94 /* MenuView.swift */,
 				3CF04E592807C4F8003E5151 /* AppDelegate.swift */,
 				3CF04E322807C3FE003E5151 /* Assets.xcassets */,
 				3CF04E372807C3FE003E5151 /* MenuBar.entitlements */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF04E5A2807C4F8003E5151 /* AppDelegate.swift in Sources */,
+				3CE34F2628320A0100030D94 /* MenuView.swift in Sources */,
 				3CF04E312807C3FD003E5151 /* ContentView.swift in Sources */,
 				3CF04E2F2807C3FD003E5151 /* MenuBarApp.swift in Sources */,
 			);

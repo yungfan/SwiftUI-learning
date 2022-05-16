@@ -14,6 +14,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         menuExtrasConfigurator = .init()
+
+        // 窗口居中
+        NSApp.windows.first?.center()
+        // 一开始运行时Dock栏显示图标，通过手动方式显隐Dock栏图标，需要3步
         // 1. 设置代理
         NSApp.windows.first?.delegate = self
     }
@@ -55,7 +59,9 @@ private final class MacExtrasConfigurator: NSObject {
     @objc private func openClicked(_ sender: Any?) {
         // 3. 显示Dock栏的图标和窗口
         NSApplication.shared.setActivationPolicy(.regular)
-        NSApp.windows.first?.makeKeyAndOrderFront(nil)
+        NSApp.windows.first?.center()
+        // 窗口置于最前
+        NSApp.activate(ignoringOtherApps: true)
     }
 
     @objc private func quitClicked(_ sender: Any?) {
@@ -65,7 +71,7 @@ private final class MacExtrasConfigurator: NSObject {
 }
 
 extension AppDelegate: NSWindowDelegate {
-    // MARK: 点击关闭按钮
+    // MARK: 点击窗口左上角的关闭按钮
     func windowShouldClose(_ sender: NSWindow) -> Bool {
         print(#function)
         // 2. 隐藏Dock栏的图标和窗口

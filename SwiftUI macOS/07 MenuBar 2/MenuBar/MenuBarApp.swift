@@ -13,10 +13,10 @@ struct SwiftUIMenuBarApp: App {
 
     var body: some Scene {
         WindowGroup {
-            // 1. 隐藏主窗口：frame为0，但Dock栏图标还在
-            // 2. 隐藏Dock栏：Application is agent (UIElement)为YES（运行直接隐藏）
+            // 点击窗口的关闭按钮，默认不会隐藏Dock栏图标
+            // 隐藏的话需要在Info.plist中设置Application is agent (UIElement)为YES
+            // 但这种方式一旦设置，运行后Dock栏不会出现图标
             ContentView()
-                .frame(width: 100, height: 100, alignment: .center)
         }
     }
 }
