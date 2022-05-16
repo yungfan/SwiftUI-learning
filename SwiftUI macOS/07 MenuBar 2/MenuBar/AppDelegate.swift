@@ -31,6 +31,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         // NSApp.activate(ignoringOtherApps: true)
+       
     }
 
     @objc func togglePopover(_ sender: AnyObject?) {
@@ -43,3 +44,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 }
+
+

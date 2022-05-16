@@ -13,10 +13,10 @@ struct SwiftUIMenuBarApp: App {
 
     var body: some Scene {
         WindowGroup {
-            // 1. 隐藏主窗口：frame为0
-            // 2. 隐藏状态栏：Application is agent (UIElement)为YES
+            // 1. 隐藏主窗口：frame为0，但Dock栏图标还在
+            // 2. 隐藏Dock栏：Application is agent (UIElement)为YES（运行直接隐藏）
             ContentView()
-                .frame(width: 0, height: 0, alignment: .center)
+                .frame(width: 100, height: 100, alignment: .center)
         }
     }
 }

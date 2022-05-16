@@ -9,12 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Button("退出") {
-                NSApplication.shared.terminate(nil)
-            }
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        Text("Hello, world!")
+            .padding()
+            .frame(width: 600, height: 400)
     }
 }
 
