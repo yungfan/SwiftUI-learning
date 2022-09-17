@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C980C7B28D01FD600C69F57 /* View_RenameButton_PasteButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C980C7A28D01FD600C69F57 /* View_RenameButton_PasteButtonApp.swift */; };
+		3C980C7D28D01FD600C69F57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C980C7C28D01FD600C69F57 /* ContentView.swift */; };
+		3C980C7F28D01FD700C69F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C980C7E28D01FD700C69F57 /* Assets.xcassets */; };
+		3C980C8228D01FD700C69F57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C980C8128D01FD700C69F57 /* Preview Assets.xcassets */; };
+		3C980C8C28D01FD700C69F57 /* View_RenameButton_PasteButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C980C8B28D01FD700C69F57 /* View_RenameButton_PasteButtonTests.swift */; };
+		3C980C9628D01FD700C69F57 /* View_RenameButton_PasteButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C980C9528D01FD700C69F57 /* View_RenameButton_PasteButtonUITests.swift */; };
+		3C980C9828D01FD700C69F57 /* View_RenameButton_PasteButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C980C9728D01FD700C69F57 /* View_RenameButton_PasteButtonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C980C8828D01FD700C69F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C980C6F28D01FD600C69F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C980C7628D01FD600C69F57;
+			remoteInfo = "View-RenameButton&PasteButton";
+		};
+		3C980C9228D01FD700C69F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C980C6F28D01FD600C69F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C980C7628D01FD600C69F57;
+			remoteInfo = "View-RenameButton&PasteButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C980C7728D01FD600C69F57 /* View-RenameButton&PasteButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View-RenameButton&PasteButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C980C7A28D01FD600C69F57 /* View_RenameButton_PasteButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_RenameButton_PasteButtonApp.swift; sourceTree = "<group>"; };
+		3C980C7C28D01FD600C69F57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C980C7E28D01FD700C69F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C980C8128D01FD700C69F57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C980C8728D01FD700C69F57 /* View-RenameButton&PasteButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View-RenameButton&PasteButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C980C8B28D01FD700C69F57 /* View_RenameButton_PasteButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_RenameButton_PasteButtonTests.swift; sourceTree = "<group>"; };
+		3C980C9128D01FD700C69F57 /* View-RenameButton&PasteButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View-RenameButton&PasteButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C980C9528D01FD700C69F57 /* View_RenameButton_PasteButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_RenameButton_PasteButtonUITests.swift; sourceTree = "<group>"; };
+		3C980C9728D01FD700C69F57 /* View_RenameButton_PasteButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_RenameButton_PasteButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C980C7428D01FD600C69F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C980C8428D01FD700C69F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C980C8E28D01FD700C69F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C980C6E28D01FD600C69F57 = {
+			isa = PBXGroup;
+			children = (
+				3C980C7928D01FD600C69F57 /* View-RenameButton&PasteButton */,
+				3C980C8A28D01FD700C69F57 /* View-RenameButton&PasteButtonTests */,
+				3C980C9428D01FD700C69F57 /* View-RenameButton&PasteButtonUITests */,
+				3C980C7828D01FD600C69F57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C980C7828D01FD600C69F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C980C7728D01FD600C69F57 /* View-RenameButton&PasteButton.app */,
+				3C980C8728D01FD700C69F57 /* View-RenameButton&PasteButtonTests.xctest */,
+				3C980C9128D01FD700C69F57 /* View-RenameButton&PasteButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C980C7928D01FD600C69F57 /* View-RenameButton&PasteButton */ = {
+			isa = PBXGroup;
+			children = (
+				3C980C7A28D01FD600C69F57 /* View_RenameButton_PasteButtonApp.swift */,
+				3C980C7C28D01FD600C69F57 /* ContentView.swift */,
+				3C980C7E28D01FD700C69F57 /* Assets.xcassets */,
+				3C980C8028D01FD700C69F57 /* Preview Content */,
+			);
+			path = "View-RenameButton&PasteButton";
+			sourceTree = "<group>";
+		};
+		3C980C8028D01FD700C69F57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C980C8128D01FD700C69F57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C980C8A28D01FD700C69F57 /* View-RenameButton&PasteButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C980C8B28D01FD700C69F57 /* View_RenameButton_PasteButtonTests.swift */,
+			);
+			path = "View-RenameButton&PasteButtonTests";
+			sourceTree = "<group>";
+		};
+		3C980C9428D01FD700C69F57 /* View-RenameButton&PasteButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C980C9528D01FD700C69F57 /* View_RenameButton_PasteButtonUITests.swift */,
+				3C980C9728D01FD700C69F57 /* View_RenameButton_PasteButtonUITestsLaunchTests.swift */,
+			);
+			path = "View-RenameButton&PasteButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C980C7628D01FD600C69F57 /* View-RenameButton&PasteButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C980C9B28D01FD700C69F57 /* Build configuration list for PBXNativeTarget "View-RenameButton&PasteButton" */;
+			buildPhases = (
+				3C980C7328D01FD600C69F57 /* Sources */,
+				3C980C7428D01FD600C69F57 /* Frameworks */,
+				3C980C7528D01FD600C69F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View-RenameButton&PasteButton";
+			productName = "View-RenameButton&PasteButton";
+			productReference = 3C980C7728D01FD600C69F57 /* View-RenameButton&PasteButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C980C8628D01FD700C69F57 /* View-RenameButton&PasteButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C980C9E28D01FD700C69F57 /* Build configuration list for PBXNativeTarget "View-RenameButton&PasteButtonTests" */;
+			buildPhases = (
+				3C980C8328D01FD700C69F57 /* Sources */,
+				3C980C8428D01FD700C69F57 /* Frameworks */,
+				3C980C8528D01FD700C69F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C980C8928D01FD700C69F57 /* PBXTargetDependency */,
+			);
+			name = "View-RenameButton&PasteButtonTests";
+			productName = "View-RenameButton&PasteButtonTests";
+			productReference = 3C980C8728D01FD700C69F57 /* View-RenameButton&PasteButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C980C9028D01FD700C69F57 /* View-RenameButton&PasteButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C980CA128D01FD700C69F57 /* Build configuration list for PBXNativeTarget "View-RenameButton&PasteButtonUITests" */;
+			buildPhases = (
+				3C980C8D28D01FD700C69F57 /* Sources */,
+				3C980C8E28D01FD700C69F57 /* Frameworks */,
+				3C980C8F28D01FD700C69F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C980C9328D01FD700C69F57 /* PBXTargetDependency */,
+			);
+			name = "View-RenameButton&PasteButtonUITests";
+			productName = "View-RenameButton&PasteButtonUITests";
+			productReference = 3C980C9128D01FD700C69F57 /* View-RenameButton&PasteButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C980C6F28D01FD600C69F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3C980C7628D01FD600C69F57 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3C980C8628D01FD700C69F57 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3C980C7628D01FD600C69F57;
+					};
+					3C980C9028D01FD700C69F57 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3C980C7628D01FD600C69F57;
+					};
+				};
+			};
+			buildConfigurationList = 3C980C7228D01FD600C69F57 /* Build configuration list for PBXProject "View-RenameButton&PasteButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C980C6E28D01FD600C69F57;
+			productRefGroup = 3C980C7828D01FD600C69F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C980C7628D01FD600C69F57 /* View-RenameButton&PasteButton */,
+				3C980C8628D01FD700C69F57 /* View-RenameButton&PasteButtonTests */,
+				3C980C9028D01FD700C69F57 /* View-RenameButton&PasteButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C980C7528D01FD600C69F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C980C8228D01FD700C69F57 /* Preview Assets.xcassets in Resources */,
+				3C980C7F28D01FD700C69F57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C980C8528D01FD700C69F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C980C8F28D01FD700C69F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C980C7328D01FD600C69F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C980C7D28D01FD600C69F57 /* ContentView.swift in Sources */,
+				3C980C7B28D01FD600C69F57 /* View_RenameButton_PasteButtonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C980C8328D01FD700C69F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C980C8C28D01FD700C69F57 /* View_RenameButton_PasteButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C980C8D28D01FD700C69F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C980C9628D01FD700C69F57 /* View_RenameButton_PasteButtonUITests.swift in Sources */,
+				3C980C9828D01FD700C69F57 /* View_RenameButton_PasteButtonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C980C8928D01FD700C69F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C980C7628D01FD600C69F57 /* View-RenameButton&PasteButton */;
+			targetProxy = 3C980C8828D01FD700C69F57 /* PBXContainerItemProxy */;
+		};
+		3C980C9328D01FD700C69F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C980C7628D01FD600C69F57 /* View-RenameButton&PasteButton */;
+			targetProxy = 3C980C9228D01FD700C69F57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C980C9928D01FD700C69F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C980C9A28D01FD700C69F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C980C9C28D01FD700C69F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"View-RenameButton&PasteButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.View-RenameButton-PasteButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C980C9D28D01FD700C69F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"View-RenameButton&PasteButton/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.View-RenameButton-PasteButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C980C9F28D01FD700C69F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.View-RenameButton-PasteButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/View-RenameButton&PasteButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/View-RenameButton&PasteButton";
+			};
+			name = Debug;
+		};
+		3C980CA028D01FD700C69F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.View-RenameButton-PasteButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/View-RenameButton&PasteButton.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/View-RenameButton&PasteButton";
+			};
+			name = Release;
+		};
+		3C980CA228D01FD700C69F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.View-RenameButton-PasteButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "View-RenameButton&PasteButton";
+			};
+			name = Debug;
+		};
+		3C980CA328D01FD700C69F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.View-RenameButton-PasteButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "View-RenameButton&PasteButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C980C7228D01FD600C69F57 /* Build configuration list for PBXProject "View-RenameButton&PasteButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C980C9928D01FD700C69F57 /* Debug */,
+				3C980C9A28D01FD700C69F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C980C9B28D01FD700C69F57 /* Build configuration list for PBXNativeTarget "View-RenameButton&PasteButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C980C9C28D01FD700C69F57 /* Debug */,
+				3C980C9D28D01FD700C69F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C980C9E28D01FD700C69F57 /* Build configuration list for PBXNativeTarget "View-RenameButton&PasteButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C980C9F28D01FD700C69F57 /* Debug */,
+				3C980CA028D01FD700C69F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C980CA128D01FD700C69F57 /* Build configuration list for PBXNativeTarget "View-RenameButton&PasteButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C980CA228D01FD700C69F57 /* Debug */,
+				3C980CA328D01FD700C69F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C980C6F28D01FD600C69F57 /* Project object */;
+}

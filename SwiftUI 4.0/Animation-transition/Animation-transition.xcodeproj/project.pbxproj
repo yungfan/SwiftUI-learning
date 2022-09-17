@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB341A028D615480013A7B9 /* Animation_transitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB3419F28D615480013A7B9 /* Animation_transitionApp.swift */; };
+		3CB341A228D615480013A7B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB341A128D615480013A7B9 /* ContentView.swift */; };
+		3CB341A428D615490013A7B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB341A328D615490013A7B9 /* Assets.xcassets */; };
+		3CB341A728D615490013A7B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB341A628D615490013A7B9 /* Preview Assets.xcassets */; };
+		3CB341B128D615490013A7B9 /* Animation_transitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB341B028D615490013A7B9 /* Animation_transitionTests.swift */; };
+		3CB341BB28D615490013A7B9 /* Animation_transitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB341BA28D615490013A7B9 /* Animation_transitionUITests.swift */; };
+		3CB341BD28D615490013A7B9 /* Animation_transitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB341BC28D615490013A7B9 /* Animation_transitionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CB341AD28D615490013A7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB3419428D615480013A7B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB3419B28D615480013A7B9;
+			remoteInfo = "Animation-transition";
+		};
+		3CB341B728D615490013A7B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB3419428D615480013A7B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB3419B28D615480013A7B9;
+			remoteInfo = "Animation-transition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB3419C28D615480013A7B9 /* Animation-transition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation-transition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB3419F28D615480013A7B9 /* Animation_transitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_transitionApp.swift; sourceTree = "<group>"; };
+		3CB341A128D615480013A7B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CB341A328D615490013A7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB341A628D615490013A7B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CB341AC28D615490013A7B9 /* Animation-transitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animation-transitionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB341B028D615490013A7B9 /* Animation_transitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_transitionTests.swift; sourceTree = "<group>"; };
+		3CB341B628D615490013A7B9 /* Animation-transitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animation-transitionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB341BA28D615490013A7B9 /* Animation_transitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_transitionUITests.swift; sourceTree = "<group>"; };
+		3CB341BC28D615490013A7B9 /* Animation_transitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_transitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB3419928D615480013A7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB341A928D615490013A7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB341B328D615490013A7B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB3419328D615480013A7B9 = {
+			isa = PBXGroup;
+			children = (
+				3CB3419E28D615480013A7B9 /* Animation-transition */,
+				3CB341AF28D615490013A7B9 /* Animation-transitionTests */,
+				3CB341B928D615490013A7B9 /* Animation-transitionUITests */,
+				3CB3419D28D615480013A7B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB3419D28D615480013A7B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB3419C28D615480013A7B9 /* Animation-transition.app */,
+				3CB341AC28D615490013A7B9 /* Animation-transitionTests.xctest */,
+				3CB341B628D615490013A7B9 /* Animation-transitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB3419E28D615480013A7B9 /* Animation-transition */ = {
+			isa = PBXGroup;
+			children = (
+				3CB3419F28D615480013A7B9 /* Animation_transitionApp.swift */,
+				3CB341A128D615480013A7B9 /* ContentView.swift */,
+				3CB341A328D615490013A7B9 /* Assets.xcassets */,
+				3CB341A528D615490013A7B9 /* Preview Content */,
+			);
+			path = "Animation-transition";
+			sourceTree = "<group>";
+		};
+		3CB341A528D615490013A7B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CB341A628D615490013A7B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CB341AF28D615490013A7B9 /* Animation-transitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB341B028D615490013A7B9 /* Animation_transitionTests.swift */,
+			);
+			path = "Animation-transitionTests";
+			sourceTree = "<group>";
+		};
+		3CB341B928D615490013A7B9 /* Animation-transitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB341BA28D615490013A7B9 /* Animation_transitionUITests.swift */,
+				3CB341BC28D615490013A7B9 /* Animation_transitionUITestsLaunchTests.swift */,
+			);
+			path = "Animation-transitionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB3419B28D615480013A7B9 /* Animation-transition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB341C028D615490013A7B9 /* Build configuration list for PBXNativeTarget "Animation-transition" */;
+			buildPhases = (
+				3CB3419828D615480013A7B9 /* Sources */,
+				3CB3419928D615480013A7B9 /* Frameworks */,
+				3CB3419A28D615480013A7B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animation-transition";
+			productName = "Animation-transition";
+			productReference = 3CB3419C28D615480013A7B9 /* Animation-transition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CB341AB28D615490013A7B9 /* Animation-transitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB341C328D615490013A7B9 /* Build configuration list for PBXNativeTarget "Animation-transitionTests" */;
+			buildPhases = (
+				3CB341A828D615490013A7B9 /* Sources */,
+				3CB341A928D615490013A7B9 /* Frameworks */,
+				3CB341AA28D615490013A7B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB341AE28D615490013A7B9 /* PBXTargetDependency */,
+			);
+			name = "Animation-transitionTests";
+			productName = "Animation-transitionTests";
+			productReference = 3CB341AC28D615490013A7B9 /* Animation-transitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CB341B528D615490013A7B9 /* Animation-transitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB341C628D615490013A7B9 /* Build configuration list for PBXNativeTarget "Animation-transitionUITests" */;
+			buildPhases = (
+				3CB341B228D615490013A7B9 /* Sources */,
+				3CB341B328D615490013A7B9 /* Frameworks */,
+				3CB341B428D615490013A7B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB341B828D615490013A7B9 /* PBXTargetDependency */,
+			);
+			name = "Animation-transitionUITests";
+			productName = "Animation-transitionUITests";
+			productReference = 3CB341B628D615490013A7B9 /* Animation-transitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB3419428D615480013A7B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3CB3419B28D615480013A7B9 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3CB341AB28D615490013A7B9 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3CB3419B28D615480013A7B9;
+					};
+					3CB341B528D615490013A7B9 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3CB3419B28D615480013A7B9;
+					};
+				};
+			};
+			buildConfigurationList = 3CB3419728D615480013A7B9 /* Build configuration list for PBXProject "Animation-transition" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB3419328D615480013A7B9;
+			productRefGroup = 3CB3419D28D615480013A7B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB3419B28D615480013A7B9 /* Animation-transition */,
+				3CB341AB28D615490013A7B9 /* Animation-transitionTests */,
+				3CB341B528D615490013A7B9 /* Animation-transitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB3419A28D615480013A7B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB341A728D615490013A7B9 /* Preview Assets.xcassets in Resources */,
+				3CB341A428D615490013A7B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB341AA28D615490013A7B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB341B428D615490013A7B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB3419828D615480013A7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB341A228D615480013A7B9 /* ContentView.swift in Sources */,
+				3CB341A028D615480013A7B9 /* Animation_transitionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB341A828D615490013A7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB341B128D615490013A7B9 /* Animation_transitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB341B228D615490013A7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB341BD28D615490013A7B9 /* Animation_transitionUITestsLaunchTests.swift in Sources */,
+				3CB341BB28D615490013A7B9 /* Animation_transitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CB341AE28D615490013A7B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB3419B28D615480013A7B9 /* Animation-transition */;
+			targetProxy = 3CB341AD28D615490013A7B9 /* PBXContainerItemProxy */;
+		};
+		3CB341B828D615490013A7B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB3419B28D615480013A7B9 /* Animation-transition */;
+			targetProxy = 3CB341B728D615490013A7B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CB341BE28D615490013A7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CB341BF28D615490013A7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB341C128D615490013A7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animation-transition/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.Animation-transition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB341C228D615490013A7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Animation-transition/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.Animation-transition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CB341C428D615490013A7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.Animation-transitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animation-transition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animation-transition";
+			};
+			name = Debug;
+		};
+		3CB341C528D615490013A7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.Animation-transitionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animation-transition.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Animation-transition";
+			};
+			name = Release;
+		};
+		3CB341C728D615490013A7B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.Animation-transitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Animation-transition";
+			};
+			name = Debug;
+		};
+		3CB341C828D615490013A7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.Animation-transitionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Animation-transition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB3419728D615480013A7B9 /* Build configuration list for PBXProject "Animation-transition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB341BE28D615490013A7B9 /* Debug */,
+				3CB341BF28D615490013A7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB341C028D615490013A7B9 /* Build configuration list for PBXNativeTarget "Animation-transition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB341C128D615490013A7B9 /* Debug */,
+				3CB341C228D615490013A7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB341C328D615490013A7B9 /* Build configuration list for PBXNativeTarget "Animation-transitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB341C428D615490013A7B9 /* Debug */,
+				3CB341C528D615490013A7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB341C628D615490013A7B9 /* Build configuration list for PBXNativeTarget "Animation-transitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB341C728D615490013A7B9 /* Debug */,
+				3CB341C828D615490013A7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB3419428D615480013A7B9 /* Project object */;
+}

@@ -5,7 +5,8 @@
 #### 2020.03.06 — SwiftUI — 开发环境：macOS 10.15.3 + Xcode 11.3.1 + iOS 13.3
 #### 2020.09.23 — SwiftUI 2.0 — 开发环境：macOS 10.15.6 + Xcode 12 + iOS 14
 #### 2021.10.14 — SwiftUI 3.0 — 开发环境：macOS 11.6 + Xcode 13 + iOS 15
-#### 2022.04.14 — SwiftUI macOS — 开发环境：macOS 12.3.1 + Xcode 13.3.1 + macOS 12
+#### 2022.04.14 — SwiftUI macOS — 开发环境：macOS 12.3.1 + Xcode 13.3.1
+#### 2022.09.17 — SwiftUI 4.0 — 开发环境：macOS 12.6 + Xcode 14 + iOS 16
 
 ## 视频教程
 #### [SwiftUI 视频教程地址](https://ke.qq.com/course/455801)
@@ -13,3 +14,4 @@
 #### [SwiftUI 3.0 视频教程地址](https://ke.qq.com/course/4001865)
 #### [Combine 视频教程地址](https://ke.qq.com/course/2555111)
 #### [Concurrency 视频教程地址](https://ke.qq.com/course/3998792)
+#### [SwiftUI 4.0 视频教程地址](https://www.cctalk.com/m/group/90524237)
