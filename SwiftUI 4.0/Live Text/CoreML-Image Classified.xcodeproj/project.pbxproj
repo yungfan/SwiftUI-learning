@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C93D9CA28DBF90700B70472 /* CoreML_Image_ClassifiedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C93D9C928DBF90700B70472 /* CoreML_Image_ClassifiedApp.swift */; };
+		3C93D9CC28DBF90700B70472 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C93D9CB28DBF90700B70472 /* ContentView.swift */; };
+		3C93D9CE28DBF90700B70472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C93D9CD28DBF90700B70472 /* Assets.xcassets */; };
+		3C93D9D128DBF90700B70472 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C93D9D028DBF90700B70472 /* Preview Assets.xcassets */; };
+		3C93D9DB28DBF90700B70472 /* CoreML_Image_ClassifiedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C93D9DA28DBF90700B70472 /* CoreML_Image_ClassifiedTests.swift */; };
+		3C93D9E528DBF90700B70472 /* CoreML_Image_ClassifiedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C93D9E428DBF90700B70472 /* CoreML_Image_ClassifiedUITests.swift */; };
+		3C93D9E728DBF90700B70472 /* CoreML_Image_ClassifiedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C93D9E628DBF90700B70472 /* CoreML_Image_ClassifiedUITestsLaunchTests.swift */; };
+		3C93D9F428DBF91300B70472 /* FruitImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C93D9F328DBF91300B70472 /* FruitImageClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C93D9D728DBF90700B70472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C93D9BE28DBF90700B70472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C93D9C528DBF90700B70472;
+			remoteInfo = "CoreML-Image Classified";
+		};
+		3C93D9E128DBF90700B70472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C93D9BE28DBF90700B70472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C93D9C528DBF90700B70472;
+			remoteInfo = "CoreML-Image Classified";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C93D9C628DBF90700B70472 /* CoreML-Image Classified.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreML-Image Classified.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C93D9C928DBF90700B70472 /* CoreML_Image_ClassifiedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_Image_ClassifiedApp.swift; sourceTree = "<group>"; };
+		3C93D9CB28DBF90700B70472 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C93D9CD28DBF90700B70472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C93D9D028DBF90700B70472 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C93D9D628DBF90700B70472 /* CoreML-Image ClassifiedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreML-Image ClassifiedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C93D9DA28DBF90700B70472 /* CoreML_Image_ClassifiedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_Image_ClassifiedTests.swift; sourceTree = "<group>"; };
+		3C93D9E028DBF90700B70472 /* CoreML-Image ClassifiedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreML-Image ClassifiedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C93D9E428DBF90700B70472 /* CoreML_Image_ClassifiedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_Image_ClassifiedUITests.swift; sourceTree = "<group>"; };
+		3C93D9E628DBF90700B70472 /* CoreML_Image_ClassifiedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_Image_ClassifiedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C93D9F328DBF91300B70472 /* FruitImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FruitImageClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C93D9C328DBF90700B70472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C93D9D328DBF90700B70472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C93D9DD28DBF90700B70472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C93D9BD28DBF90700B70472 = {
+			isa = PBXGroup;
+			children = (
+				3C93D9C828DBF90700B70472 /* CoreML-Image Classified */,
+				3C93D9D928DBF90700B70472 /* CoreML-Image ClassifiedTests */,
+				3C93D9E328DBF90700B70472 /* CoreML-Image ClassifiedUITests */,
+				3C93D9C728DBF90700B70472 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C93D9C728DBF90700B70472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C93D9C628DBF90700B70472 /* CoreML-Image Classified.app */,
+				3C93D9D628DBF90700B70472 /* CoreML-Image ClassifiedTests.xctest */,
+				3C93D9E028DBF90700B70472 /* CoreML-Image ClassifiedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C93D9C828DBF90700B70472 /* CoreML-Image Classified */ = {
+			isa = PBXGroup;
+			children = (
+				3C93D9F328DBF91300B70472 /* FruitImageClassifier.mlmodel */,
+				3C93D9C928DBF90700B70472 /* CoreML_Image_ClassifiedApp.swift */,
+				3C93D9CB28DBF90700B70472 /* ContentView.swift */,
+				3C93D9CD28DBF90700B70472 /* Assets.xcassets */,
+				3C93D9CF28DBF90700B70472 /* Preview Content */,
+			);
+			path = "CoreML-Image Classified";
+			sourceTree = "<group>";
+		};
+		3C93D9CF28DBF90700B70472 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C93D9D028DBF90700B70472 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C93D9D928DBF90700B70472 /* CoreML-Image ClassifiedTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C93D9DA28DBF90700B70472 /* CoreML_Image_ClassifiedTests.swift */,
+			);
+			path = "CoreML-Image ClassifiedTests";
+			sourceTree = "<group>";
+		};
+		3C93D9E328DBF90700B70472 /* CoreML-Image ClassifiedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C93D9E428DBF90700B70472 /* CoreML_Image_ClassifiedUITests.swift */,
+				3C93D9E628DBF90700B70472 /* CoreML_Image_ClassifiedUITestsLaunchTests.swift */,
+			);
+			path = "CoreML-Image ClassifiedUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C93D9C528DBF90700B70472 /* CoreML-Image Classified */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C93D9EA28DBF90700B70472 /* Build configuration list for PBXNativeTarget "CoreML-Image Classified" */;
+			buildPhases = (
+				3C93D9C228DBF90700B70472 /* Sources */,
+				3C93D9C328DBF90700B70472 /* Frameworks */,
+				3C93D9C428DBF90700B70472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreML-Image Classified";
+			productName = "CoreML-Image Classified";
+			productReference = 3C93D9C628DBF90700B70472 /* CoreML-Image Classified.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C93D9D528DBF90700B70472 /* CoreML-Image ClassifiedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C93D9ED28DBF90700B70472 /* Build configuration list for PBXNativeTarget "CoreML-Image ClassifiedTests" */;
+			buildPhases = (
+				3C93D9D228DBF90700B70472 /* Sources */,
+				3C93D9D328DBF90700B70472 /* Frameworks */,
+				3C93D9D428DBF90700B70472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C93D9D828DBF90700B70472 /* PBXTargetDependency */,
+			);
+			name = "CoreML-Image ClassifiedTests";
+			productName = "CoreML-Image ClassifiedTests";
+			productReference = 3C93D9D628DBF90700B70472 /* CoreML-Image ClassifiedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C93D9DF28DBF90700B70472 /* CoreML-Image ClassifiedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C93D9F028DBF90700B70472 /* Build configuration list for PBXNativeTarget "CoreML-Image ClassifiedUITests" */;
+			buildPhases = (
+				3C93D9DC28DBF90700B70472 /* Sources */,
+				3C93D9DD28DBF90700B70472 /* Frameworks */,
+				3C93D9DE28DBF90700B70472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C93D9E228DBF90700B70472 /* PBXTargetDependency */,
+			);
+			name = "CoreML-Image ClassifiedUITests";
+			productName = "CoreML-Image ClassifiedUITests";
+			productReference = 3C93D9E028DBF90700B70472 /* CoreML-Image ClassifiedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C93D9BE28DBF90700B70472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3C93D9C528DBF90700B70472 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3C93D9D528DBF90700B70472 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3C93D9C528DBF90700B70472;
+					};
+					3C93D9DF28DBF90700B70472 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3C93D9C528DBF90700B70472;
+					};
+				};
+			};
+			buildConfigurationList = 3C93D9C128DBF90700B70472 /* Build configuration list for PBXProject "CoreML-Image Classified" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C93D9BD28DBF90700B70472;
+			productRefGroup = 3C93D9C728DBF90700B70472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C93D9C528DBF90700B70472 /* CoreML-Image Classified */,
+				3C93D9D528DBF90700B70472 /* CoreML-Image ClassifiedTests */,
+				3C93D9DF28DBF90700B70472 /* CoreML-Image ClassifiedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C93D9C428DBF90700B70472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C93D9D128DBF90700B70472 /* Preview Assets.xcassets in Resources */,
+				3C93D9CE28DBF90700B70472 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C93D9D428DBF90700B70472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C93D9DE28DBF90700B70472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C93D9C228DBF90700B70472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C93D9CC28DBF90700B70472 /* ContentView.swift in Sources */,
+				3C93D9F428DBF91300B70472 /* FruitImageClassifier.mlmodel in Sources */,
+				3C93D9CA28DBF90700B70472 /* CoreML_Image_ClassifiedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C93D9D228DBF90700B70472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C93D9DB28DBF90700B70472 /* CoreML_Image_ClassifiedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C93D9DC28DBF90700B70472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C93D9E528DBF90700B70472 /* CoreML_Image_ClassifiedUITests.swift in Sources */,
+				3C93D9E728DBF90700B70472 /* CoreML_Image_ClassifiedUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C93D9D828DBF90700B70472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C93D9C528DBF90700B70472 /* CoreML-Image Classified */;
+			targetProxy = 3C93D9D728DBF90700B70472 /* PBXContainerItemProxy */;
+		};
+		3C93D9E228DBF90700B70472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C93D9C528DBF90700B70472 /* CoreML-Image Classified */;
+			targetProxy = 3C93D9E128DBF90700B70472 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C93D9E828DBF90700B70472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C93D9E928DBF90700B70472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C93D9EB28DBF90700B70472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreML-Image Classified/Preview Content\"";
+				DEVELOPMENT_TEAM = U3P6XPJZD2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Live Text需要使用摄像头";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.CoreML-Image-Classified";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C93D9EC28DBF90700B70472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreML-Image Classified/Preview Content\"";
+				DEVELOPMENT_TEAM = U3P6XPJZD2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Live Text需要使用摄像头";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.CoreML-Image-Classified";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C93D9EE28DBF90700B70472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.CoreML-Image-ClassifiedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreML-Image Classified.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreML-Image Classified";
+			};
+			name = Debug;
+		};
+		3C93D9EF28DBF90700B70472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.CoreML-Image-ClassifiedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreML-Image Classified.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoreML-Image Classified";
+			};
+			name = Release;
+		};
+		3C93D9F128DBF90700B70472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.CoreML-Image-ClassifiedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoreML-Image Classified";
+			};
+			name = Debug;
+		};
+		3C93D9F228DBF90700B70472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer.yungfan.CoreML-Image-ClassifiedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CoreML-Image Classified";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C93D9C128DBF90700B70472 /* Build configuration list for PBXProject "CoreML-Image Classified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C93D9E828DBF90700B70472 /* Debug */,
+				3C93D9E928DBF90700B70472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C93D9EA28DBF90700B70472 /* Build configuration list for PBXNativeTarget "CoreML-Image Classified" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C93D9EB28DBF90700B70472 /* Debug */,
+				3C93D9EC28DBF90700B70472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C93D9ED28DBF90700B70472 /* Build configuration list for PBXNativeTarget "CoreML-Image ClassifiedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C93D9EE28DBF90700B70472 /* Debug */,
+				3C93D9EF28DBF90700B70472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C93D9F028DBF90700B70472 /* Build configuration list for PBXNativeTarget "CoreML-Image ClassifiedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C93D9F128DBF90700B70472 /* Debug */,
+				3C93D9F228DBF90700B70472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C93D9BE28DBF90700B70472 /* Project object */;
+}
