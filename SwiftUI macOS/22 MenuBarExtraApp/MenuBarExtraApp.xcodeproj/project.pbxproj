@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C67CCB328504FC600C1B244 /* MenuBarExtraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C67CCB228504FC600C1B244 /* MenuBarExtraAppApp.swift */; };
+		3C67CCB528504FC600C1B244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C67CCB428504FC600C1B244 /* ContentView.swift */; };
+		3C67CCB728504FC700C1B244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C67CCB628504FC700C1B244 /* Assets.xcassets */; };
+		3C67CCBA28504FC700C1B244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C67CCB928504FC700C1B244 /* Preview Assets.xcassets */; };
+		3C67CCC528504FC700C1B244 /* MenuBarExtraAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C67CCC428504FC700C1B244 /* MenuBarExtraAppTests.swift */; };
+		3C67CCCF28504FC700C1B244 /* MenuBarExtraAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C67CCCE28504FC700C1B244 /* MenuBarExtraAppUITests.swift */; };
+		3C67CCD128504FC700C1B244 /* MenuBarExtraAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C67CCD028504FC700C1B244 /* MenuBarExtraAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C67CCC128504FC700C1B244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C67CCA728504FC600C1B244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C67CCAE28504FC600C1B244;
+			remoteInfo = MenuBarExtraApp;
+		};
+		3C67CCCB28504FC700C1B244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C67CCA728504FC600C1B244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C67CCAE28504FC600C1B244;
+			remoteInfo = MenuBarExtraApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C67CCAF28504FC600C1B244 /* MenuBarExtraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuBarExtraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C67CCB228504FC600C1B244 /* MenuBarExtraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtraAppApp.swift; sourceTree = "<group>"; };
+		3C67CCB428504FC600C1B244 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C67CCB628504FC700C1B244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C67CCB928504FC700C1B244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C67CCBB28504FC700C1B244 /* MenuBarExtraApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuBarExtraApp.entitlements; sourceTree = "<group>"; };
+		3C67CCC028504FC700C1B244 /* MenuBarExtraAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuBarExtraAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C67CCC428504FC700C1B244 /* MenuBarExtraAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtraAppTests.swift; sourceTree = "<group>"; };
+		3C67CCCA28504FC700C1B244 /* MenuBarExtraAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuBarExtraAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C67CCCE28504FC700C1B244 /* MenuBarExtraAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtraAppUITests.swift; sourceTree = "<group>"; };
+		3C67CCD028504FC700C1B244 /* MenuBarExtraAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarExtraAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C67CCAC28504FC600C1B244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C67CCBD28504FC700C1B244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C67CCC728504FC700C1B244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C67CCA628504FC600C1B244 = {
+			isa = PBXGroup;
+			children = (
+				3C67CCB128504FC600C1B244 /* MenuBarExtraApp */,
+				3C67CCC328504FC700C1B244 /* MenuBarExtraAppTests */,
+				3C67CCCD28504FC700C1B244 /* MenuBarExtraAppUITests */,
+				3C67CCB028504FC600C1B244 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C67CCB028504FC600C1B244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C67CCAF28504FC600C1B244 /* MenuBarExtraApp.app */,
+				3C67CCC028504FC700C1B244 /* MenuBarExtraAppTests.xctest */,
+				3C67CCCA28504FC700C1B244 /* MenuBarExtraAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C67CCB128504FC600C1B244 /* MenuBarExtraApp */ = {
+			isa = PBXGroup;
+			children = (
+				3C67CCB228504FC600C1B244 /* MenuBarExtraAppApp.swift */,
+				3C67CCB428504FC600C1B244 /* ContentView.swift */,
+				3C67CCB628504FC700C1B244 /* Assets.xcassets */,
+				3C67CCBB28504FC700C1B244 /* MenuBarExtraApp.entitlements */,
+				3C67CCB828504FC700C1B244 /* Preview Content */,
+			);
+			path = MenuBarExtraApp;
+			sourceTree = "<group>";
+		};
+		3C67CCB828504FC700C1B244 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C67CCB928504FC700C1B244 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C67CCC328504FC700C1B244 /* MenuBarExtraAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C67CCC428504FC700C1B244 /* MenuBarExtraAppTests.swift */,
+			);
+			path = MenuBarExtraAppTests;
+			sourceTree = "<group>";
+		};
+		3C67CCCD28504FC700C1B244 /* MenuBarExtraAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C67CCCE28504FC700C1B244 /* MenuBarExtraAppUITests.swift */,
+				3C67CCD028504FC700C1B244 /* MenuBarExtraAppUITestsLaunchTests.swift */,
+			);
+			path = MenuBarExtraAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C67CCAE28504FC600C1B244 /* MenuBarExtraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C67CCD428504FC700C1B244 /* Build configuration list for PBXNativeTarget "MenuBarExtraApp" */;
+			buildPhases = (
+				3C67CCAB28504FC600C1B244 /* Sources */,
+				3C67CCAC28504FC600C1B244 /* Frameworks */,
+				3C67CCAD28504FC600C1B244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenuBarExtraApp;
+			productName = MenuBarExtraApp;
+			productReference = 3C67CCAF28504FC600C1B244 /* MenuBarExtraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C67CCBF28504FC700C1B244 /* MenuBarExtraAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C67CCD728504FC700C1B244 /* Build configuration list for PBXNativeTarget "MenuBarExtraAppTests" */;
+			buildPhases = (
+				3C67CCBC28504FC700C1B244 /* Sources */,
+				3C67CCBD28504FC700C1B244 /* Frameworks */,
+				3C67CCBE28504FC700C1B244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C67CCC228504FC700C1B244 /* PBXTargetDependency */,
+			);
+			name = MenuBarExtraAppTests;
+			productName = MenuBarExtraAppTests;
+			productReference = 3C67CCC028504FC700C1B244 /* MenuBarExtraAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C67CCC928504FC700C1B244 /* MenuBarExtraAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C67CCDA28504FC700C1B244 /* Build configuration list for PBXNativeTarget "MenuBarExtraAppUITests" */;
+			buildPhases = (
+				3C67CCC628504FC700C1B244 /* Sources */,
+				3C67CCC728504FC700C1B244 /* Frameworks */,
+				3C67CCC828504FC700C1B244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C67CCCC28504FC700C1B244 /* PBXTargetDependency */,
+			);
+			name = MenuBarExtraAppUITests;
+			productName = MenuBarExtraAppUITests;
+			productReference = 3C67CCCA28504FC700C1B244 /* MenuBarExtraAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C67CCA728504FC600C1B244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3C67CCAE28504FC600C1B244 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					3C67CCBF28504FC700C1B244 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3C67CCAE28504FC600C1B244;
+					};
+					3C67CCC928504FC700C1B244 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 3C67CCAE28504FC600C1B244;
+					};
+				};
+			};
+			buildConfigurationList = 3C67CCAA28504FC600C1B244 /* Build configuration list for PBXProject "MenuBarExtraApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C67CCA628504FC600C1B244;
+			productRefGroup = 3C67CCB028504FC600C1B244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C67CCAE28504FC600C1B244 /* MenuBarExtraApp */,
+				3C67CCBF28504FC700C1B244 /* MenuBarExtraAppTests */,
+				3C67CCC928504FC700C1B244 /* MenuBarExtraAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C67CCAD28504FC600C1B244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C67CCBA28504FC700C1B244 /* Preview Assets.xcassets in Resources */,
+				3C67CCB728504FC700C1B244 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C67CCBE28504FC700C1B244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C67CCC828504FC700C1B244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C67CCAB28504FC600C1B244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C67CCB528504FC600C1B244 /* ContentView.swift in Sources */,
+				3C67CCB328504FC600C1B244 /* MenuBarExtraAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C67CCBC28504FC700C1B244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C67CCC528504FC700C1B244 /* MenuBarExtraAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C67CCC628504FC700C1B244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C67CCD128504FC700C1B244 /* MenuBarExtraAppUITestsLaunchTests.swift in Sources */,
+				3C67CCCF28504FC700C1B244 /* MenuBarExtraAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C67CCC228504FC700C1B244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C67CCAE28504FC600C1B244 /* MenuBarExtraApp */;
+			targetProxy = 3C67CCC128504FC700C1B244 /* PBXContainerItemProxy */;
+		};
+		3C67CCCC28504FC700C1B244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C67CCAE28504FC600C1B244 /* MenuBarExtraApp */;
+			targetProxy = 3C67CCCB28504FC700C1B244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C67CCD228504FC700C1B244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C67CCD328504FC700C1B244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C67CCD528504FC700C1B244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MenuBarExtraApp/MenuBarExtraApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MenuBarExtraApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.MenuBarExtraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3C67CCD628504FC700C1B244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MenuBarExtraApp/MenuBarExtraApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MenuBarExtraApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.MenuBarExtraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3C67CCD828504FC700C1B244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.MenuBarExtraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBarExtraApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MenuBarExtraApp";
+			};
+			name = Debug;
+		};
+		3C67CCD928504FC700C1B244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.MenuBarExtraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenuBarExtraApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MenuBarExtraApp";
+			};
+			name = Release;
+		};
+		3C67CCDB28504FC700C1B244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.MenuBarExtraAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MenuBarExtraApp;
+			};
+			name = Debug;
+		};
+		3C67CCDC28504FC700C1B244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.develper.apple.MenuBarExtraAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MenuBarExtraApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C67CCAA28504FC600C1B244 /* Build configuration list for PBXProject "MenuBarExtraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C67CCD228504FC700C1B244 /* Debug */,
+				3C67CCD328504FC700C1B244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C67CCD428504FC700C1B244 /* Build configuration list for PBXNativeTarget "MenuBarExtraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C67CCD528504FC700C1B244 /* Debug */,
+				3C67CCD628504FC700C1B244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C67CCD728504FC700C1B244 /* Build configuration list for PBXNativeTarget "MenuBarExtraAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C67CCD828504FC700C1B244 /* Debug */,
+				3C67CCD928504FC700C1B244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C67CCDA28504FC700C1B244 /* Build configuration list for PBXNativeTarget "MenuBarExtraAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C67CCDB28504FC700C1B244 /* Debug */,
+				3C67CCDC28504FC700C1B244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C67CCA728504FC600C1B244 /* Project object */;
+}
