@@ -15,5 +15,6 @@ struct MenuBarExtraAppApp: App {
             // 点击状态栏显示的内容
             ContentView()
         }
+        .menuBarExtraStyle(.window) // 内容显示时的样式，默认为menu样式
     }
 }
