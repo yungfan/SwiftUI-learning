@@ -8,38 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var value = "功德值"
-    @State var total = 0
-    @State var one = 1
-    @State var isTap = false
+    @State private var title = "功德值"
+    @State private var total = 0
+    @State private var once = 1
+    @State private var isTapped = false
 
     var body: some View {
         NavigationView {
             VStack {
-                if isTap {
-                    Text("\(value) + \(one) 👍")
+                if isTapped {
+                    Text("\(title) + \(once) 👍")
+                        .font(.title3)
                 }
 
                 Image("muyu")
                     .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 180, height: 180)
-                    .scaleEffect(isTap ? 0.99 : 1.0)
-                    .animation(.easeInOut, value: isTap)
+                    .scaledToFit()
+                    .frame(width: 200)
+                    .scaleEffect(isTapped ? 0.95 : 1.0)
+                    .animation(.easeInOut, value: isTapped)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.black)
-            .navigationTitle("\(value): \(total)")
+            .navigationTitle("\(title): \(total)")
             .preferredColorScheme(.dark)
             .onTapGesture {
-                total += one
+                total += once
                 withAnimation {
-                    isTap.toggle()
+                    isTapped.toggle()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        self.isTapped.toggle()
+                    }
                 }
                 AudioTools.shared.playSound()
-                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-                    self.isTap.toggle()
-                }
             }
         }
     }
