@@ -15,7 +15,6 @@
 		3CC4565C2A393F0600F578BA /* Metal_for_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4565B2A393F0600F578BA /* Metal_for_SwiftUIUITests.swift */; };
 		3CC4565E2A393F0600F578BA /* Metal_for_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4565D2A393F0600F578BA /* Metal_for_SwiftUIUITestsLaunchTests.swift */; };
 		3CC4566B2A393F3600F578BA /* Metal.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4566A2A393F3600F578BA /* Metal.metal */; };
-		3CC4566D2A393FF800F578BA /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CC4566C2A393FF700F578BA /* wall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 		3CC4565B2A393F0600F578BA /* Metal_for_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_for_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		3CC4565D2A393F0600F578BA /* Metal_for_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_for_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3CC4566A2A393F3600F578BA /* Metal.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Metal.metal; sourceTree = "<group>"; };
-		3CC4566C2A393FF700F578BA /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +96,6 @@
 		3CC4563F2A393F0500F578BA /* Metal for SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				3CC4566C2A393FF700F578BA /* wall.png */,
 				3CC456402A393F0500F578BA /* Metal_for_SwiftUIApp.swift */,
 				3CC456422A393F0500F578BA /* ContentView.swift */,
 				3CC456442A393F0500F578BA /* Assets.xcassets */,
@@ -237,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC4566D2A393FF800F578BA /* wall.png in Resources */,
 				3CC456482A393F0500F578BA /* Preview Assets.xcassets in Resources */,
 				3CC456452A393F0500F578BA /* Assets.xcassets in Resources */,
 			);
