@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C8B0D2F2A36F2E2000112ED /* iOS17_WidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B0D2E2A36F2E2000112ED /* iOS17_WidgetApp.swift */; };
+		3C8B0D312A36F2E2000112ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B0D302A36F2E2000112ED /* ContentView.swift */; };
+		3C8B0D332A36F2E2000112ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B0D322A36F2E2000112ED /* Assets.xcassets */; };
+		3C8B0D362A36F2E2000112ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B0D352A36F2E2000112ED /* Preview Assets.xcassets */; };
+		3C8B0D402A36F2E3000112ED /* iOS17_WidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B0D3F2A36F2E3000112ED /* iOS17_WidgetTests.swift */; };
+		3C8B0D4A2A36F2E3000112ED /* iOS17_WidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B0D492A36F2E3000112ED /* iOS17_WidgetUITests.swift */; };
+		3C8B0D4C2A36F2E3000112ED /* iOS17_WidgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B0D4B2A36F2E3000112ED /* iOS17_WidgetUITestsLaunchTests.swift */; };
+		3C8B0D5F2A36F307000112ED /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8B0D5E2A36F307000112ED /* WidgetKit.framework */; };
+		3C8B0D612A36F307000112ED /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8B0D602A36F307000112ED /* SwiftUI.framework */; };
+		3C8B0D642A36F307000112ED /* TodoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B0D632A36F307000112ED /* TodoWidgetBundle.swift */; };
+		3C8B0D662A36F307000112ED /* TodoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B0D652A36F307000112ED /* TodoWidget.swift */; };
+		3C8B0D682A36F307000112ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8B0D672A36F307000112ED /* Assets.xcassets */; };
+		3C8B0D6C2A36F307000112ED /* TodoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3C8B0D5C2A36F307000112ED /* TodoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3CF538C62A3D4C0800C2DD0A /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF538C52A3D4C0800C2DD0A /* TodoItem.swift */; };
+		3CF538C72A3D4C1900C2DD0A /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF538C52A3D4C0800C2DD0A /* TodoItem.swift */; };
+		3CF538C92A3D4EF000C2DD0A /* TodoIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF538C82A3D4EF000C2DD0A /* TodoIntent.swift */; };
+		3CF538CA2A3D51EE00C2DD0A /* TodoIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF538C82A3D4EF000C2DD0A /* TodoIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C8B0D3C2A36F2E3000112ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8B0D232A36F2E2000112ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8B0D2A2A36F2E2000112ED;
+			remoteInfo = "iOS17-Widget";
+		};
+		3C8B0D462A36F2E3000112ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8B0D232A36F2E2000112ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8B0D2A2A36F2E2000112ED;
+			remoteInfo = "iOS17-Widget";
+		};
+		3C8B0D6A2A36F307000112ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8B0D232A36F2E2000112ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8B0D5B2A36F307000112ED;
+			remoteInfo = TodoWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C8B0D702A36F308000112ED /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C8B0D6C2A36F307000112ED /* TodoWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C8B0D2B2A36F2E2000112ED /* iOS17-Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS17-Widget.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8B0D2E2A36F2E2000112ED /* iOS17_WidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_WidgetApp.swift; sourceTree = "<group>"; };
+		3C8B0D302A36F2E2000112ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C8B0D322A36F2E2000112ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C8B0D352A36F2E2000112ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C8B0D3B2A36F2E3000112ED /* iOS17-WidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS17-WidgetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8B0D3F2A36F2E3000112ED /* iOS17_WidgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_WidgetTests.swift; sourceTree = "<group>"; };
+		3C8B0D452A36F2E3000112ED /* iOS17-WidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS17-WidgetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8B0D492A36F2E3000112ED /* iOS17_WidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_WidgetUITests.swift; sourceTree = "<group>"; };
+		3C8B0D4B2A36F2E3000112ED /* iOS17_WidgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_WidgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C8B0D5C2A36F307000112ED /* TodoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8B0D5E2A36F307000112ED /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3C8B0D602A36F307000112ED /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3C8B0D632A36F307000112ED /* TodoWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoWidgetBundle.swift; sourceTree = "<group>"; };
+		3C8B0D652A36F307000112ED /* TodoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoWidget.swift; sourceTree = "<group>"; };
+		3C8B0D672A36F307000112ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C8B0D692A36F307000112ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF538C52A3D4C0800C2DD0A /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		3CF538C82A3D4EF000C2DD0A /* TodoIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoIntent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8B0D282A36F2E2000112ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B0D382A36F2E3000112ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B0D422A36F2E3000112ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B0D592A36F307000112ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8B0D612A36F307000112ED /* SwiftUI.framework in Frameworks */,
+				3C8B0D5F2A36F307000112ED /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C8B0D222A36F2E2000112ED = {
+			isa = PBXGroup;
+			children = (
+				3C8B0D2D2A36F2E2000112ED /* iOS17-Widget */,
+				3C8B0D3E2A36F2E3000112ED /* iOS17-WidgetTests */,
+				3C8B0D482A36F2E3000112ED /* iOS17-WidgetUITests */,
+				3C8B0D622A36F307000112ED /* TodoWidget */,
+				3C8B0D5D2A36F307000112ED /* Frameworks */,
+				3C8B0D2C2A36F2E2000112ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C8B0D2C2A36F2E2000112ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B0D2B2A36F2E2000112ED /* iOS17-Widget.app */,
+				3C8B0D3B2A36F2E3000112ED /* iOS17-WidgetTests.xctest */,
+				3C8B0D452A36F2E3000112ED /* iOS17-WidgetUITests.xctest */,
+				3C8B0D5C2A36F307000112ED /* TodoWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C8B0D2D2A36F2E2000112ED /* iOS17-Widget */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B0D2E2A36F2E2000112ED /* iOS17_WidgetApp.swift */,
+				3C8B0D302A36F2E2000112ED /* ContentView.swift */,
+				3C8B0D322A36F2E2000112ED /* Assets.xcassets */,
+				3C8B0D342A36F2E2000112ED /* Preview Content */,
+			);
+			path = "iOS17-Widget";
+			sourceTree = "<group>";
+		};
+		3C8B0D342A36F2E2000112ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B0D352A36F2E2000112ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C8B0D3E2A36F2E3000112ED /* iOS17-WidgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B0D3F2A36F2E3000112ED /* iOS17_WidgetTests.swift */,
+			);
+			path = "iOS17-WidgetTests";
+			sourceTree = "<group>";
+		};
+		3C8B0D482A36F2E3000112ED /* iOS17-WidgetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B0D492A36F2E3000112ED /* iOS17_WidgetUITests.swift */,
+				3C8B0D4B2A36F2E3000112ED /* iOS17_WidgetUITestsLaunchTests.swift */,
+			);
+			path = "iOS17-WidgetUITests";
+			sourceTree = "<group>";
+		};
+		3C8B0D5D2A36F307000112ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B0D5E2A36F307000112ED /* WidgetKit.framework */,
+				3C8B0D602A36F307000112ED /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C8B0D622A36F307000112ED /* TodoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B0D632A36F307000112ED /* TodoWidgetBundle.swift */,
+				3C8B0D652A36F307000112ED /* TodoWidget.swift */,
+				3C8B0D672A36F307000112ED /* Assets.xcassets */,
+				3C8B0D692A36F307000112ED /* Info.plist */,
+				3CF538C52A3D4C0800C2DD0A /* TodoItem.swift */,
+				3CF538C82A3D4EF000C2DD0A /* TodoIntent.swift */,
+			);
+			path = TodoWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C8B0D2A2A36F2E2000112ED /* iOS17-Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8B0D4F2A36F2E3000112ED /* Build configuration list for PBXNativeTarget "iOS17-Widget" */;
+			buildPhases = (
+				3C8B0D272A36F2E2000112ED /* Sources */,
+				3C8B0D282A36F2E2000112ED /* Frameworks */,
+				3C8B0D292A36F2E2000112ED /* Resources */,
+				3C8B0D702A36F308000112ED /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8B0D6B2A36F307000112ED /* PBXTargetDependency */,
+			);
+			name = "iOS17-Widget";
+			productName = "iOS17-Widget";
+			productReference = 3C8B0D2B2A36F2E2000112ED /* iOS17-Widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C8B0D3A2A36F2E3000112ED /* iOS17-WidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8B0D522A36F2E3000112ED /* Build configuration list for PBXNativeTarget "iOS17-WidgetTests" */;
+			buildPhases = (
+				3C8B0D372A36F2E3000112ED /* Sources */,
+				3C8B0D382A36F2E3000112ED /* Frameworks */,
+				3C8B0D392A36F2E3000112ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8B0D3D2A36F2E3000112ED /* PBXTargetDependency */,
+			);
+			name = "iOS17-WidgetTests";
+			productName = "iOS17-WidgetTests";
+			productReference = 3C8B0D3B2A36F2E3000112ED /* iOS17-WidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C8B0D442A36F2E3000112ED /* iOS17-WidgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8B0D552A36F2E3000112ED /* Build configuration list for PBXNativeTarget "iOS17-WidgetUITests" */;
+			buildPhases = (
+				3C8B0D412A36F2E3000112ED /* Sources */,
+				3C8B0D422A36F2E3000112ED /* Frameworks */,
+				3C8B0D432A36F2E3000112ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8B0D472A36F2E3000112ED /* PBXTargetDependency */,
+			);
+			name = "iOS17-WidgetUITests";
+			productName = "iOS17-WidgetUITests";
+			productReference = 3C8B0D452A36F2E3000112ED /* iOS17-WidgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3C8B0D5B2A36F307000112ED /* TodoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8B0D6D2A36F308000112ED /* Build configuration list for PBXNativeTarget "TodoWidgetExtension" */;
+			buildPhases = (
+				3C8B0D582A36F307000112ED /* Sources */,
+				3C8B0D592A36F307000112ED /* Frameworks */,
+				3C8B0D5A2A36F307000112ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoWidgetExtension;
+			productName = TodoWidgetExtension;
+			productReference = 3C8B0D5C2A36F307000112ED /* TodoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C8B0D232A36F2E2000112ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3C8B0D2A2A36F2E2000112ED = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3C8B0D3A2A36F2E3000112ED = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3C8B0D2A2A36F2E2000112ED;
+					};
+					3C8B0D442A36F2E3000112ED = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3C8B0D2A2A36F2E2000112ED;
+					};
+					3C8B0D5B2A36F307000112ED = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 3C8B0D262A36F2E2000112ED /* Build configuration list for PBXProject "iOS17-Widget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C8B0D222A36F2E2000112ED;
+			productRefGroup = 3C8B0D2C2A36F2E2000112ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C8B0D2A2A36F2E2000112ED /* iOS17-Widget */,
+				3C8B0D3A2A36F2E3000112ED /* iOS17-WidgetTests */,
+				3C8B0D442A36F2E3000112ED /* iOS17-WidgetUITests */,
+				3C8B0D5B2A36F307000112ED /* TodoWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C8B0D292A36F2E2000112ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8B0D362A36F2E2000112ED /* Preview Assets.xcassets in Resources */,
+				3C8B0D332A36F2E2000112ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B0D392A36F2E3000112ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B0D432A36F2E3000112ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B0D5A2A36F307000112ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8B0D682A36F307000112ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8B0D272A36F2E2000112ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8B0D312A36F2E2000112ED /* ContentView.swift in Sources */,
+				3CF538C62A3D4C0800C2DD0A /* TodoItem.swift in Sources */,
+				3C8B0D2F2A36F2E2000112ED /* iOS17_WidgetApp.swift in Sources */,
+				3CF538C92A3D4EF000C2DD0A /* TodoIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B0D372A36F2E3000112ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8B0D402A36F2E3000112ED /* iOS17_WidgetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B0D412A36F2E3000112ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8B0D4C2A36F2E3000112ED /* iOS17_WidgetUITestsLaunchTests.swift in Sources */,
+				3C8B0D4A2A36F2E3000112ED /* iOS17_WidgetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B0D582A36F307000112ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8B0D642A36F307000112ED /* TodoWidgetBundle.swift in Sources */,
+				3CF538C72A3D4C1900C2DD0A /* TodoItem.swift in Sources */,
+				3C8B0D662A36F307000112ED /* TodoWidget.swift in Sources */,
+				3CF538CA2A3D51EE00C2DD0A /* TodoIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C8B0D3D2A36F2E3000112ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8B0D2A2A36F2E2000112ED /* iOS17-Widget */;
+			targetProxy = 3C8B0D3C2A36F2E3000112ED /* PBXContainerItemProxy */;
+		};
+		3C8B0D472A36F2E3000112ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8B0D2A2A36F2E2000112ED /* iOS17-Widget */;
+			targetProxy = 3C8B0D462A36F2E3000112ED /* PBXContainerItemProxy */;
+		};
+		3C8B0D6B2A36F307000112ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8B0D5B2A36F307000112ED /* TodoWidgetExtension */;
+			targetProxy = 3C8B0D6A2A36F307000112ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C8B0D4D2A36F2E3000112ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C8B0D4E2A36F2E3000112ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C8B0D502A36F2E3000112ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS17-Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abc.edu.iOS17-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C8B0D512A36F2E3000112ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS17-Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abc.edu.iOS17-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C8B0D532A36F2E3000112ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abc.edu.iOS17-WidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS17-Widget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS17-Widget";
+			};
+			name = Debug;
+		};
+		3C8B0D542A36F2E3000112ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abc.edu.iOS17-WidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS17-Widget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS17-Widget";
+			};
+			name = Release;
+		};
+		3C8B0D562A36F2E3000112ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abc.edu.iOS17-WidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS17-Widget";
+			};
+			name = Debug;
+		};
+		3C8B0D572A36F2E3000112ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abc.edu.iOS17-WidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS17-Widget";
+			};
+			name = Release;
+		};
+		3C8B0D6E2A36F308000112ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TodoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abc.edu.iOS17-Widget.TodoWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C8B0D6F2A36F308000112ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TodoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abc.edu.iOS17-Widget.TodoWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8B0D262A36F2E2000112ED /* Build configuration list for PBXProject "iOS17-Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8B0D4D2A36F2E3000112ED /* Debug */,
+				3C8B0D4E2A36F2E3000112ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8B0D4F2A36F2E3000112ED /* Build configuration list for PBXNativeTarget "iOS17-Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8B0D502A36F2E3000112ED /* Debug */,
+				3C8B0D512A36F2E3000112ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8B0D522A36F2E3000112ED /* Build configuration list for PBXNativeTarget "iOS17-WidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8B0D532A36F2E3000112ED /* Debug */,
+				3C8B0D542A36F2E3000112ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8B0D552A36F2E3000112ED /* Build configuration list for PBXNativeTarget "iOS17-WidgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8B0D562A36F2E3000112ED /* Debug */,
+				3C8B0D572A36F2E3000112ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8B0D6D2A36F308000112ED /* Build configuration list for PBXNativeTarget "TodoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8B0D6E2A36F308000112ED /* Debug */,
+				3C8B0D6F2A36F308000112ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C8B0D232A36F2E2000112ED /* Project object */;
+}
