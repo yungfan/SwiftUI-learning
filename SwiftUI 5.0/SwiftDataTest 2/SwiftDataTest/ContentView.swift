@@ -11,7 +11,6 @@ import SwiftUI
 // MARK: - 模型
 @Model
 class User {
-    @Attribute(.unique)
     var id: UUID
     var name: String
     var company: Company
@@ -26,18 +25,16 @@ class User {
 @Model
 class Company {
     @Attribute(.unique)
-    var id: UUID
-    var companyName: String
+    var id: String
+    var name: String
     var address: String
 
-    init(companyName: String, address: String) {
-        id = UUID()
-        self.companyName = companyName
+    init(id: String, name: String, address: String) {
+        self.id = id
+        self.name = name
         self.address = address
     }
 }
-
-
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
@@ -57,7 +54,7 @@ struct ContentView: View {
                                 .fontWeight(.bold)
                                 .font(.title)
 
-                            Text("公司: \(user.company.companyName)")
+                            Text("公司: \(user.company.name)")
 
                             Text("公司地址: \(user.company.address)")
                                 .foregroundStyle(.gray)
@@ -65,6 +62,11 @@ struct ContentView: View {
                         .swipeActions {
                             Button("删除", role: .destructive) {
                                 modelContext.delete(user)
+                                do {
+                                    try modelContext.save()
+                                } catch {
+                                    print(error.localizedDescription)
+                                }
                             }
                         }
                     }
@@ -82,15 +84,13 @@ struct ContentView: View {
     }
 }
 
-
-
 // MARK: - 添加View
 struct AddUserView: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) var dismiss
     @State private var name: String = ""
     @State private var companyName: String = ""
-    @State private var address: String = ""
+    @State private var companyAddress: String = ""
 
     var body: some View {
         VStack(spacing: 20) {
@@ -100,7 +100,7 @@ struct AddUserView: View {
             TextField("公司名", text: $companyName)
                 .textFieldStyle(.roundedBorder)
 
-            TextField("公司地址", text: $address)
+            TextField("公司地址", text: $companyAddress)
                 .textFieldStyle(.roundedBorder)
 
             Spacer()
@@ -109,7 +109,7 @@ struct AddUserView: View {
         .navigationTitle("Create User")
         .toolbar {
             Button {
-                let user = User(name: name, company: Company(companyName: companyName, address: address))
+                let user = User(name: name, company: Company(id: "1", name: companyName, address: companyAddress))
                 modelContext.insert(user)
                 do {
                     try modelContext.save()
@@ -124,8 +124,6 @@ struct AddUserView: View {
     }
 }
 
-
-
 // MARK: - 编辑View
 struct EditUserView: View {
     @Environment(\.modelContext) private var modelContext
@@ -137,7 +135,7 @@ struct EditUserView: View {
             TextField("用户名", text: $user.name)
                 .textFieldStyle(.roundedBorder)
 
-            TextField("公司名", text: $user.company.companyName)
+            TextField("公司名", text: $user.company.name)
                 .textFieldStyle(.roundedBorder)
 
             TextField("公司地址", text: $user.company.address)

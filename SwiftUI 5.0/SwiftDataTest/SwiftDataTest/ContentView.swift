@@ -11,7 +11,6 @@ import SwiftUI
 // MARK: - 模型，必须是class
 @Model
 class TodoItem {
-    @Attribute(.unique)
     var id: UUID
     var title: String
     var isCompleted: Bool
@@ -85,6 +84,11 @@ struct TodoListView: View {
             let todoItem = todoItems[index]
             // 2. 删除
             modelContext.delete(todoItem)
+            do {
+                try modelContext.save()
+            } catch {
+                print(error.localizedDescription)
+            }
         }
     }
 }
