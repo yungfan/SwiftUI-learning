@@ -6,9 +6,7 @@
 //
 
 import Foundation
-import Observation
 
-@Observable
 class TodoItem: Identifiable, CustomStringConvertible {
     var id = UUID().uuidString
     var title: String = ""
@@ -38,6 +36,7 @@ class TodoItem: Identifiable, CustomStringConvertible {
     }
 
     var description: String {
-        return "\(title)—>\(isCompleted)"
+        return "\(title)—\(isCompleted)"
     }
 }
+

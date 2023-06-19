@@ -28,8 +28,6 @@ struct TodoIntent: AppIntent {
         }) {
             TodoItem.shared.todoItems[index].isCompleted.toggle()
         }
-        print(TodoItem.shared.todoItems)
-        print("-----------------------")
         return .result()
     }
 }

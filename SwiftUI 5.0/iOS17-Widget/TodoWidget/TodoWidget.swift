@@ -31,7 +31,7 @@ struct TodoEntry: TimelineEntry {
 }
 
 struct TodoWidgetEntryView: View {
-    // 新的环境变量，设置边距
+    // iOS17新增环境变量，设置边距
     @Environment(\.widgetContentMargins) var margins
     @State var entry: Provider.Entry
     @Environment(\.widgetFamily) var family
@@ -69,13 +69,15 @@ struct TodoWidgetEntryView: View {
 
                         Spacer()
 
-                        Toggle(todoItem.isCompleted ? "Yes" : "No", isOn: todoItem.isCompleted, intent: TodoIntent(id: todoItem.id))
+                        Toggle(todoItem.isCompleted ? "Yes" : "No",
+                               isOn: todoItem.isCompleted,
+                               intent: TodoIntent(id: todoItem.id))
                     }
                     .padding(.horizontal, margins.leading)
                 }
             }
             .foregroundStyle(.white)
-            .containerBackground(.purple.gradient, for: .widget) // iOS17新增，设置小组件背景
+            .containerBackground(.purple.gradient, for: .widget)
         default:
             VStack(spacing: 10) {
                 ForEach(entry.todoItem.todoItems) { todoItem in
@@ -90,13 +92,15 @@ struct TodoWidgetEntryView: View {
 
                         Spacer()
 
-                        Toggle(todoItem.isCompleted ? "Yes" : "No", isOn: todoItem.isCompleted, intent: TodoIntent(id: todoItem.id))
+                        Toggle(todoItem.isCompleted ? "Yes" : "No",
+                               isOn: todoItem.isCompleted,
+                               intent: TodoIntent(id: todoItem.id))
                     }
                     .padding(.horizontal, margins.leading)
                 }
             }
             .foregroundStyle(.white)
-            .containerBackground(.green.gradient, for: .widget) // iOS17新增，设置小组件背景
+            .containerBackground(.green.gradient, for: .widget)
         }
     }
 }
@@ -108,7 +112,7 @@ struct TodoWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             TodoWidgetEntryView(entry: entry)
         }
-        .configurationDisplayName("My Widget")
+        .configurationDisplayName("TodoWidget")
         .description("This is an example widget.")
     }
 }
