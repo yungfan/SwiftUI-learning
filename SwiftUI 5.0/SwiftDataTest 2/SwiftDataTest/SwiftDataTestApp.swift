@@ -16,6 +16,6 @@ struct SwiftDataTestApp: App {
                 ContentView()
             }
         }
-        .modelContainer(for: [User.self, Company.self])
+        .modelContainer(for: Friend.self)
     }
 }
