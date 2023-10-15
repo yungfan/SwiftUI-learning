@@ -9,8 +9,8 @@ import CocoaMQTT
 import SwiftUI
 
 struct ContentView: View {
-    @State private var connection: Bool = false
     let mqttClient = CocoaMQTT(clientID: "swift", host: "broker.emqx.io", port: 1883)
+    @State private var connection = false
     @State private var sendMessage = ""
     @State private var receiveMessages = [String]()
 
@@ -29,6 +29,7 @@ struct ContentView: View {
                 .disabled(connection)
 
                 Button("Disconnect") {
+                    mqttClient.unsubscribe("topic/swiftui")
                     mqttClient.disconnect()
                     connection = false
                 }
@@ -73,23 +74,6 @@ struct ContentView: View {
             }
         }
         .padding()
-        .task {
-            mqttClient.username = ""
-            mqttClient.password = ""
-            mqttClient.willMessage = CocoaMQTTMessage(topic: "/will", string: "dieout")
-            mqttClient.keepAlive = 60
-            mqttClient.allowUntrustCACertificate = true
-            connection = mqttClient.connect()
-            mqttClient.autoReconnect = true
-
-            try? await Task.sleep(until: .now + .seconds(1), clock: .continuous)
-
-            mqttClient.subscribe("topic/swiftui")
-            mqttClient.didReceiveMessage = { _, message, _ in
-                print("Message received in topic \(message.topic) with payload \(message.string!)")
-                receiveMessages.insert("\(message.topic): \(message.string!)", at: 0)
-            }
-        }
     }
 }
 

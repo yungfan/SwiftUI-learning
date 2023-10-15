@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C69686C2ADC0E1C00077CAD /* IoTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C69686B2ADC0E1C00077CAD /* IoTView.swift */; };
 		3C8EA6972ADA89FE004986B6 /* MQTTClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EA6962ADA89FE004986B6 /* MQTTClientApp.swift */; };
 		3C8EA6992ADA89FE004986B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8EA6982ADA89FE004986B6 /* ContentView.swift */; };
 		3C8EA69B2ADA8A00004986B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8EA69A2ADA8A00004986B6 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3C5636422ADAC1C8003972DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3C69686B2ADC0E1C00077CAD /* IoTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IoTView.swift; sourceTree = "<group>"; };
 		3C8EA6932ADA89FE004986B6 /* MQTTClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTTClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8EA6962ADA89FE004986B6 /* MQTTClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTClientApp.swift; sourceTree = "<group>"; };
 		3C8EA6982ADA89FE004986B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				3C5636422ADAC1C8003972DE /* Info.plist */,
 				3C8EA6962ADA89FE004986B6 /* MQTTClientApp.swift */,
 				3C8EA6982ADA89FE004986B6 /* ContentView.swift */,
+				3C69686B2ADC0E1C00077CAD /* IoTView.swift */,
 				3C8EA69A2ADA8A00004986B6 /* Assets.xcassets */,
 				3C8EA69C2ADA8A00004986B6 /* Preview Content */,
 			);
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C8EA6992ADA89FE004986B6 /* ContentView.swift in Sources */,
+				3C69686C2ADC0E1C00077CAD /* IoTView.swift in Sources */,
 				3C8EA6972ADA89FE004986B6 /* MQTTClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

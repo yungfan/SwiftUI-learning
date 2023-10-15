@@ -11,7 +11,8 @@ import SwiftUI
 struct MQTTClientApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // ContentView()
+            IoTView()
         }
     }
 }
