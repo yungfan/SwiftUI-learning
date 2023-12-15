@@ -11,12 +11,12 @@ import UIKit
 
 struct ContentView: View {
     @State private var prompt = "Swift是谁发明的？最新版本是多少？"
-    @State private var prompt2 = "照片中是谁？他在干什么？"
+    @State private var prompt2 = "根据内容创作一首四言绝句。"
     @State private var result = ""
     @State private var result2 = ""
 
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             VStack {
                 Text("text-only")
                     .font(.title)
@@ -24,7 +24,7 @@ struct ContentView: View {
                 TextEditor(text: $prompt)
                     .foregroundStyle(.black)
                     .border(Color.black, width: 2)
-                    .frame(height: 100)
+                    .frame(height: 60)
 
                 HStack {
                     Button("整个输出") {
@@ -60,12 +60,12 @@ struct ContentView: View {
 
                 Image("test")
                     .resizable()
-                    .frame(width: 150, height: 200)
+                    .frame(width: 100, height: 200)
 
                 TextEditor(text: $prompt2)
                     .foregroundStyle(.black)
                     .border(Color.black, width: 2)
-                    .frame(height: 100)
+                    .frame(height: 60)
 
                 HStack {
                     Button("整个输出") {
