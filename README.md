@@ -10,6 +10,7 @@
 #### 2022.09.17 — SwiftUI 4.0 — 开发环境：macOS 12.6 + Xcode 14 + iOS 16
 #### 2023.09.13 — SwiftUI 5.0 — 开发环境：macOS 13.5.2 + Xcode 15 + iOS 17
 #### 2024.01.09 — SwiftUI visionOS — 开发环境：macOS 14.2 + Xcode 15.2 + visionOS 1.0
+#### 2024.06.20 — SwiftUI 6.0 — 开发环境：macOS 14.5 + Xcode 16 + iOS 18
 
 ## 视频教程
 #### 1. [精通SwiftUI开发，包含Swift1.0-3.0、Combine与Concurrency](https://www.cctalk.com/m/group/90524729)
