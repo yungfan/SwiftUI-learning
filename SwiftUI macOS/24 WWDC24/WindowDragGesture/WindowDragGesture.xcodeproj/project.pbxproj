@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C60BFDA2C265CCA0010E175 /* WindowDragGestureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60BFD92C265CCA0010E175 /* WindowDragGestureApp.swift */; };
+		3C60BFDC2C265CCA0010E175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60BFDB2C265CCA0010E175 /* ContentView.swift */; };
+		3C60BFDE2C265CCB0010E175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C60BFDD2C265CCB0010E175 /* Assets.xcassets */; };
+		3C60BFE12C265CCB0010E175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C60BFE02C265CCB0010E175 /* Preview Assets.xcassets */; };
+		3C60BFEC2C265CCB0010E175 /* WindowDragGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60BFEB2C265CCB0010E175 /* WindowDragGestureTests.swift */; };
+		3C60BFF62C265CCB0010E175 /* WindowDragGestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60BFF52C265CCB0010E175 /* WindowDragGestureUITests.swift */; };
+		3C60BFF82C265CCB0010E175 /* WindowDragGestureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C60BFF72C265CCB0010E175 /* WindowDragGestureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C60BFE82C265CCB0010E175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C60BFCE2C265CCA0010E175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C60BFD52C265CCA0010E175;
+			remoteInfo = WindowDragGesture;
+		};
+		3C60BFF22C265CCB0010E175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C60BFCE2C265CCA0010E175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C60BFD52C265CCA0010E175;
+			remoteInfo = WindowDragGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C60BFD62C265CCA0010E175 /* WindowDragGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowDragGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C60BFD92C265CCA0010E175 /* WindowDragGestureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowDragGestureApp.swift; sourceTree = "<group>"; };
+		3C60BFDB2C265CCA0010E175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C60BFDD2C265CCB0010E175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C60BFE02C265CCB0010E175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C60BFE22C265CCB0010E175 /* WindowDragGesture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WindowDragGesture.entitlements; sourceTree = "<group>"; };
+		3C60BFE72C265CCB0010E175 /* WindowDragGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowDragGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C60BFEB2C265CCB0010E175 /* WindowDragGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowDragGestureTests.swift; sourceTree = "<group>"; };
+		3C60BFF12C265CCB0010E175 /* WindowDragGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowDragGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C60BFF52C265CCB0010E175 /* WindowDragGestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowDragGestureUITests.swift; sourceTree = "<group>"; };
+		3C60BFF72C265CCB0010E175 /* WindowDragGestureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowDragGestureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C60BFD32C265CCA0010E175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C60BFE42C265CCB0010E175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C60BFEE2C265CCB0010E175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C60BFCD2C265CCA0010E175 = {
+			isa = PBXGroup;
+			children = (
+				3C60BFD82C265CCA0010E175 /* WindowDragGesture */,
+				3C60BFEA2C265CCB0010E175 /* WindowDragGestureTests */,
+				3C60BFF42C265CCB0010E175 /* WindowDragGestureUITests */,
+				3C60BFD72C265CCA0010E175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C60BFD72C265CCA0010E175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C60BFD62C265CCA0010E175 /* WindowDragGesture.app */,
+				3C60BFE72C265CCB0010E175 /* WindowDragGestureTests.xctest */,
+				3C60BFF12C265CCB0010E175 /* WindowDragGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C60BFD82C265CCA0010E175 /* WindowDragGesture */ = {
+			isa = PBXGroup;
+			children = (
+				3C60BFD92C265CCA0010E175 /* WindowDragGestureApp.swift */,
+				3C60BFDB2C265CCA0010E175 /* ContentView.swift */,
+				3C60BFDD2C265CCB0010E175 /* Assets.xcassets */,
+				3C60BFE22C265CCB0010E175 /* WindowDragGesture.entitlements */,
+				3C60BFDF2C265CCB0010E175 /* Preview Content */,
+			);
+			path = WindowDragGesture;
+			sourceTree = "<group>";
+		};
+		3C60BFDF2C265CCB0010E175 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C60BFE02C265CCB0010E175 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C60BFEA2C265CCB0010E175 /* WindowDragGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C60BFEB2C265CCB0010E175 /* WindowDragGestureTests.swift */,
+			);
+			path = WindowDragGestureTests;
+			sourceTree = "<group>";
+		};
+		3C60BFF42C265CCB0010E175 /* WindowDragGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C60BFF52C265CCB0010E175 /* WindowDragGestureUITests.swift */,
+				3C60BFF72C265CCB0010E175 /* WindowDragGestureUITestsLaunchTests.swift */,
+			);
+			path = WindowDragGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C60BFD52C265CCA0010E175 /* WindowDragGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C60BFFB2C265CCB0010E175 /* Build configuration list for PBXNativeTarget "WindowDragGesture" */;
+			buildPhases = (
+				3C60BFD22C265CCA0010E175 /* Sources */,
+				3C60BFD32C265CCA0010E175 /* Frameworks */,
+				3C60BFD42C265CCA0010E175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindowDragGesture;
+			productName = WindowDragGesture;
+			productReference = 3C60BFD62C265CCA0010E175 /* WindowDragGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C60BFE62C265CCB0010E175 /* WindowDragGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C60BFFE2C265CCB0010E175 /* Build configuration list for PBXNativeTarget "WindowDragGestureTests" */;
+			buildPhases = (
+				3C60BFE32C265CCB0010E175 /* Sources */,
+				3C60BFE42C265CCB0010E175 /* Frameworks */,
+				3C60BFE52C265CCB0010E175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C60BFE92C265CCB0010E175 /* PBXTargetDependency */,
+			);
+			name = WindowDragGestureTests;
+			productName = WindowDragGestureTests;
+			productReference = 3C60BFE72C265CCB0010E175 /* WindowDragGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C60BFF02C265CCB0010E175 /* WindowDragGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C60C0012C265CCB0010E175 /* Build configuration list for PBXNativeTarget "WindowDragGestureUITests" */;
+			buildPhases = (
+				3C60BFED2C265CCB0010E175 /* Sources */,
+				3C60BFEE2C265CCB0010E175 /* Frameworks */,
+				3C60BFEF2C265CCB0010E175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C60BFF32C265CCB0010E175 /* PBXTargetDependency */,
+			);
+			name = WindowDragGestureUITests;
+			productName = WindowDragGestureUITests;
+			productReference = 3C60BFF12C265CCB0010E175 /* WindowDragGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C60BFCE2C265CCA0010E175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3C60BFD52C265CCA0010E175 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3C60BFE62C265CCB0010E175 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3C60BFD52C265CCA0010E175;
+					};
+					3C60BFF02C265CCB0010E175 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3C60BFD52C265CCA0010E175;
+					};
+				};
+			};
+			buildConfigurationList = 3C60BFD12C265CCA0010E175 /* Build configuration list for PBXProject "WindowDragGesture" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C60BFCD2C265CCA0010E175;
+			productRefGroup = 3C60BFD72C265CCA0010E175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C60BFD52C265CCA0010E175 /* WindowDragGesture */,
+				3C60BFE62C265CCB0010E175 /* WindowDragGestureTests */,
+				3C60BFF02C265CCB0010E175 /* WindowDragGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C60BFD42C265CCA0010E175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C60BFE12C265CCB0010E175 /* Preview Assets.xcassets in Resources */,
+				3C60BFDE2C265CCB0010E175 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C60BFE52C265CCB0010E175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C60BFEF2C265CCB0010E175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C60BFD22C265CCA0010E175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C60BFDC2C265CCA0010E175 /* ContentView.swift in Sources */,
+				3C60BFDA2C265CCA0010E175 /* WindowDragGestureApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C60BFE32C265CCB0010E175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C60BFEC2C265CCB0010E175 /* WindowDragGestureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C60BFED2C265CCB0010E175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C60BFF82C265CCB0010E175 /* WindowDragGestureUITestsLaunchTests.swift in Sources */,
+				3C60BFF62C265CCB0010E175 /* WindowDragGestureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C60BFE92C265CCB0010E175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C60BFD52C265CCA0010E175 /* WindowDragGesture */;
+			targetProxy = 3C60BFE82C265CCB0010E175 /* PBXContainerItemProxy */;
+		};
+		3C60BFF32C265CCB0010E175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C60BFD52C265CCA0010E175 /* WindowDragGesture */;
+			targetProxy = 3C60BFF22C265CCB0010E175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C60BFF92C265CCB0010E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C60BFFA2C265CCB0010E175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3C60BFFC2C265CCB0010E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WindowDragGesture/WindowDragGesture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WindowDragGesture/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.developer.cn.WindowDragGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3C60BFFD2C265CCB0010E175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WindowDragGesture/WindowDragGesture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WindowDragGesture/Preview Content\"";
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.developer.cn.WindowDragGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3C60BFFF2C265CCB0010E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.developer.cn.WindowDragGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindowDragGesture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WindowDragGesture";
+			};
+			name = Debug;
+		};
+		3C60C0002C265CCB0010E175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.developer.cn.WindowDragGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindowDragGesture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WindowDragGesture";
+			};
+			name = Release;
+		};
+		3C60C0022C265CCB0010E175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.developer.cn.WindowDragGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WindowDragGesture;
+			};
+			name = Debug;
+		};
+		3C60C0032C265CCB0010E175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QF8H8R2NAV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yf.developer.cn.WindowDragGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WindowDragGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C60BFD12C265CCA0010E175 /* Build configuration list for PBXProject "WindowDragGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C60BFF92C265CCB0010E175 /* Debug */,
+				3C60BFFA2C265CCB0010E175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C60BFFB2C265CCB0010E175 /* Build configuration list for PBXNativeTarget "WindowDragGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C60BFFC2C265CCB0010E175 /* Debug */,
+				3C60BFFD2C265CCB0010E175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C60BFFE2C265CCB0010E175 /* Build configuration list for PBXNativeTarget "WindowDragGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C60BFFF2C265CCB0010E175 /* Debug */,
+				3C60C0002C265CCB0010E175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C60C0012C265CCB0010E175 /* Build configuration list for PBXNativeTarget "WindowDragGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C60C0022C265CCB0010E175 /* Debug */,
+				3C60C0032C265CCB0010E175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C60BFCE2C265CCA0010E175 /* Project object */;
+}
