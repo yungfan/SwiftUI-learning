@@ -13,18 +13,18 @@ class APIService: ObservableObject {
     @Published var responseText = "准备完毕，点击下方的按钮开始"
 
     func sendImageForAnalysis(baseURL: String, instruction: String, image: UIImage) async {
-        guard let imageBase64 = image.jpegData(compressionQuality: 0.8)?.base64EncodedString() else {
+        guard let imageBase64 = image.pngData()?.base64EncodedString() else {
             await MainActor.run {
                 self.responseText = "图像转换失败"
             }
             return
         }
 
-        let imageBase64URL = "data:image/jpeg;base64,\(imageBase64)"
+        let imageBase64URL = "data:image/png;base64,\(imageBase64)"
 
         // 创建请求体
         let requestBody: [String: Any] = [
-            "max_tokens": 100,
+            "max_tokens": 500,
             "messages": [
                 [
                     "role": "user",

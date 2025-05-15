@@ -118,7 +118,7 @@ struct CameraPreview: UIViewRepresentable {
 
     func makeUIView(context: Context) -> UIView {
         let view = UIView()
-        view.backgroundColor = .black // 推荐加个默认颜色
+        view.backgroundColor = .black
 
         if let previewLayer = cameraManager.previewLayer {
             previewLayer.videoGravity = .resizeAspectFill
