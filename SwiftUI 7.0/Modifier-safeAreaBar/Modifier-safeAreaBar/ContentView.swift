@@ -18,6 +18,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("safeAreaBar")
+            .toolbarTitleDisplayMode(.inlineLarge)
             .safeAreaBar(edge: .bottom) {
                 Button("Button") {
                 }
@@ -30,7 +31,6 @@ struct ContentView: View {
         }
     }
 }
-
 
 #Preview {
     ContentView()

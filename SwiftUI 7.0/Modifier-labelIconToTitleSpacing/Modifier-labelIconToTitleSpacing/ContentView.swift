@@ -10,11 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 20) {
+            // Label
             Label("登录", systemImage: "person")
 
             Label("登录", systemImage: "person")
                 .labelIconToTitleSpacing(30)
 
+            // Button
             Button("登录", systemImage: "person") {
             }
 

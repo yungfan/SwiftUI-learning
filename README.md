@@ -12,7 +12,7 @@
 #### 2024.01.09 — SwiftUI visionOS — 开发环境：macOS 14.2 + Xcode 15.2 + visionOS 1.0
 #### 2024.06.20 — SwiftUI 6.0 — 开发环境：macOS 14.5 + Xcode 16 + iOS 18
 #### 2025.01.11 — SwiftUI macOS — WWDC24 — 开发环境：macOS 15.2 + Xcode 16.2
-#### 2025.08.06 — SwiftUI 7.0 — 开发环境：macOS 15.6 + Xcode 26
+#### 2025.10.20 — SwiftUI 7.0 — 开发环境：macOS 26.0.1 + Xcode 26
 
 ## 视频教程
 ### BiliBili

@@ -26,6 +26,7 @@ struct ContentView: View {
                 .fill(.orange.gradient)
                 .frame(height: 100)
 
+            // 同心圆
             ZStack {
                 ConcentricRectangle()
                     .fill(.black.gradient)

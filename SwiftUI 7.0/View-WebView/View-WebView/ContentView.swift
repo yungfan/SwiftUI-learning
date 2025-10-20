@@ -15,7 +15,7 @@ struct ContentView: View {
         VStack {
             WebView(url: url)
             // 切换URL
-            Button("Apple") {
+            Button("Baidu") {
                 url = URL(string: "https://www.baidu.com")
             }
         }

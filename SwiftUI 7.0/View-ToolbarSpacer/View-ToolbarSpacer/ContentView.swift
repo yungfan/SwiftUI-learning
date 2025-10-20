@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            Color.orange
+            Color.orange.opacity(0.5)
                 .ignoresSafeArea()
                 .toolbar {
                     Toolbar()

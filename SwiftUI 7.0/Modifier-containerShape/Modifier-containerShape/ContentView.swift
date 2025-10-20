@@ -27,7 +27,7 @@ struct ContentView: View {
                     .padding(.all, 5)
             }
             .frame(height: 200)
-            .padding()
+            .padding(.horizontal, 20)
             .containerShape(.rect(cornerRadius: 40)) // ConcentricRectangle+containerShape
         }
     }

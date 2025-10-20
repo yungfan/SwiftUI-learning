@@ -38,13 +38,13 @@ struct ContentView: View {
                     Text("Glass Effect")
                         .padding()
                         .frame(width: 150)
-                        .glassEffect(.clear.interactive(), in: .capsule)
+                        .glassEffect(.clear, in: .capsule)
 
                     Image(systemName: "suit.heart.fill")
                         .font(.largeTitle)
                         .foregroundStyle(.red.gradient)
                         .frame(width: 50, height: 50)
-                        .glassEffect(.clear.interactive(), in: .circle)
+                        .glassEffect(.clear, in: .circle)
 
                     Button {
                     } label: {
